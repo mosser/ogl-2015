@@ -1,6 +1,6 @@
 [{
   "data": {
-    "creek": "2c001f3f-64d7-4969-bf74-31dfe759cde8",
+    "creek": "07d8c242-c6e1-4947-a01e-3cf1073d0660",
     "men": 50,
     "budget": 600,
     "objective": [{
@@ -9,18 +9,18 @@
     }]
   },
   "part": "Engine",
-  "time": 1425861081593,
+  "time": 1425927203815,
   "meth": "initialize"
 },{
   "data": {
     "action": "land",
     "parameters": {
-      "creek_id": "2c001f3f-64d7-4969-bf74-31dfe759cde8",
+      "creek_id": "07d8c242-c6e1-4947-a01e-3cf1073d0660",
       "people": 16
     }
   },
   "part": "Explorer",
-  "time": 1425861081596,
+  "time": 1425927203818,
   "meth": "takeDecision"
 },{
   "data": {
@@ -29,13 +29,23 @@
       "eu.ace_design.island.game.ActionParser$.apply(Actions.scala:240)",
       "eu.ace_design.island.game.Engine.play(Engine.scala:50)",
       "eu.ace_design.island.game.Engine.run(Engine.scala:35)",
-      "fr.unice.polytech.ogl.championships.Week10$$anonfun$1.apply(Week10.scala:43)",
-      "fr.unice.polytech.ogl.championships.Week10$$anonfun$1.apply(Week10.scala:38)",
+      "fr.unice.polytech.ogl.championships.library.Championship$class.silent(Championship.scala:65)",
+      "fr.unice.polytech.ogl.championships.Week10$.silent(Week10.scala:11)",
+      "fr.unice.polytech.ogl.championships.library.Championship$class.handlePlayer(Championship.scala:46)",
+      "fr.unice.polytech.ogl.championships.Week10$.handlePlayer(Week10.scala:11)",
+      "fr.unice.polytech.ogl.championships.library.Championship$$anonfun$run$1.apply(Championship.scala:36)",
+      "fr.unice.polytech.ogl.championships.library.Championship$$anonfun$run$1.apply(Championship.scala:34)",
+      "scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:245)",
+      "scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:245)",
       "scala.collection.immutable.HashMap$HashMap1.foreach(HashMap.scala:221)",
       "scala.collection.immutable.HashMap$HashTrieMap.foreach(HashMap.scala:428)",
       "scala.collection.immutable.HashMap$HashTrieMap.foreach(HashMap.scala:428)",
-      "fr.unice.polytech.ogl.championships.Week10$.delayedEndpoint$fr$unice$polytech$ogl$championships$Week10$1(Week10.scala:38)",
-      "fr.unice.polytech.ogl.championships.Week10$delayedInit$body.apply(Week10.scala:14)",
+      "scala.collection.TraversableLike$class.map(TraversableLike.scala:245)",
+      "scala.collection.AbstractTraversable.map(Traversable.scala:104)",
+      "fr.unice.polytech.ogl.championships.library.Championship$class.run(Championship.scala:34)",
+      "fr.unice.polytech.ogl.championships.Week10$.run(Week10.scala:11)",
+      "fr.unice.polytech.ogl.championships.Week10$.delayedEndpoint$fr$unice$polytech$ogl$championships$Week10$1(Week10.scala:30)",
+      "fr.unice.polytech.ogl.championships.Week10$delayedInit$body.apply(Week10.scala:11)",
       "scala.Function0$class.apply$mcV$sp(Function0.scala:40)",
       "scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)",
       "scala.App$$anonfun$main$1.apply(App.scala:76)",
@@ -43,7 +53,7 @@
       "scala.collection.immutable.List.foreach(List.scala:381)",
       "scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:35)",
       "scala.App$class.main(App.scala:76)",
-      "fr.unice.polytech.ogl.championships.Week10$.main(Week10.scala:14)",
+      "fr.unice.polytech.ogl.championships.Week10$.main(Week10.scala:11)",
       "fr.unice.polytech.ogl.championships.Week10.main(Week10.scala)",
       "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
       "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
@@ -51,9 +61,9 @@
       "java.lang.reflect.Method.invoke(Method.java:483)",
       "com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)"
     ]],
-    "message": ["Invalid JSON input : org.json.JSONException: JSONObject[\"creek\"] not found. \ndata: {\"action\":\"land\",\"parameters\":{\"creek_id\":\"2c001f3f-64d7-4969-bf74-31dfe759cde8\",\"people\":16}}"]
+    "message": ["Invalid JSON input : org.json.JSONException: JSONObject[\"creek\"] not found. \ndata: {\"action\":\"land\",\"parameters\":{\"creek_id\":\"07d8c242-c6e1-4947-a01e-3cf1073d0660\",\"people\":16}}"]
   },
   "part": "Explorer",
-  "time": 1425861081596,
+  "time": 1425927203819,
   "meth": "takeDecision"
 }]

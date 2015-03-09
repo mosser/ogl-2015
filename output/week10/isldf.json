@@ -1,6 +1,6 @@
 [{
   "data": {
-    "creek": "7e23403c-a31e-4ba0-aa3f-d70c1592267d",
+    "creek": "07d8c242-c6e1-4947-a01e-3cf1073d0660",
     "men": 50,
     "budget": 600,
     "objective": [{
@@ -9,20 +9,20 @@
     }]
   },
   "part": "Engine",
-  "time": 1425861072411,
+  "time": 1425927193691,
   "meth": "initialize"
 },{
   "data": {"action": "stop"},
   "part": "Explorer",
-  "time": 1425861072413,
+  "time": 1425927193692,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 7,
+    "cost": 6,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1425861072413,
+  "time": 1425927193693,
   "meth": "takeDecision"
 }]
