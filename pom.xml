@@ -52,8 +52,6 @@
             <artifactId>scala-library</artifactId>
             <version>${scala.version}</version>
         </dependency>
-        <!-- JSON is used for serialization purpose and game interaction with the players -->
-
         <!-- Students' bot dependencies -->
         <dependency>
             <groupId>fr.unice.polytech.ogl</groupId>
