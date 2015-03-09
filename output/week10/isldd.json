@@ -1,0 +1,60 @@
+[{
+  "data": {
+    "creek": "afd16865-d79d-41be-84c5-1347ef0497b6",
+    "men": 50,
+    "budget": 600,
+    "objective": [{
+      "amount": 600,
+      "resource": "WOOD"
+    }]
+  },
+  "part": "Engine",
+  "time": 1425861085429,
+  "meth": "initialize"
+},{
+  "data": {
+    "action": "land",
+    "parameters": {
+      "creek": "afd16865-d79d-41be-84c5-1347ef0497b6",
+      "people": 50
+    }
+  },
+  "part": "Explorer",
+  "time": 1425861085430,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "exception": ["IllegalArgumentException"],
+    "stacktrace": [[
+      "eu.ace_design.island.game.Land.build(Actions.scala:69)",
+      "eu.ace_design.island.game.Action$class.apply(Actions.scala:27)",
+      "eu.ace_design.island.game.Land.apply(Actions.scala:64)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:58)",
+      "eu.ace_design.island.game.Engine.run(Engine.scala:35)",
+      "fr.unice.polytech.ogl.championships.Week10$$anonfun$1.apply(Week10.scala:43)",
+      "fr.unice.polytech.ogl.championships.Week10$$anonfun$1.apply(Week10.scala:38)",
+      "scala.collection.immutable.HashMap$HashMap1.foreach(HashMap.scala:221)",
+      "scala.collection.immutable.HashMap$HashTrieMap.foreach(HashMap.scala:428)",
+      "fr.unice.polytech.ogl.championships.Week10$.delayedEndpoint$fr$unice$polytech$ogl$championships$Week10$1(Week10.scala:38)",
+      "fr.unice.polytech.ogl.championships.Week10$delayedInit$body.apply(Week10.scala:14)",
+      "scala.Function0$class.apply$mcV$sp(Function0.scala:40)",
+      "scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)",
+      "scala.App$$anonfun$main$1.apply(App.scala:76)",
+      "scala.App$$anonfun$main$1.apply(App.scala:76)",
+      "scala.collection.immutable.List.foreach(List.scala:381)",
+      "scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:35)",
+      "scala.App$class.main(App.scala:76)",
+      "fr.unice.polytech.ogl.championships.Week10$.main(Week10.scala:14)",
+      "fr.unice.polytech.ogl.championships.Week10.main(Week10.scala)",
+      "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+      "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+      "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+      "java.lang.reflect.Method.invoke(Method.java:483)",
+      "com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)"
+    ]],
+    "message": ["At least one men must stay on board"]
+  },
+  "part": "Engine",
+  "time": 1425861085430,
+  "meth": "takeDecision"
+}]

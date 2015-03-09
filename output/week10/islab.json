@@ -1,0 +1,96 @@
+[{
+  "data": {
+    "creek": "7e23403c-a31e-4ba0-aa3f-d70c1592267d",
+    "men": 50,
+    "budget": 600,
+    "objective": [{
+      "amount": 600,
+      "resource": "WOOD"
+    }]
+  },
+  "part": "Engine",
+  "time": 1425861083408,
+  "meth": "initialize"
+},{
+  "data": {
+    "action": "land",
+    "parameters": {
+      "creek": "7e23403c-a31e-4ba0-aa3f-d70c1592267d",
+      "people": 49
+    }
+  },
+  "part": "Explorer",
+  "time": 1425861083410,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 64,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1425861083410,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1425861083412,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 115,
+    "extras": {
+      "altitude": 1,
+      "resources": ["FISH"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1425861083412,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "exception": ["TimeoutException"],
+    "stacktrace": [[
+      "scala.concurrent.impl.Promise$DefaultPromise.ready(Promise.scala:219)",
+      "scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:223)",
+      "scala.concurrent.Await$$anonfun$result$1.apply(package.scala:116)",
+      "scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:53)",
+      "scala.concurrent.Await$.result(package.scala:116)",
+      "eu.ace_design.island.util.Timeout$class.timeout(Timeout.scala:16)",
+      "eu.ace_design.island.game.Engine.timeout(Engine.scala:14)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:48)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.run(Engine.scala:35)",
+      "fr.unice.polytech.ogl.championships.Week10$$anonfun$1.apply(Week10.scala:43)",
+      "fr.unice.polytech.ogl.championships.Week10$$anonfun$1.apply(Week10.scala:38)",
+      "scala.collection.immutable.HashMap$HashMap1.foreach(HashMap.scala:221)",
+      "scala.collection.immutable.HashMap$HashTrieMap.foreach(HashMap.scala:428)",
+      "scala.collection.immutable.HashMap$HashTrieMap.foreach(HashMap.scala:428)",
+      "fr.unice.polytech.ogl.championships.Week10$.delayedEndpoint$fr$unice$polytech$ogl$championships$Week10$1(Week10.scala:38)",
+      "fr.unice.polytech.ogl.championships.Week10$delayedInit$body.apply(Week10.scala:14)",
+      "scala.Function0$class.apply$mcV$sp(Function0.scala:40)",
+      "scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)",
+      "scala.App$$anonfun$main$1.apply(App.scala:76)",
+      "scala.App$$anonfun$main$1.apply(App.scala:76)",
+      "scala.collection.immutable.List.foreach(List.scala:381)",
+      "scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:35)",
+      "scala.App$class.main(App.scala:76)",
+      "fr.unice.polytech.ogl.championships.Week10$.main(Week10.scala:14)",
+      "fr.unice.polytech.ogl.championships.Week10.main(Week10.scala)",
+      "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+      "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+      "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+      "java.lang.reflect.Method.invoke(Method.java:483)",
+      "com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)"
+    ]],
+    "message": ["Futures timed out after [1000 milliseconds]"]
+  },
+  "part": "Explorer",
+  "time": 1425861084413,
+  "meth": "takeDecision"
+}]

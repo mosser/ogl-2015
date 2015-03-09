@@ -53,10 +53,117 @@
             <version>${scala.version}</version>
         </dependency>
         <!-- JSON is used for serialization purpose and game interaction with the players -->
+
+        <!-- Students' bot dependencies -->
         <dependency>
-            <groupId>org.json</groupId>
-            <artifactId>json</artifactId>
-            <version>20141113</version>
+            <groupId>fr.unice.polytech.ogl</groupId>
+            <artifactId>islaa</artifactId>
+            <version>0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>fr.unice.polytech.ogl</groupId>
+            <artifactId>islab</artifactId>
+            <version>0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>fr.unice.polytech.ogl</groupId>
+            <artifactId>islac</artifactId>
+            <version>0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>fr.unice.polytech.ogl</groupId>
+            <artifactId>islad</artifactId>
+            <version>0.1-SNAPSHOT</version>
+        </dependency>
+        <!-- <dependency>
+            <groupId>fr.unice.polytech.ogl</groupId>
+            <artifactId>islae</artifactId>
+            <version>0.1-SNAPSHOT</version>
+        </dependency> -->
+        <dependency>
+            <groupId>fr.unice.polytech.ogl</groupId>
+            <artifactId>islba</artifactId>
+            <version>0.1-SNAPSHOT</version>
+        </dependency>
+        <!-- <dependency>
+            <groupId>fr.unice.polytech.ogl</groupId>
+            <artifactId>islbb</artifactId>
+            <version>0.1-SNAPSHOT</version>
+        </dependency> -->
+        <dependency>
+            <groupId>fr.unice.polytech.ogl</groupId>
+            <artifactId>islbc</artifactId>
+            <version>0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>fr.unice.polytech.ogl</groupId>
+            <artifactId>islbd</artifactId>
+            <version>0.1-SNAPSHOT</version>
+        </dependency>
+        <!-- <dependency>
+            <groupId>fr.unice.polytech.ogl</groupId>
+            <artifactId>islbe</artifactId>
+            <version>0.1-SNAPSHOT</version>
+        </dependency>-->
+         <dependency>
+            <groupId>fr.unice.polytech.ogl</groupId>
+            <artifactId>islca</artifactId>
+            <version>0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>fr.unice.polytech.ogl</groupId>
+            <artifactId>islcb</artifactId>
+            <version>0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>fr.unice.polytech.ogl</groupId>
+            <artifactId>islcc</artifactId>
+            <version>0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>fr.unice.polytech.ogl</groupId>
+            <artifactId>islcd</artifactId>
+            <version>0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>fr.unice.polytech.ogl</groupId>
+            <artifactId>islce</artifactId>
+            <version>0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>fr.unice.polytech.ogl</groupId>
+            <artifactId>islcf</artifactId>
+            <version>0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>fr.unice.polytech.ogl</groupId>
+            <artifactId>islda</artifactId>
+            <version>0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>fr.unice.polytech.ogl</groupId>
+            <artifactId>isldb</artifactId>
+            <version>0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>fr.unice.polytech.ogl</groupId>
+            <artifactId>isldc</artifactId>
+            <version>0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>fr.unice.polytech.ogl</groupId>
+            <artifactId>isldd</artifactId>
+            <version>0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>fr.unice.polytech.ogl</groupId>
+            <artifactId>islde</artifactId>
+            <version>0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>fr.unice.polytech.ogl</groupId>
+            <artifactId>isldf</artifactId>
+            <version>0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
@@ -85,6 +192,7 @@
                                 <arg>-feature</arg>
                                 <arg>-dependencyfile</arg>
                                 <arg>${project.build.directory}/.scala_dependencies</arg>
+                                <arg>-target:jvm-1.8</arg>
                             </args>
                         </configuration>
                     </execution>

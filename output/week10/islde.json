@@ -1,0 +1,48 @@
+[{
+  "data": {
+    "creek": "afd16865-d79d-41be-84c5-1347ef0497b6",
+    "men": 50,
+    "budget": 600,
+    "objective": [{
+      "amount": 600,
+      "resource": "WOOD"
+    }]
+  },
+  "part": "Engine",
+  "time": 1425861077067,
+  "meth": "initialize"
+},{
+  "data": {
+    "action": "land",
+    "parameters": {
+      "creek": "afd16865-d79d-41be-84c5-1347ef0497b6",
+      "people": 1
+    }
+  },
+  "part": "Explorer",
+  "time": 1425861077073,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 58,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1425861077073,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "stop"},
+  "part": "Explorer",
+  "time": 1425861077074,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 65,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1425861077074,
+  "meth": "takeDecision"
+}]

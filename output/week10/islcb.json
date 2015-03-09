@@ -1,0 +1,112 @@
+[{
+  "data": {
+    "creek": "458e1037-b83b-420d-af47-28f567dd508a",
+    "men": 50,
+    "budget": 600,
+    "objective": [{
+      "amount": 600,
+      "resource": "WOOD"
+    }]
+  },
+  "part": "Engine",
+  "time": 1425861069681,
+  "meth": "initialize"
+},{
+  "data": {
+    "action": "land",
+    "parameters": {
+      "creek": "458e1037-b83b-420d-af47-28f567dd508a",
+      "people": 25
+    }
+  },
+  "part": "Explorer",
+  "time": 1425861069704,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 59,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1425861069709,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1425861069720,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 263,
+    "extras": {
+      "resources": [{
+        "amount": "HIGH",
+        "resource": "FISH",
+        "cond": "FAIR"
+      }],
+      "pois": [{
+        "kind": "Creek",
+        "id": "458e1037-b83b-420d-af47-28f567dd508a"
+      }]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1425861069726,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1425861069732,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 67,
+    "extras": {
+      "altitude": 1,
+      "resources": ["FISH"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1425861069738,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1425861069742,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 104,
+    "extras": {
+      "altitude": 1,
+      "resources": ["FISH"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1425861069742,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "stop"},
+  "part": "Explorer",
+  "time": 1425861069744,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 68,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1425861069747,
+  "meth": "takeDecision"
+}]
