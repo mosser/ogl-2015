@@ -1,6 +1,6 @@
 [{
   "data": {
-    "creek": "07d8c242-c6e1-4947-a01e-3cf1073d0660",
+    "creek": "8b9461cc-811b-4b81-835e-272b89689b85",
     "men": 50,
     "budget": 600,
     "objective": [{
@@ -9,27 +9,27 @@
     }]
   },
   "part": "Engine",
-  "time": 1425927191587,
+  "time": 1426355580129,
   "meth": "initialize"
 },{
   "data": {
     "action": "land",
     "parameters": {
-      "creek": "07d8c242-c6e1-4947-a01e-3cf1073d0660",
+      "creek": "8b9461cc-811b-4b81-835e-272b89689b85",
       "people": 1
     }
   },
   "part": "Explorer",
-  "time": 1425927191593,
+  "time": 1426355580142,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 78,
+    "cost": 2,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1425927191594,
+  "time": 1426355580142,
   "meth": "takeDecision"
 },{
   "data": {
@@ -37,16 +37,16 @@
     "parameters": {"direction": "N"}
   },
   "part": "Explorer",
-  "time": 1425927191594,
+  "time": 1426355580143,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 9,
+    "cost": 2,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1425927191598,
+  "time": 1426355580143,
   "meth": "takeDecision"
 },{
   "data": {
@@ -54,11 +54,11 @@
     "parameters": {"direction": "E"}
   },
   "part": "Explorer",
-  "time": 1425927191599,
+  "time": 1426355580143,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 10,
+    "cost": 2,
     "extras": {
       "altitude": 0,
       "resources": ["FISH"]
@@ -66,7 +66,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1425927191599,
+  "time": 1426355580143,
   "meth": "takeDecision"
 },{
   "data": {
@@ -74,15 +74,17 @@
     "parameters": {"resource": "WOOD"}
   },
   "part": "Explorer",
-  "time": 1425927191599,
+  "time": 1426355580144,
   "meth": "takeDecision"
 },{
   "data": {
     "exception": ["IllegalArgumentException"],
     "stacktrace": [[
-      "eu.ace_design.island.game.Exploit.build(Actions.scala:194)",
-      "eu.ace_design.island.game.Action$class.apply(Actions.scala:27)",
-      "eu.ace_design.island.game.Exploit.apply(Actions.scala:187)",
+      "scala.Predef$.require(Predef.scala:219)",
+      "eu.ace_design.island.game.Exploit.buildResult(Actions.scala:195)",
+      "eu.ace_design.island.game.Action$class.build(Actions.scala:38)",
+      "eu.ace_design.island.game.Action$class.apply(Actions.scala:25)",
+      "eu.ace_design.island.game.Exploit.apply(Actions.scala:184)",
       "eu.ace_design.island.game.Engine.play(Engine.scala:58)",
       "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
       "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
@@ -119,9 +121,9 @@
       "java.lang.reflect.Method.invoke(Method.java:483)",
       "com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)"
     ]],
-    "message": ["No resource [WOOD] available on the current tile"]
+    "message": ["requirement failed: No resource [$resource] available on the current tile"]
   },
   "part": "Engine",
-  "time": 1425927191602,
+  "time": 1426355580144,
   "meth": "takeDecision"
 }]

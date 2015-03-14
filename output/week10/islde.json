@@ -1,6 +1,6 @@
 [{
   "data": {
-    "creek": "07d8c242-c6e1-4947-a01e-3cf1073d0660",
+    "creek": "8b9461cc-811b-4b81-835e-272b89689b85",
     "men": 50,
     "budget": 600,
     "objective": [{
@@ -9,40 +9,40 @@
     }]
   },
   "part": "Engine",
-  "time": 1425927198831,
+  "time": 1426355587276,
   "meth": "initialize"
 },{
   "data": {
     "action": "land",
     "parameters": {
-      "creek": "07d8c242-c6e1-4947-a01e-3cf1073d0660",
+      "creek": "8b9461cc-811b-4b81-835e-272b89689b85",
       "people": 1
     }
   },
   "part": "Explorer",
-  "time": 1425927198835,
+  "time": 1426355587284,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 66,
+    "cost": 5,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1425927198836,
+  "time": 1426355587284,
   "meth": "takeDecision"
 },{
   "data": {"action": "stop"},
   "part": "Explorer",
-  "time": 1425927198836,
+  "time": 1426355587285,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 76,
+    "cost": 4,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1425927198836,
+  "time": 1426355587285,
   "meth": "takeDecision"
 }]

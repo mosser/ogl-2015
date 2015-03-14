@@ -1,6 +1,6 @@
 [{
   "data": {
-    "creek": "07d8c242-c6e1-4947-a01e-3cf1073d0660",
+    "creek": "8b9461cc-811b-4b81-835e-272b89689b85",
     "men": 50,
     "budget": 600,
     "objective": [{
@@ -9,79 +9,39 @@
     }]
   },
   "part": "Engine",
-  "time": 1425927206021,
+  "time": 1426355593576,
   "meth": "initialize"
 },{
   "data": {
     "action": "land",
     "parameters": {
-      "creek": "07d8c242-c6e1-4947-a01e-3cf1073d0660",
+      "creek": "8b9461cc-811b-4b81-835e-272b89689b85",
       "people": 49
     }
   },
   "part": "Explorer",
-  "time": 1425927206032,
+  "time": 1426355593579,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 69,
+    "cost": 2,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1425927206033,
+  "time": 1426355593580,
   "meth": "takeDecision"
 },{
   "data": {
     "action": "scout",
-    "parameters": {"direction": "E"}
+    "parameters": {"direction": "N"}
   },
   "part": "Explorer",
-  "time": 1425927206039,
+  "time": 1426355593581,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 186,
-    "extras": {
-      "altitude": 1,
-      "resources": ["FISH"]
-    },
-    "status": "OK"
-  },
-  "part": "Engine",
-  "time": 1425927206039,
-  "meth": "takeDecision"
-},{
-  "data": {
-    "action": "scout",
-    "parameters": {"direction": "S"}
-  },
-  "part": "Explorer",
-  "time": 1425927206040,
-  "meth": "takeDecision"
-},{
-  "data": {
-    "cost": 130,
-    "extras": {
-      "altitude": 1,
-      "resources": ["FISH"]
-    },
-    "status": "OK"
-  },
-  "part": "Engine",
-  "time": 1425927206041,
-  "meth": "takeDecision"
-},{
-  "data": {
-    "action": "scout",
-    "parameters": {"direction": "W"}
-  },
-  "part": "Explorer",
-  "time": 1425927206041,
-  "meth": "takeDecision"
-},{
-  "data": {
-    "cost": 84,
+    "cost": 3,
     "extras": {
       "altitude": 0,
       "resources": ["FISH"]
@@ -89,20 +49,145 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1425927206041,
-  "meth": "takeDecision"
-},{
-  "data": {"action": "stop"},
-  "part": "Explorer",
-  "time": 1425927206042,
+  "time": 1426355593581,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 59,
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1426355593581,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 2,
+    "extras": {
+      "altitude": 1,
+      "resources": ["FISH"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1426355593581,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1426355593582,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 2,
+    "extras": {
+      "altitude": 1,
+      "resources": ["FISH"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1426355593582,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1426355593582,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 2,
+    "extras": {
+      "altitude": 1,
+      "resources": ["FISH"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1426355593582,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1426355593582,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1425927206043,
+  "time": 1426355593583,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1426355593583,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "exception": ["IllegalArgumentException"],
+    "stacktrace": [[
+      "scala.Predef$.require(Predef.scala:219)",
+      "eu.ace_design.island.game.Exploit.buildResult(Actions.scala:195)",
+      "eu.ace_design.island.game.Action$class.build(Actions.scala:38)",
+      "eu.ace_design.island.game.Action$class.apply(Actions.scala:25)",
+      "eu.ace_design.island.game.Exploit.apply(Actions.scala:184)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:58)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.run(Engine.scala:35)",
+      "fr.unice.polytech.ogl.championships.library.Championship$class.silent(Championship.scala:65)",
+      "fr.unice.polytech.ogl.championships.Week10$.silent(Week10.scala:11)",
+      "fr.unice.polytech.ogl.championships.library.Championship$class.handlePlayer(Championship.scala:46)",
+      "fr.unice.polytech.ogl.championships.Week10$.handlePlayer(Week10.scala:11)",
+      "fr.unice.polytech.ogl.championships.library.Championship$$anonfun$run$1.apply(Championship.scala:36)",
+      "fr.unice.polytech.ogl.championships.library.Championship$$anonfun$run$1.apply(Championship.scala:34)",
+      "scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:245)",
+      "scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:245)",
+      "scala.collection.immutable.HashMap$HashMap1.foreach(HashMap.scala:221)",
+      "scala.collection.immutable.HashMap$HashTrieMap.foreach(HashMap.scala:428)",
+      "scala.collection.immutable.HashMap$HashTrieMap.foreach(HashMap.scala:428)",
+      "scala.collection.TraversableLike$class.map(TraversableLike.scala:245)",
+      "scala.collection.AbstractTraversable.map(Traversable.scala:104)",
+      "fr.unice.polytech.ogl.championships.library.Championship$class.run(Championship.scala:34)",
+      "fr.unice.polytech.ogl.championships.Week10$.run(Week10.scala:11)",
+      "fr.unice.polytech.ogl.championships.Week10$.delayedEndpoint$fr$unice$polytech$ogl$championships$Week10$1(Week10.scala:30)",
+      "fr.unice.polytech.ogl.championships.Week10$delayedInit$body.apply(Week10.scala:11)",
+      "scala.Function0$class.apply$mcV$sp(Function0.scala:40)",
+      "scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)",
+      "scala.App$$anonfun$main$1.apply(App.scala:76)",
+      "scala.App$$anonfun$main$1.apply(App.scala:76)",
+      "scala.collection.immutable.List.foreach(List.scala:381)",
+      "scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:35)",
+      "scala.App$class.main(App.scala:76)",
+      "fr.unice.polytech.ogl.championships.Week10$.main(Week10.scala:11)",
+      "fr.unice.polytech.ogl.championships.Week10.main(Week10.scala)",
+      "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+      "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+      "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+      "java.lang.reflect.Method.invoke(Method.java:483)",
+      "com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)"
+    ]],
+    "message": ["requirement failed: No resource [$resource] available on the current tile"]
+  },
+  "part": "Engine",
+  "time": 1426355593583,
   "meth": "takeDecision"
 }]
