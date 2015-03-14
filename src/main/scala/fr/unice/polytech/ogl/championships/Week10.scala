@@ -27,7 +27,7 @@ object Week10 extends Championship with SI3 with DiSLand {
   val initialization = Game(budget = Budget(600), crew = Crew(50), objectives = Set(objective) )
 
   // running the championship based on the teams defined in SI3
-  val results = run(players, initialization,theBoard, theIsland)
+  val results = run(initialization,theBoard, theIsland)
 
   // Displaying results
   printResults(results)

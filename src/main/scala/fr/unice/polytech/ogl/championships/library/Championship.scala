@@ -11,7 +11,7 @@ import eu.ace_design.island.viewer.svg.{FogOfWar, FogOfWarViewer}
 import scala.util.Random
 
 
-trait Championship extends App  {
+trait Championship extends App with Teams {
 
   val outputDir: String
   val seed: Long
@@ -30,7 +30,7 @@ trait Championship extends App  {
 
   type ChampResult = Iterable[Either[Result, (String, String)] with Product with Serializable]
 
-  protected def run(players: Map[String, IExplorerRaid], g: Game, b:GameBoard, isl: IslandMap): ChampResult  = {
+  protected def run(g: Game, b:GameBoard, isl: IslandMap): ChampResult  = {
     players map { case (name, bot) =>
       try {
         Left(handlePlayer(name, bot, g, b, isl))

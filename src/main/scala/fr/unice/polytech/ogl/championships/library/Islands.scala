@@ -18,4 +18,17 @@ object Islands extends DiSLand {
   }
 
 
+  /**
+   * Week 10: Still a donuts, with more rivers and higher elevation.
+   */
+  val seed11 = 0x762FFC83BEF34978L
+  lazy val week11: IslandMap = {
+    createIsland shapedAs donut(70.percent, 10.percent) withSize 1000 having 1200.faces usingSeed seed11 builtWith Seq(
+      plateau(30), flowing(rivers = 30, distance = 0.2), withMoisture(soils.wet, distance = 200),
+      AssignPitch, usingBiomes(WhittakerDiagrams.caribbean))
+  }
+
+
+
+
 }

@@ -2,8 +2,11 @@ package fr.unice.polytech.ogl.championships.library
 
 import eu.ace_design.island.bot.IExplorerRaid
 
+trait Teams {
+  val players: Map[String, IExplorerRaid]
+}
 
-trait SI3 {
+trait SI3 extends Teams {
 
   val players: Map[String, IExplorerRaid] = Map(
     // Group #1
