@@ -23,7 +23,7 @@ trait Championship extends App with Teams {
       case Some(d) => d.toSeq sortBy { _._1.toString  } foreach { case (stat, value) => println(s"  - $stat => $value") }
     }
     println("\n## Resources amounts")
-    board.contents foreach { case (res, amount) => println(f"  - ${res}%-10s => $amount") }
+    board.contents.toSeq.sortBy(_._2).reverse foreach { case (res, amount) => println(f"  - ${res}%-10s => $amount") }
     println("\n## Point of Interests available")
     board.pois foreach { case (loc, pois) => println(s"  $loc: $pois") }
   }
@@ -82,35 +82,34 @@ trait Championship extends App with Teams {
   }
 
   def printResults(results: ChampResult): Unit = {
-    results foreach {
-      _ match {
-        case Left(r) => {
-          println(s"## Playing bot delivered by ${r.name}")
-          r match {
-            case KO(name) => println("  ==>> Game knocked out")
-            case OK(name, remaining, men, resources) => {
-              println("  ==>> Game properly ended")
-              println(s"  - Remaining budget: $remaining")
-              println(s"  - Used men: $men")
-              println(s"  - Collected resources:")
-              if (resources.isEmpty)
-                println("    - No resources collected")
-              else
-                resources foreach { r => println(s"    - ${r._1}: ${r._2}")}
-            }
-          }
-          println()
-        }
-        case Right((name, exc)) => {
-          println(s"## Playing bot delivered by $name")
-          println(s"  ==>> Game knocked out with error [$exc]")
-          println()
-        }
+    val (left, right) = results partition { _.isLeft }
+    val errors = (right map { _.right.get}).toSeq sortBy { _._1   }
+    val (oks, kos) = left map { _.left.get } partition { _ match { case OK(_,_,_,_) => true; case _ => false } }
+
+    if (oks.nonEmpty) {
+      println("\n#### Successful simulations")
+      (oks map { _.asInstanceOf[OK] }).toSeq.sortBy { _.name } foreach { res =>
+        println(s"\n## Playing bot delivered by ${res.name.toUpperCase}")
+        println(s"  - Remaining budget: ${res.remaining}")
+        println(s"  - Used men: ${res.men}")
+        println(s"  - Collected resources:")
+        if (res.resources.isEmpty)
+          println("    - No resources collected")
+        else
+          res.resources foreach { r => println(s"    - ${r._1}: ${r._2}")}
       }
     }
+
+    if(kos.nonEmpty) {
+      println("\n### Simulation encountering gameplay issues \n")
+      kos.toSeq.sortBy { _.name } foreach { r => println(s"  - ${r.name.toUpperCase}")}
+    }
+
+    if(errors.nonEmpty) {
+      println("\n### Simulation throwing errors or exceptions \n")
+      errors.toSeq.sortBy { _._1 } foreach { r => println(s"  - ${r._1.toUpperCase} => ${r._2}")}
+    }
   }
-
-
 }
 
 trait Result { val name: String }
