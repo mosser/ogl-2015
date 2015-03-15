@@ -22,103 +22,91 @@
   - SUGAR_CANE => 13023
 
 ## Point of Interests available
-  - (52,11): Set(Creek(2c001f3f-64d7-4969-bf74-31dfe759cde8,Some(Point(520.4255081974039,116.67120762593666))))
-  - (12,61): Set(Creek(37313a2b-93f4-4652-a904-5b035e400c4e,Some(Point(121.49632021392402,613.8964598663075))))
-  - (55,88): Set(Creek(afd16865-d79d-41be-84c5-1347ef0497b6,Some(Point(550.0593623401196,881.527056857143))))
-  - (11,38): Set(Creek(7e23403c-a31e-4ba0-aa3f-d70c1592267d,Some(Point(118.05110525938149,385.31519394942984))))
-  - (38,88): Set(Creek(458e1037-b83b-420d-af47-28f567dd508a,Some(Point(385.9794294145998,883.7884717384065))))
-  - (42,86): Set(Creek(7ba905e8-82f7-4960-8bdc-05db4d74c16d,Some(Point(424.71146752534514,865.8865292335693))))
-  - (16,65): Set(Creek(ec3796eb-ece1-43c3-afd8-1ff19ded1793,Some(Point(163.410231240603,657.3304190456122))))
-  - (60,13): Set(Creek(55a86dc5-1d38-4944-8d9e-691be150a638,Some(Point(609.7162468193561,132.49204452737845))))
-  - (57,14): Set(Creek(e128539b-dcd4-4d99-afa5-468d15cbb862,Some(Point(572.5745232408113,145.00702437946754))))
-  - (20,77): Set(Creek(576e9309-d9fa-4c6b-abe2-1fc30edcf747,Some(Point(207.40778007239146,773.8002234962262))))
+  - (52,11): Set(Creek(2dea58f0-4697-4400-a51e-4aa4ecc88bac,Some(Point(520.4255081974039,116.67120762593666))))
+  - (12,61): Set(Creek(83e0c526-ffe2-4fe4-b0a9-26d3ce21d4a7,Some(Point(121.49632021392402,613.8964598663075))))
+  - (55,88): Set(Creek(a4d16e95-020b-4981-aafe-00489698299e,Some(Point(550.0593623401196,881.527056857143))))
+  - (11,38): Set(Creek(0302a87c-2e43-4d4a-892e-5ff939458855,Some(Point(118.05110525938149,385.31519394942984))))
+  - (38,88): Set(Creek(07d8c242-c6e1-4947-a01e-3cf1073d0660,Some(Point(385.9794294145998,883.7884717384065))))
+  - (42,86): Set(Creek(fd40ca6c-31a0-4190-99d8-ec29b3cad42d,Some(Point(424.71146752534514,865.8865292335693))))
+  - (16,65): Set(Creek(3afa2259-8138-4442-8555-db6c09e989d4,Some(Point(163.410231240603,657.3304190456122))))
+  - (60,13): Set(Creek(16c3f2e1-175c-4a58-b10a-4e91a6ad2904,Some(Point(609.7162468193561,132.49204452737845))))
+  - (57,14): Set(Creek(e5cc625d-9646-459f-a1bf-7944fb880ba7,Some(Point(572.5745232408113,145.00702437946754))))
+  - (20,77): Set(Creek(e5570ed4-58c9-4b4e-b3f6-9d21958c0a77,Some(Point(207.40778007239146,773.8002234962262))))
 
-## Playing bot from team [islad]
-  ==>> Game knocked out :(
+## Playing bot delivered by islad
+  ==>> Game knocked out
 
+## Playing bot delivered by islcb
+  ==>> Game knocked out
 
-## Playing bot from team [islcb]
+## Playing bot delivered by islcf
+  ==>> Game knocked out
+
+## Playing bot delivered by isldf
   ==>> Game properly ended
-
-  - Remaining APs: 29
-  - Used men: 25
-
-
-## Playing bot from team [islcf]
-  ==>> Game knocked out :(
-
-
-## Playing bot from team [isldf]
-  ==>> Game properly ended
-
-  - Remaining APs: 591
+  - Remaining budget: 592
   - Used men: 0
+  - Collected resources:
+    - No resources collected
 
-
-## Playing bot from team [islac]
+## Playing bot delivered by islac
   ==>> Game properly ended
-
-  - Remaining APs: 593
+  - Remaining budget: 594
   - Used men: 0
+  - Collected resources:
+    - No resources collected
 
-
-## Playing bot from team [islbd]
+## Playing bot delivered by islbd
   ==>> Game properly ended
-
-  - Remaining APs: 198
+  - Remaining budget: 223
   - Used men: 12
+  - Collected resources:
+    - No resources collected
 
+## Playing bot delivered by islda
+  ==>> Game knocked out
 
-## Playing bot from team [islda]
-  ==>> Game knocked out :(
-
-
-## Playing bot from team [islde]
+## Playing bot delivered by islde
   ==>> Game properly ended
-
-  - Remaining APs: 473
+  - Remaining budget: 454
   - Used men: 1
+  - Collected resources:
+    - No resources collected
 
+## Playing bot delivered by islcd
+  ==>> Game knocked out
 
-## Playing bot from team [islcd]
-  ==>> Game knocked out :(
+## Playing bot delivered by islaa
+  ==>> Game knocked out
 
+## Playing bot delivered by islbc
+  ==>> Game knocked out
 
-## Playing bot from team [islaa]
-  ==>> Game knocked out :(
+## Playing bot delivered by isldb
+  ==>> Game knocked out
 
+## Playing bot delivered by islca
+  ==>> Game knocked out
 
-## Playing bot from team [islbc]
-  ==>> Game knocked out :(
-
-
-## Playing bot from team [isldb]
-  ==>> Game knocked out :(
-
-
-## Playing bot from team [islca]
-  ==>> Game knocked out :(
-
-
-## Playing bot from team [islab]
-  ==>> Game knocked out :(
-
-
-## Playing bot from team [isldd]
-  ==>> Game knocked out :(
-
-
-## Playing bot from team [islcc]
-  ==>> Game knocked out :(
-
-
-## Playing bot from team [islba]
+## Playing bot delivered by islab
   ==>> Game properly ended
+  - Remaining budget: 62
+  - Used men: 49
+  - Collected resources:
+    - No resources collected
 
-  - Remaining APs: 591
+## Playing bot delivered by isldd
+  ==>> Game knocked out
+
+## Playing bot delivered by islcc
+  ==>> Game knocked out
+
+## Playing bot delivered by islba
+  ==>> Game properly ended
+  - Remaining budget: 591
   - Used men: 0
+  - Collected resources:
+    - No resources collected
 
-
-## Playing bot from team [isldc]
-  ==>> Game knocked out :(
-
+## Playing bot delivered by isldc
+  ==>> Game knocked out
