@@ -1,6 +1,6 @@
 [{
   "data": {
-    "creek": "ea30e70f-6e29-4088-a32f-4b60faddf543",
+    "creek": "bfbec2dc-3984-41c0-9705-018ed578f0f4",
     "men": 50,
     "budget": 600,
     "objective": [{
@@ -9,47 +9,60 @@
     }]
   },
   "part": "Engine",
-  "time": 1426440266825,
+  "time": 1426466177939,
   "meth": "initialize"
 },{
   "data": {
     "action": "land",
     "parameters": {
-      "creek": "ea30e70f-6e29-4088-a32f-4b60faddf543",
-      "people": 50
+      "creek": "bfbec2dc-3984-41c0-9705-018ed578f0f4",
+      "people": 1
     }
   },
   "part": "Explorer",
-  "time": 1426440266827,
+  "time": 1426466177942,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1426466177943,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scoot",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1426466177944,
   "meth": "takeDecision"
 },{
   "data": {
     "exception": ["IllegalArgumentException"],
     "stacktrace": [[
-      "scala.Predef$.require(Predef.scala:219)",
-      "eu.ace_design.island.game.Land.buildResult(Actions.scala:98)",
-      "eu.ace_design.island.game.Action$class.build(Actions.scala:38)",
-      "eu.ace_design.island.game.Action$class.apply(Actions.scala:25)",
-      "eu.ace_design.island.game.Land.apply(Actions.scala:88)",
-      "eu.ace_design.island.game.Engine.play(Engine.scala:58)",
+      "eu.ace_design.island.game.ActionParser$.apply(Actions.scala:243)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:50)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
       "eu.ace_design.island.game.Engine.run(Engine.scala:35)",
       "fr.unice.polytech.ogl.championships.library.Championship$class.silent(Championship.scala:65)",
-      "fr.unice.polytech.ogl.championships.Week10$.silent(Week10.scala:11)",
+      "fr.unice.polytech.ogl.championships.Week11$.silent(Week11.scala:10)",
       "fr.unice.polytech.ogl.championships.library.Championship$class.handlePlayer(Championship.scala:46)",
-      "fr.unice.polytech.ogl.championships.Week10$.handlePlayer(Week10.scala:11)",
+      "fr.unice.polytech.ogl.championships.Week11$.handlePlayer(Week11.scala:10)",
       "fr.unice.polytech.ogl.championships.library.Championship$$anonfun$run$1.apply(Championship.scala:36)",
       "fr.unice.polytech.ogl.championships.library.Championship$$anonfun$run$1.apply(Championship.scala:34)",
       "scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:245)",
       "scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:245)",
       "scala.collection.immutable.HashMap$HashMap1.foreach(HashMap.scala:221)",
       "scala.collection.immutable.HashMap$HashTrieMap.foreach(HashMap.scala:428)",
-      "scala.collection.immutable.HashMap$HashTrieMap.foreach(HashMap.scala:428)",
       "scala.collection.TraversableLike$class.map(TraversableLike.scala:245)",
       "scala.collection.AbstractTraversable.map(Traversable.scala:104)",
       "fr.unice.polytech.ogl.championships.library.Championship$class.run(Championship.scala:34)",
-      "fr.unice.polytech.ogl.championships.Week10$.run(Week10.scala:11)",
-      "fr.unice.polytech.ogl.championships.Week10$.delayedEndpoint$fr$unice$polytech$ogl$championships$Week10$1(Week10.scala:32)",
-      "fr.unice.polytech.ogl.championships.Week10$delayedInit$body.apply(Week10.scala:11)",
+      "fr.unice.polytech.ogl.championships.Week11$.run(Week11.scala:10)",
+      "fr.unice.polytech.ogl.championships.Week11$.delayedEndpoint$fr$unice$polytech$ogl$championships$Week11$1(Week11.scala:33)",
+      "fr.unice.polytech.ogl.championships.Week11$delayedInit$body.apply(Week11.scala:10)",
       "scala.Function0$class.apply$mcV$sp(Function0.scala:40)",
       "scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)",
       "scala.App$$anonfun$main$1.apply(App.scala:76)",
@@ -57,17 +70,17 @@
       "scala.collection.immutable.List.foreach(List.scala:381)",
       "scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:35)",
       "scala.App$class.main(App.scala:76)",
-      "fr.unice.polytech.ogl.championships.Week10$.main(Week10.scala:11)",
-      "fr.unice.polytech.ogl.championships.Week10.main(Week10.scala)",
+      "fr.unice.polytech.ogl.championships.Week11$.main(Week11.scala:10)",
+      "fr.unice.polytech.ogl.championships.Week11.main(Week11.scala)",
       "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
       "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
       "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
       "java.lang.reflect.Method.invoke(Method.java:483)",
       "com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)"
     ]],
-    "message": ["requirement failed: At least one men must stay on board"]
+    "message": ["Invalid JSON input : scala.MatchError: scoot (of class java.lang.String) \ndata: {\"action\":\"scoot\",\"parameters\":{\"direction\":\"N\"}}"]
   },
-  "part": "Engine",
-  "time": 1426440266827,
+  "part": "Explorer",
+  "time": 1426466177945,
   "meth": "takeDecision"
 }]

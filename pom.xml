@@ -83,11 +83,11 @@
             <artifactId>islba</artifactId>
             <version>0.1-SNAPSHOT</version>
         </dependency>
-        <!-- <dependency>
+        <dependency>
             <groupId>fr.unice.polytech.ogl</groupId>
             <artifactId>islbb</artifactId>
             <version>0.1-SNAPSHOT</version>
-        </dependency> -->
+        </dependency>
         <dependency>
             <groupId>fr.unice.polytech.ogl</groupId>
             <artifactId>islbc</artifactId>
@@ -98,11 +98,11 @@
             <artifactId>islbd</artifactId>
             <version>0.1-SNAPSHOT</version>
         </dependency>
-        <!-- <dependency>
+        <dependency>
             <groupId>fr.unice.polytech.ogl</groupId>
             <artifactId>islbe</artifactId>
             <version>0.1-SNAPSHOT</version>
-        </dependency>-->
+        </dependency>
          <dependency>
             <groupId>fr.unice.polytech.ogl</groupId>
             <artifactId>islca</artifactId>

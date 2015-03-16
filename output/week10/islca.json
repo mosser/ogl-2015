@@ -1,6 +1,6 @@
 [{
   "data": {
-    "creek": "8b9461cc-811b-4b81-835e-272b89689b85",
+    "creek": "ea30e70f-6e29-4088-a32f-4b60faddf543",
     "men": 50,
     "budget": 600,
     "objective": [{
@@ -9,27 +9,27 @@
     }]
   },
   "part": "Engine",
-  "time": 1426355592719,
+  "time": 1426440269248,
   "meth": "initialize"
 },{
   "data": {
     "action": "land",
     "parameters": {
-      "creek": "8b9461cc-811b-4b81-835e-272b89689b85",
+      "creek": "ea30e70f-6e29-4088-a32f-4b60faddf543",
       "people": 25
     }
   },
   "part": "Explorer",
-  "time": 1426355592727,
+  "time": 1426440269253,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 2,
+    "cost": 82,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1426355592727,
+  "time": 1426440269254,
   "meth": "takeDecision"
 },{
   "data": {
@@ -37,13 +37,13 @@
     "parameters": {"direction": "NORTH"}
   },
   "part": "Explorer",
-  "time": 1426355592730,
+  "time": 1426440269255,
   "meth": "takeDecision"
 },{
   "data": {
     "exception": ["IllegalArgumentException"],
     "stacktrace": [[
-      "eu.ace_design.island.game.ActionParser$.apply(Actions.scala:239)",
+      "eu.ace_design.island.game.ActionParser$.apply(Actions.scala:240)",
       "eu.ace_design.island.game.Engine.play(Engine.scala:50)",
       "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
       "eu.ace_design.island.game.Engine.run(Engine.scala:35)",
@@ -62,7 +62,7 @@
       "scala.collection.AbstractTraversable.map(Traversable.scala:104)",
       "fr.unice.polytech.ogl.championships.library.Championship$class.run(Championship.scala:34)",
       "fr.unice.polytech.ogl.championships.Week10$.run(Week10.scala:11)",
-      "fr.unice.polytech.ogl.championships.Week10$.delayedEndpoint$fr$unice$polytech$ogl$championships$Week10$1(Week10.scala:30)",
+      "fr.unice.polytech.ogl.championships.Week10$.delayedEndpoint$fr$unice$polytech$ogl$championships$Week10$1(Week10.scala:32)",
       "fr.unice.polytech.ogl.championships.Week10$delayedInit$body.apply(Week10.scala:11)",
       "scala.Function0$class.apply$mcV$sp(Function0.scala:40)",
       "scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)",
@@ -82,6 +82,6 @@
     "message": ["Invalid JSON input : scala.MatchError: NORTH (of class java.lang.String) \ndata: {\"parameters\":{\"direction\":\"NORTH\"},\"action\":\"scout\"}"]
   },
   "part": "Explorer",
-  "time": 1426355592731,
+  "time": 1426440269255,
   "meth": "takeDecision"
 }]

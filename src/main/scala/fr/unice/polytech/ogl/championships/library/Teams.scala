@@ -16,17 +16,17 @@ trait SI3 extends Teams {
   private val g1 = Map(
     "islaa" -> new fr.unice.polytech.ogl.islaa.Explorer(),
     "islab" -> new fr.unice.polytech.ogl.islab.Explorer(),
-    "islac" -> new fr.unice.polytech.ogl.islac.Explorer(),
-    "islad" -> new fr.unice.polytech.ogl.islad.Explorer()
+    "islac" -> new fr.unice.polytech.ogl.islac.Explorer()
+    // "islad" -> new fr.unice.polytech.ogl.islad.Explorer()
     // "islae" -> new fr.unice.polytech.ogl.islae.Explorer()
   )
 
   private val g2 = Map(
     "islba" -> new fr.unice.polytech.ogl.islba.Explorer(),
-    // "islbb" -> new fr.unice.polytech.ogl.islbb.Explorer(),
+    "islbb" -> new fr.unice.polytech.ogl.islbb.Explorer(),
     "islbc" -> new fr.unice.polytech.ogl.islbc.Explorer(),
-    "islbd" -> new fr.unice.polytech.ogl.islbd.Explorer()
-    // "islbe" -> new fr.unice.polytech.ogl.islbe.Explorer()
+    // "islbd" -> new fr.unice.polytech.ogl.islbd.Explorer()
+    "islbe" -> new fr.unice.polytech.ogl.islbe.Explorer()
   )
 
   private val g3 = Map(
@@ -41,7 +41,7 @@ trait SI3 extends Teams {
   private val g4 = Map(
     "islda" -> new fr.unice.polytech.ogl.islda.Explorer(),
     "isldb" -> new fr.unice.polytech.ogl.isldb.Explorer(),
-    "isldc" -> new fr.unice.polytech.ogl.isldc.Explorer(),
+    // "isldc" -> new fr.unice.polytech.ogl.isldc.Explorer(),
     "isldd" -> new fr.unice.polytech.ogl.isldd.Explorer(),
     "islde" -> new fr.unice.polytech.ogl.islde.Explorer(),
     "isldf" -> new fr.unice.polytech.ogl.isldf.Explorer()
