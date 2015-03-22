@@ -1,4 +1,4 @@
-package fr.unice.polytech.ogl.championships.library
+package fr.unice.polytech.ogl.championships
 
 import eu.ace_design.island.dsl.DiSLand
 import eu.ace_design.island.map.IslandMap
@@ -27,6 +27,15 @@ object Islands extends DiSLand {
       plateau(30), flowing(rivers = 30, distance = 0.2), withMoisture(soils.wet, distance = 200),
       AssignPitch, usingBiomes(WhittakerDiagrams.caribbean))
   }
+
+  val seed12 = 0x762FFC83BEF34978L
+  lazy val week12: IslandMap = {
+    createIsland shapedAs ellipsis(x=95.percent, y=40.percent, theta=15) builtWith Seq(
+      flatDistribution(30), flowing(rivers = 30, distance = 0.6), withMoisture(soils.wet, distance = 150),
+      AssignPitch, usingBiomes(WhittakerDiagrams.caribbean)
+    ) usingSeed seed12 withSize 1600 having 3000.faces
+  }
+
 
 
 

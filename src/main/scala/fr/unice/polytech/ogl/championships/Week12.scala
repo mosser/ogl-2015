@@ -3,19 +3,20 @@ package fr.unice.polytech.ogl.championships
 import eu.ace_design.island.dsl.DiSLand
 import eu.ace_design.island.game._
 import eu.ace_design.island.map.IslandMap
+import eu.ace_design.island.map.resources.Resource
 import eu.ace_design.island.stdlib.POIGenerators.WithCreeks
-import eu.ace_design.island.stdlib.Resources.WOOD
+import eu.ace_design.island.stdlib.Resources._
 import fr.unice.polytech.ogl.championships.library.{Championship, SI3}
 
-object Week11 extends Championship with SI3 with DiSLand {
+object Week12 extends Championship with SI3 with DiSLand {
 
-  override val seed = Islands.seed11
-  override val outputDir =  "./output/week11"
+  override val seed = Islands.seed12
+  override val outputDir =  "./output/week12"
 
   // Retrieving the island used for this week and storing it as a PDF file
-  val theIsland: IslandMap = Islands.week11
-  theIsland -> (s"$outputDir/map-week11" as pdf)
-  theIsland -> (s"$outputDir/map-week11" as obj)
+  val theIsland: IslandMap = Islands.week12
+  theIsland -> (s"$outputDir/map-week12" as pdf)
+  theIsland -> (s"$outputDir/map-week12" as obj)
 
 
   // building a gameBoard with 10 creeks and displaying statistics
@@ -24,12 +25,12 @@ object Week11 extends Championship with SI3 with DiSLand {
   printInfo(theIsland, theBoard)
 
   // Building the game engine and the associated objectives
-  val objective = (WOOD, 600)
-  val initialization = Game(budget = Budget(600), crew = Crew(50), objectives = Set(objective) )
+  val objectives = Set((SUGAR_CANE, 3000), (FUR, 600), (FLOWER, 2)).asInstanceOf[Set[(Resource, Int)]]
+  val initialization = Game(Budget(5000), Crew(25), objectives)
 
   // running the championship based on the teams defined in SI3
   println("\n## Running championship with the following players")
-  println(s"  - ${playerNames}")
+  println(s"  - $playerNames")
   val results = run(initialization,theBoard, theIsland)
 
   // Displaying results

@@ -15,6 +15,7 @@ trait Championship extends App with Teams {
 
   val outputDir: String
   val seed: Long
+  val FROZEN: Boolean = false
 
   def printInfo(isl: IslandMap, board: GameBoard) {
     println("\n## Island global statistics")

@@ -6,7 +6,7 @@ import eu.ace_design.island.game._
 import eu.ace_design.island.map.IslandMap
 import eu.ace_design.island.stdlib.POIGenerators.WithCreeks
 import eu.ace_design.island.stdlib.Resources.WOOD
-import fr.unice.polytech.ogl.championships.library.{Championship, SI3, Islands}
+import fr.unice.polytech.ogl.championships.library.{Championship, SI3}
 
 object Week10 extends Championship with SI3 with DiSLand {
 
