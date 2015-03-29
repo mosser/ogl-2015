@@ -18,7 +18,7 @@ trait Championship extends App with Teams {
   val FROZEN: Boolean = false
 
   def printInfo(isl: IslandMap, board: GameBoard) {
-    println("\n## Island global statistics")
+    println("\n# Island global statistics")
     isl.stats match {
       case None =>
       case Some(d) => d.toSeq sortBy { _._1.toString  } foreach { case (stat, value) => println(s"  - $stat => $value") }
@@ -88,7 +88,7 @@ trait Championship extends App with Teams {
     val (oks, kos) = left map { _.left.get } partition { _ match { case OK(_,_,_,_) => true; case _ => false } }
 
     if (oks.nonEmpty) {
-      println("\n#### Successful simulations")
+      println("\n# Successful simulations")
       (oks map { _.asInstanceOf[OK] }).toSeq.sortBy { _.name } foreach { res =>
         println(s"\n## Playing bot delivered by ${res.name.toUpperCase}")
         println(s"  - Remaining budget: ${res.remaining}")
@@ -102,12 +102,12 @@ trait Championship extends App with Teams {
     }
 
     if(kos.nonEmpty) {
-      println("\n### Simulation encountering gameplay issues \n")
+      println("\n# Simulation encountering gameplay issues \n")
       kos.toSeq.sortBy { _.name } foreach { r => println(s"  - ${r.name.toUpperCase}")}
     }
 
     if(errors.nonEmpty) {
-      println("\n### Simulation throwing errors or exceptions \n")
+      println("\n# Simulation throwing errors or exceptions \n")
       errors.toSeq.sortBy { _._1 } foreach { r => println(s"  - ${r._1.toUpperCase} => ${r._2}")}
     }
   }
