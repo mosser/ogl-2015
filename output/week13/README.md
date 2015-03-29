@@ -16,7 +16,7 @@
     19:14:07 INFO  Island/Board  [GameBoardBuilder] Introducing Points of Interest
     19:14:07 INFO  Island/Board  [GameBoardBuilder] GameBoard building process ended
 
-## Island global statistics
+# Island global statistics
   - % of map occupied by lakes      => 0.00
   - % of map occupied by lands      => 44.20
   - % of map occupied by the ocean  => 55.80
@@ -55,7 +55,7 @@
 ## Running championship with the following players
   - ISLAA, ISLAB, ISLAC, ISLAD, ISLBA, ISLBB, ISLBC, ISLBD, ISLBE, ISLCA, ISLCB, ISLCC, ISLCD, ISLCE, ISLCF, ISLDA, ISLDB, ISLDC, ISLDE, ISLDF
 
-#### Successful simulations
+# Successful simulations
 
 ## Playing bot delivered by ISLAB
   - Remaining budget: 8776
@@ -87,7 +87,7 @@
   - Collected resources:
     - No resources collected
 
-### Simulation encountering gameplay issues 
+# Simulation encountering gameplay issues 
 
   - ISLAA
   - ISLAD
@@ -102,7 +102,7 @@
   - ISLDE
   - ISLDF
 
-### Simulation throwing errors or exceptions 
+# Simulation throwing errors or exceptions 
 
   - ISLBB => Error : java.lang.StackOverflowError
   - ISLBD => Error : java.lang.StackOverflowError
