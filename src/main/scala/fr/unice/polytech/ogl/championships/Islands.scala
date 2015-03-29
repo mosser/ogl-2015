@@ -19,7 +19,7 @@ object Islands extends DiSLand {
 
 
   /**
-   * Week 10: Still a donuts, with more rivers and higher elevation.
+   * Week 11: Still a donuts, with more rivers and higher elevation.
    */
   val seed11 = 0x762FFC83BEF34978L
   lazy val week11: IslandMap = {
@@ -28,6 +28,9 @@ object Islands extends DiSLand {
       AssignPitch, usingBiomes(WhittakerDiagrams.caribbean))
   }
 
+  /**
+   * Week #12: An ellipsis, with no lake and a small mangrove on the east side
+   */
   val seed12 = 0x762FFC83BEF34978L
   lazy val week12: IslandMap = {
     createIsland shapedAs ellipsis(x=95.percent, y=40.percent, theta=15) builtWith Seq(
@@ -36,8 +39,15 @@ object Islands extends DiSLand {
     ) usingSeed seed12 withSize 1600 having 3000.faces
   }
 
-
-
-
+  /**
+   * Week #13: irregular shape, no lakes, dry.
+   */
+  val seed13 = 0x2E33A1DD059647D8L
+  lazy val week13: IslandMap = {
+    createIsland shapedAs radial(factor=0.99) builtWith Seq(
+      plateau(30), flowing(rivers = 55, distance = 0.2), withMoisture(soils.dry, distance = 300),
+      AssignPitch, usingBiomes(WhittakerDiagrams.caribbean)
+    ) usingSeed seed13 withSize 1600 having 3000.faces
+  }
 
 }

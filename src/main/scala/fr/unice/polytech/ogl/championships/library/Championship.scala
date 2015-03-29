@@ -26,7 +26,7 @@ trait Championship extends App with Teams {
     println("\n## Resources amounts")
     board.contents.toSeq.sortBy(_._2).reverse foreach { case (res, amount) => println(f"  - ${res}%-10s => $amount") }
     println("\n## Point of Interests available")
-    board.pois foreach { case (loc, pois) => println(s"  $loc: $pois") }
+    board.pois foreach { case (loc, pois) => println(s"  - $loc: $pois") }
   }
 
   type ChampResult = Iterable[Either[Result, (String, String)] with Product with Serializable]
