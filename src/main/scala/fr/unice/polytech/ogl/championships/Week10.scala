@@ -16,6 +16,8 @@ object Week10 extends Championship with SI3 with DiSLand {
   // Retrieving the island used for this week and storing it as a PDF file
   val theIsland: IslandMap = Islands.week10
   theIsland -> (s"$outputDir/map-week10" as pdf)
+  theIsland -> (s"$outputDir/map-week10" as obj)
+  theIsland -> (s"$outputDir/map-week10" as json)
 
   // building a gameBoard with 10 creeks and displaying statistics
   val builder = new GameBoardBuilder(rand = theIsland.random, poiGenerators = Seq(new WithCreeks(10)))

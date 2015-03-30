@@ -17,6 +17,7 @@ object Week12 extends Championship with SI3 with DiSLand {
   val theIsland: IslandMap = Islands.week12
   theIsland -> (s"$outputDir/map-week12" as pdf)
   theIsland -> (s"$outputDir/map-week12" as obj)
+  theIsland -> (s"$outputDir/map-week12" as json)
 
 
   // building a gameBoard with 10 creeks and displaying statistics
