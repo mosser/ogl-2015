@@ -1,0 +1,9 @@
+{ 
+  "Title": "OGL Championship #2015",
+  "islands": [
+    { "name": "Week 10", "url": "https://raw.githubusercontent.com/mosser/ogl-2015/master/output/week10/map-week10.json"},
+    { "name": "Week 11", "url": "https://raw.githubusercontent.com/mosser/ogl-2015/master/output/week11/map-week11.json"},
+    { "name": "Week 12", "url": "https://raw.githubusercontent.com/mosser/ogl-2015/master/output/week12/map-week12.json"},
+    { "name": "Week 13", "url": "https://raw.githubusercontent.com/mosser/ogl-2015/master/output/week13/map-week13.json"},
+  ]
+}
