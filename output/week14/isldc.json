@@ -1,0 +1,8326 @@
+[{
+  "data": {
+    "creek": "3f0a1e73-70ae-4180-9da4-d19227836923",
+    "men": 40,
+    "budget": 10000,
+    "objective": [
+      {
+        "amount": 500,
+        "resource": "QUARTZ"
+      },
+      {
+        "amount": 9000,
+        "resource": "WOOD"
+      }
+    ]
+  },
+  "part": "Engine",
+  "time": 1428254994657,
+  "meth": "initialize"
+},{
+  "data": {
+    "action": "land",
+    "parameters": {
+      "creek": "3f0a1e73-70ae-4180-9da4-d19227836923",
+      "people": 29
+    }
+  },
+  "part": "Explorer",
+  "time": 1428254994664,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994664,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994665,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "FISH",
+        "FUR"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994665,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254994665,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 1,
+      "resources": ["FUR"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994665,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994665,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 1,
+      "resources": ["FUR"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994666,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428254994666,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "FISH",
+        "FUR"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994666,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254994666,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994666,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428254994666,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "resources": [{
+        "amount": "MEDIUM",
+        "resource": "FUR",
+        "cond": "FAIR"
+      }],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994666,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994666,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 0,
+      "resources": ["FUR"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994666,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254994666,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 0,
+      "resources": ["FUR"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994666,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994666,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 1,
+      "resources": ["FUR"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994666,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994666,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994666,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428254994666,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "resources": [{
+        "amount": "HIGH",
+        "resource": "FUR",
+        "cond": "FAIR"
+      }],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994666,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994666,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "FISH",
+        "FUR"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994666,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254994666,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 0,
+      "resources": ["FUR"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994666,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994667,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994667,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994667,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994667,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994667,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994667,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994667,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994667,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994667,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994667,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994667,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994667,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994667,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994667,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994667,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994667,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994667,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994667,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994668,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994668,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994668,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994668,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994668,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994668,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994668,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994668,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994668,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994668,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994668,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994668,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994668,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994668,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994668,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994668,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994668,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994668,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994668,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994668,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994669,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994669,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994669,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994669,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994669,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994669,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994669,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994669,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994669,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994669,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994669,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994669,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994669,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994669,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994669,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994669,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994669,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994669,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994669,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994670,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994670,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994670,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994670,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994670,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994670,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994670,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994670,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994670,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994670,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994670,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994670,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994670,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994670,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994670,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994670,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994670,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994670,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994670,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994670,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994670,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994670,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994670,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994670,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994670,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994670,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994671,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994671,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994671,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994671,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994671,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994671,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994671,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994671,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994671,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994671,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994671,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994671,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994671,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994671,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994671,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994671,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994671,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994671,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994671,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994671,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994671,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994671,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994671,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994671,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994671,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994672,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994672,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994672,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994672,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994672,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994672,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994672,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994672,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994672,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994672,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994672,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994672,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994672,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994672,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994672,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994672,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994672,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994672,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994672,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994672,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994673,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994673,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994673,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994673,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994673,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994673,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994673,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994673,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994673,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994673,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994673,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994673,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994673,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994673,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994673,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994673,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994673,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994673,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994674,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994674,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994674,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994674,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994674,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994674,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994674,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994674,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994674,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994674,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994674,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994674,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994674,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994674,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994674,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994674,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994674,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994674,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994674,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994674,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994674,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994675,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994675,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994675,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994675,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994675,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994675,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994675,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994675,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994675,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994675,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994675,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994675,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994675,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994675,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994675,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994675,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994675,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994675,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994675,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994675,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994675,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994675,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994675,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994675,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994675,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994675,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994675,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994676,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994676,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994676,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994676,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994676,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994676,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994676,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994676,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994676,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994676,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994676,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994676,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994676,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994676,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994676,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994676,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994676,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994676,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994676,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994676,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994676,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994676,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994676,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994676,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994676,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994676,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994676,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994677,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994677,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994677,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994677,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994677,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994677,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994677,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994677,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994677,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994677,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994677,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994677,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994677,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994677,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994677,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994677,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994677,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994677,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994677,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994677,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994677,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994677,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994677,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994677,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994677,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994678,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994678,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994678,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994678,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994678,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994678,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994678,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994678,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994678,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994678,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994678,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994678,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994678,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994678,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994678,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994678,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994678,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994678,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994678,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994678,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994678,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994678,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994678,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994678,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994678,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994678,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994679,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994679,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994679,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994679,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994679,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994679,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994679,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994679,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994679,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994679,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994679,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994679,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994679,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994679,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994679,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994679,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994679,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994679,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994679,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994679,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994679,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994680,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994680,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994680,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994680,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994680,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994680,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994680,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994680,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994680,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994680,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994680,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994680,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994680,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994680,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994680,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994680,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994680,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994680,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994680,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994680,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994680,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994680,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994680,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994680,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994680,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994680,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994680,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994680,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994681,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994681,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994681,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994681,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994681,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994681,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994681,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994681,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994681,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994681,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994681,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994681,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994681,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994681,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994681,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994681,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994681,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994681,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994681,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994681,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994681,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994681,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994681,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994681,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994681,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994681,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994681,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994681,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994682,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994682,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994682,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994682,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994682,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994682,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994682,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994682,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994682,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994682,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994682,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994682,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994682,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994682,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994682,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994682,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994682,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994682,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994682,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994682,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994682,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994682,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994682,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994682,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994682,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994682,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994682,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994683,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994683,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994683,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994683,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994683,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994683,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994683,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994683,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994683,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994683,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994683,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994683,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994683,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994683,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994683,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994683,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994683,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994683,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994683,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994683,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994683,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994683,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994683,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994683,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994683,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994683,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994683,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994683,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994684,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994684,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994684,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994684,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994684,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994684,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994684,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994684,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994684,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994684,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994684,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994684,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994684,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994684,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994684,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994684,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994684,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994684,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994684,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994684,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994684,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994684,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994684,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994684,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994684,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994684,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994684,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994684,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994685,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994685,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994685,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994685,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994685,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994685,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994685,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994685,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994685,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994685,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994685,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994685,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994685,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994685,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994685,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994685,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994685,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994685,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994685,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994685,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994685,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994685,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994685,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994685,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994685,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994685,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994685,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994685,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994686,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994686,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994686,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994686,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994686,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994686,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994686,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994686,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994686,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994686,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994686,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994686,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994686,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994686,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994686,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994686,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994686,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994686,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994686,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994686,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994686,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994686,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994686,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994686,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994686,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994686,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994687,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994687,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994687,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994687,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994687,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994687,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994687,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994687,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994687,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994687,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994687,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994687,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994687,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994687,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994687,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994687,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994687,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994687,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994687,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994687,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994688,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994688,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994688,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994688,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994688,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994688,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994688,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994688,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994688,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994688,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994688,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994688,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994688,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994688,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994688,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994688,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994688,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994688,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994688,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994688,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994688,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994688,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994689,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994689,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994689,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994689,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994689,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994689,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994689,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994689,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994689,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994689,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994689,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994689,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994689,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994689,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994689,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994689,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994689,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994689,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994689,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994689,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994689,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994689,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994689,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994690,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994690,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994690,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994690,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994690,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994690,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994690,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994690,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994690,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994690,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994690,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994690,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994690,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994690,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994690,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994690,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994690,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994690,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994690,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994690,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994690,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994690,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994690,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994690,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994690,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994690,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994690,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994690,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994690,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994691,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994691,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994691,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994691,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994691,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994691,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994691,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994691,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994691,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994691,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994691,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994691,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994691,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994691,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994691,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994691,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994691,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994691,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994691,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994691,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994691,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994691,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994691,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994691,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994691,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994691,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994691,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994691,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994692,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 15,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994692,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994692,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994692,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994692,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994692,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994692,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994692,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994692,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 15,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994692,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994692,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994692,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994692,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994692,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994692,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994692,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994692,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994692,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994692,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994692,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994692,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994692,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994693,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994693,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994693,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994693,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994693,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994693,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994693,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994693,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994693,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994693,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994693,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994693,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994693,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994693,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994693,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994693,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994693,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994693,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994694,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994694,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994694,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994694,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994694,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994694,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994694,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 15,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994694,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994694,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994694,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994694,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994694,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994694,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994694,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994694,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994694,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994694,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994694,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994695,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994695,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994695,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994695,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994695,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994695,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994695,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994695,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994695,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994695,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994695,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994695,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994695,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994695,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994695,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994695,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994696,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994696,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994696,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994696,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994696,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994696,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994696,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994696,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994696,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994696,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994696,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994696,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994696,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994696,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994696,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994696,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994696,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994696,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994697,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994697,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994697,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994697,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994697,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994697,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994697,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994697,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994697,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994697,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994697,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994697,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994697,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994697,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994697,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994697,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994697,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994697,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994698,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994698,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994698,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994698,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994698,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994698,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994698,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994698,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994698,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994698,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994698,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994698,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994698,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994698,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994698,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994698,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994698,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994699,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994699,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994699,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994699,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994699,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994699,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994699,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994699,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994699,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994699,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994699,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994699,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994699,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994699,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994699,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994699,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994699,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994700,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994700,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994700,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994700,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994700,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994700,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994700,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994700,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994700,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994700,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994700,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994700,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994700,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994700,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994700,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994700,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994701,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994701,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994701,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994701,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994701,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994701,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994701,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994701,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994701,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994701,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994701,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 15,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994701,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994701,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994701,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994701,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994701,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994702,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994702,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994702,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994702,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994702,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994702,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994702,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994702,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994702,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994702,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994702,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994702,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994702,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994702,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994702,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994702,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994703,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994703,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994703,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994703,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994703,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994703,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994703,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994703,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994703,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994703,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994703,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994703,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994703,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994703,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994703,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994703,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994704,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994704,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994704,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994704,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994704,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994704,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994704,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994704,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994704,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994704,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994704,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994704,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994704,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994704,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994704,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994704,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994704,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994704,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994705,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994705,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994705,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994705,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994705,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994705,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994705,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994705,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994705,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994705,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994705,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994705,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994705,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994705,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994705,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994705,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994705,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994705,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994706,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994706,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994706,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994706,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994706,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994706,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994706,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994706,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994706,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994706,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994706,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994706,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994706,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994706,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994706,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994706,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994706,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994706,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994707,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994707,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994707,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994707,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994707,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994707,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994707,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994707,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994707,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994707,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994707,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994707,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994707,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994707,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994707,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994707,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994707,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994707,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994708,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994708,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994708,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994708,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994708,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994708,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994708,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994708,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994708,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994708,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994708,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994708,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994708,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994708,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994708,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994708,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994708,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994708,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994709,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994709,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994709,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994709,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994709,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994709,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994709,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994709,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994709,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994709,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994709,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994709,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994709,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994709,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994709,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994709,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994709,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994709,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994710,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994710,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994710,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994710,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994710,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994710,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994710,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994710,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994710,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994710,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994710,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994710,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994710,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994710,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254994710,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994710,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254994710,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994710,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "stop"},
+  "part": "Explorer",
+  "time": 1428254994710,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 29,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254994710,
+  "meth": "takeDecision"
+}]

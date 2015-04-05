@@ -1,0 +1,113 @@
+[{
+  "data": {
+    "creek": "3f0a1e73-70ae-4180-9da4-d19227836923",
+    "men": 40,
+    "budget": 10000,
+    "objective": [
+      {
+        "amount": 500,
+        "resource": "QUARTZ"
+      },
+      {
+        "amount": 9000,
+        "resource": "WOOD"
+      }
+    ]
+  },
+  "part": "Engine",
+  "time": 1428254980652,
+  "meth": "initialize"
+},{
+  "data": {
+    "action": "land",
+    "parameters": {
+      "creek": "3f0a1e73-70ae-4180-9da4-d19227836923",
+      "people": 13
+    }
+  },
+  "part": "Explorer",
+  "time": 1428254980660,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254980660,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428254980661,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [
+          [
+            "SHRUBLAND",
+            59.52
+          ],
+          [
+            "OCEAN",
+            36.82
+          ],
+          [
+            "SHRUBLAND",
+            3.66
+          ]
+        ],
+        [
+          [
+            "SHRUBLAND",
+            52.03
+          ],
+          [
+            "SHRUBLAND",
+            47.97
+          ]
+        ]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254980661,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "exception": ["ClassCastException"],
+    "stacktrace": [[
+      "fr.unice.polytech.ogl.islab.parser.ExtractionJson.getIntAssoByKeyArray(ExtractionJson.java:66)",
+      "fr.unice.polytech.ogl.islab.decision.glimpse.Glimpse.initResourcesPresent(Glimpse.java:129)",
+      "fr.unice.polytech.ogl.islab.decision.glimpse.Glimpse.setResult(Glimpse.java:42)",
+      "fr.unice.polytech.ogl.islab.Robot.updateRobot(Robot.java:121)",
+      "fr.unice.polytech.ogl.islab.Explorer.acknowledgeResults(Explorer.java:31)",
+      "eu.ace_design.island.game.Engine$$anonfun$play$1.apply$mcV$sp(Engine.scala:61)",
+      "eu.ace_design.island.game.Engine$$anonfun$play$1.apply(Engine.scala:61)",
+      "eu.ace_design.island.game.Engine$$anonfun$play$1.apply(Engine.scala:61)",
+      "scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24)",
+      "scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24)",
+      "scala.concurrent.impl.ExecutionContextImpl$AdaptedForkJoinTask.exec(ExecutionContextImpl.scala:121)",
+      "scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)",
+      "scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)",
+      "scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)",
+      "scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)"
+    ]],
+    "message": ["java.lang.Double cannot be cast to java.lang.Integer"]
+  },
+  "part": "Explorer",
+  "time": 1428254980662,
+  "meth": "acknowledgeResults"
+}]

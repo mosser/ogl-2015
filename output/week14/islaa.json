@@ -1,0 +1,34 @@
+[{
+  "data": {
+    "creek": "3f0a1e73-70ae-4180-9da4-d19227836923",
+    "men": 40,
+    "budget": 10000,
+    "objective": [
+      {
+        "amount": 500,
+        "resource": "QUARTZ"
+      },
+      {
+        "amount": 9000,
+        "resource": "WOOD"
+      }
+    ]
+  },
+  "part": "Engine",
+  "time": 1428254964827,
+  "meth": "initialize"
+},{
+  "data": {"action": "stop"},
+  "part": "Explorer",
+  "time": 1428254964828,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254964828,
+  "meth": "takeDecision"
+}]

@@ -1,0 +1,67 @@
+[{
+  "data": {
+    "creek": "3f0a1e73-70ae-4180-9da4-d19227836923",
+    "men": 40,
+    "budget": 10000,
+    "objective": [
+      {
+        "amount": 500,
+        "resource": "QUARTZ"
+      },
+      {
+        "amount": 9000,
+        "resource": "WOOD"
+      }
+    ]
+  },
+  "part": "Engine",
+  "time": 1428254933369,
+  "meth": "initialize"
+},{
+  "data": {
+    "action": "land",
+    "parameters": {
+      "creek": "3f0a1e73-70ae-4180-9da4-d19227836923",
+      "people": 2
+    }
+  },
+  "part": "Explorer",
+  "time": 1428254933401,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254933402,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "exception": ["JSONException"],
+    "stacktrace": [[
+      "org.json.JSONObject.get(JSONObject.java:476)",
+      "org.json.JSONObject.getJSONArray(JSONObject.java:558)",
+      "fr.unice.polytech.ogl.islce.JsonInterpreter.getAllResourcesFromScout(JsonInterpreter.java:145)",
+      "fr.unice.polytech.ogl.islce.JsonInterpreter.isWaterFromScout(JsonInterpreter.java:106)",
+      "fr.unice.polytech.ogl.islce.ia.IAMoveScout.answerStep1(IAMoveScout.java:178)",
+      "fr.unice.polytech.ogl.islce.ia.IAMoveScout.acknowledgeResults(IAMoveScout.java:159)",
+      "fr.unice.polytech.ogl.islce.Explorer.acknowledgeResults(Explorer.java:132)",
+      "eu.ace_design.island.game.Engine$$anonfun$play$1.apply$mcV$sp(Engine.scala:61)",
+      "eu.ace_design.island.game.Engine$$anonfun$play$1.apply(Engine.scala:61)",
+      "eu.ace_design.island.game.Engine$$anonfun$play$1.apply(Engine.scala:61)",
+      "scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24)",
+      "scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24)",
+      "scala.concurrent.impl.ExecutionContextImpl$AdaptedForkJoinTask.exec(ExecutionContextImpl.scala:121)",
+      "scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)",
+      "scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)",
+      "scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)",
+      "scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)"
+    ]],
+    "message": ["JSONObject[\"resources\"] not found."]
+  },
+  "part": "Explorer",
+  "time": 1428254933431,
+  "meth": "acknowledgeResults"
+}]

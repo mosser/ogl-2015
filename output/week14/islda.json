@@ -1,0 +1,923 @@
+[{
+  "data": {
+    "creek": "3f0a1e73-70ae-4180-9da4-d19227836923",
+    "men": 40,
+    "budget": 10000,
+    "objective": [
+      {
+        "amount": 500,
+        "resource": "QUARTZ"
+      },
+      {
+        "amount": 9000,
+        "resource": "WOOD"
+      }
+    ]
+  },
+  "part": "Engine",
+  "time": 1428254950990,
+  "meth": "initialize"
+},{
+  "data": {
+    "action": "land",
+    "parameters": {
+      "creek": "3f0a1e73-70ae-4180-9da4-d19227836923",
+      "people": 1
+    }
+  },
+  "part": "Explorer",
+  "time": 1428254950998,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254950998,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428254951001,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "SHRUBLAND",
+            59.52
+          ],
+          [
+            "OCEAN",
+            36.82
+          ],
+          [
+            "SHRUBLAND",
+            3.66
+          ]
+        ],
+        [
+          [
+            "SHRUBLAND",
+            52.03
+          ],
+          [
+            "SHRUBLAND",
+            47.97
+          ]
+        ],
+        ["SHRUBLAND"],
+        ["SHRUBLAND"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254951001,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "W"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428254951004,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "SHRUBLAND",
+            59.52
+          ],
+          [
+            "OCEAN",
+            36.82
+          ],
+          [
+            "SHRUBLAND",
+            3.66
+          ]
+        ],
+        [[
+          "SHRUBLAND",
+          100
+        ]],
+        ["SHRUBLAND"],
+        ["SHRUBLAND"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254951005,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428254951005,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "SHRUBLAND",
+            59.52
+          ],
+          [
+            "OCEAN",
+            36.82
+          ],
+          [
+            "SHRUBLAND",
+            3.66
+          ]
+        ],
+        [
+          [
+            "OCEAN",
+            94.15
+          ],
+          [
+            "SHRUBLAND",
+            5.85
+          ]
+        ],
+        ["OCEAN"],
+        ["OCEAN"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254951005,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "E"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428254951005,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "SHRUBLAND",
+            59.52
+          ],
+          [
+            "OCEAN",
+            36.82
+          ],
+          [
+            "SHRUBLAND",
+            3.66
+          ]
+        ],
+        [
+          [
+            "OCEAN",
+            91.73
+          ],
+          [
+            "SHRUBLAND",
+            8.27
+          ]
+        ],
+        [
+          "OCEAN",
+          "SHRUBLAND"
+        ],
+        ["OCEAN"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254951005,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254951006,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254951006,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254951007,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254951007,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254951007,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254951007,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428254951007,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "SHRUBLAND",
+            79.9
+          ],
+          [
+            "SHRUBLAND",
+            18.01
+          ],
+          [
+            "OCEAN",
+            2.08
+          ]
+        ],
+        [
+          [
+            "OCEAN",
+            83.22
+          ],
+          [
+            "SHRUBLAND",
+            16.78
+          ]
+        ],
+        ["OCEAN"],
+        ["OCEAN"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254951007,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "W"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428254951008,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "SHRUBLAND",
+            79.9
+          ],
+          [
+            "SHRUBLAND",
+            18.01
+          ],
+          [
+            "OCEAN",
+            2.08
+          ]
+        ],
+        [
+          [
+            "SHRUBLAND",
+            97.97
+          ],
+          [
+            "SHRUBLAND",
+            2.03
+          ]
+        ],
+        ["SHRUBLAND"],
+        ["SHRUBLAND"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254951008,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "E"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428254951008,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "SHRUBLAND",
+            79.9
+          ],
+          [
+            "SHRUBLAND",
+            18.01
+          ],
+          [
+            "OCEAN",
+            2.08
+          ]
+        ],
+        [
+          [
+            "SHRUBLAND",
+            100
+          ],
+          [
+            "OCEAN",
+            0
+          ]
+        ],
+        [
+          "SHRUBLAND",
+          "OCEAN"
+        ],
+        ["OCEAN"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254951008,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254951008,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254951008,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254951008,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 2,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254951008,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254951008,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254951008,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428254951009,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "SHRUBLAND",
+            62.64
+          ],
+          [
+            "BEACH",
+            37.36
+          ]
+        ],
+        [
+          [
+            "SHRUBLAND",
+            76.66
+          ],
+          [
+            "OCEAN",
+            23.34
+          ]
+        ],
+        [
+          "SHRUBLAND",
+          "OCEAN"
+        ],
+        ["OCEAN"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254951009,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "W"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428254951009,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "SHRUBLAND",
+            62.64
+          ],
+          [
+            "BEACH",
+            37.36
+          ]
+        ],
+        [
+          [
+            "BEACH",
+            84.16
+          ],
+          [
+            "OCEAN",
+            15.62
+          ],
+          [
+            "SHRUBLAND",
+            0.22
+          ]
+        ],
+        [
+          "BEACH",
+          "OCEAN"
+        ],
+        ["OCEAN"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254951009,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428254951009,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "SHRUBLAND",
+            62.64
+          ],
+          [
+            "BEACH",
+            37.36
+          ]
+        ],
+        [
+          [
+            "BEACH",
+            89.97
+          ],
+          [
+            "SHRUBLAND",
+            7.82
+          ],
+          [
+            "SHRUBLAND",
+            2.22
+          ]
+        ],
+        [
+          "BEACH",
+          "SHRUBLAND"
+        ],
+        ["SHRUBLAND"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254951009,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428254951009,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254951009,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428254951010,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 2,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254951010,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428254951010,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254951010,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "W"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428254951010,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "SHRUBLAND",
+            58.53
+          ],
+          [
+            "BEACH",
+            27.29
+          ],
+          [
+            "BEACH",
+            11.99
+          ],
+          [
+            "OCEAN",
+            2.2
+          ]
+        ],
+        [
+          [
+            "BEACH",
+            82.95
+          ],
+          [
+            "BEACH",
+            17.05
+          ]
+        ],
+        ["BEACH"],
+        ["BEACH"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254951010,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428254951010,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "SHRUBLAND",
+            58.53
+          ],
+          [
+            "BEACH",
+            27.29
+          ],
+          [
+            "BEACH",
+            11.99
+          ],
+          [
+            "OCEAN",
+            2.2
+          ]
+        ],
+        [
+          [
+            "OCEAN",
+            82.88
+          ],
+          [
+            "BEACH",
+            16.7
+          ],
+          [
+            "SHRUBLAND",
+            0.41
+          ]
+        ],
+        ["OCEAN"],
+        ["OCEAN"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254951010,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "E"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428254951010,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "SHRUBLAND",
+            58.53
+          ],
+          [
+            "BEACH",
+            27.29
+          ],
+          [
+            "BEACH",
+            11.99
+          ],
+          [
+            "OCEAN",
+            2.2
+          ]
+        ],
+        [[
+          "SHRUBLAND",
+          100
+        ]],
+        ["SHRUBLAND"],
+        ["SHRUBLAND"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254951010,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254951011,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254951011,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254951011,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254951011,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254951011,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254951011,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "stop"},
+  "part": "Explorer",
+  "time": 1428254951011,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254951012,
+  "meth": "takeDecision"
+}]

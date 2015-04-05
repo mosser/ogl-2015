@@ -1,0 +1,1752 @@
+[{
+  "data": {
+    "creek": "3f0a1e73-70ae-4180-9da4-d19227836923",
+    "men": 40,
+    "budget": 10000,
+    "objective": [
+      {
+        "amount": 500,
+        "resource": "QUARTZ"
+      },
+      {
+        "amount": 9000,
+        "resource": "WOOD"
+      }
+    ]
+  },
+  "part": "Engine",
+  "time": 1428254905690,
+  "meth": "initialize"
+},{
+  "data": {
+    "action": "land",
+    "parameters": {
+      "creek": "3f0a1e73-70ae-4180-9da4-d19227836923",
+      "people": 10
+    }
+  },
+  "part": "Explorer",
+  "time": 1428254905724,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905733,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905735,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 1,
+      "resources": ["FUR"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905741,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254905741,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 1,
+      "resources": ["FUR"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905742,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254905742,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "FISH",
+        "FUR"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905743,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428254905743,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "FISH",
+        "FUR"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905743,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905744,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905747,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905748,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905748,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905748,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905748,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905749,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905749,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905749,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905749,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905750,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905750,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905750,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905750,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905751,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905751,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905751,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905751,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905752,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905752,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905752,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905752,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905753,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905753,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905753,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905753,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905753,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905754,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905754,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905754,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905754,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905754,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905755,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905755,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905755,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905755,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905756,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905756,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905756,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905756,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905757,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905757,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905757,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905757,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905757,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905758,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905758,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905758,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905758,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905758,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905759,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905759,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905759,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905759,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905760,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905760,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905760,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905760,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905760,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905760,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905761,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905761,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905761,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905761,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905762,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905762,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905762,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905762,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905762,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905763,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905763,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905763,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905763,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905764,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905764,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905764,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905764,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905764,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905765,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905765,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905765,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905765,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905766,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905766,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905766,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905766,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905766,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905766,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905767,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905767,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905767,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905767,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905768,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905768,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905768,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905768,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905768,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905768,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905769,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905769,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905769,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905769,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905770,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905770,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905770,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905770,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905770,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905770,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905771,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905771,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905771,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905771,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905771,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905771,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905772,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905772,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905772,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905772,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905773,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905773,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905773,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905773,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905773,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905773,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905774,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905774,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905774,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905774,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905775,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905775,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905775,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905775,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905775,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905776,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905776,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905776,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905776,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905776,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905777,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905777,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905777,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905777,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905778,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905778,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905778,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905778,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905778,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905778,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905779,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905779,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905779,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905779,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905780,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905780,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905780,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905780,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905780,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905781,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905781,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905781,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905781,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905781,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905782,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905782,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905782,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905782,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905783,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905783,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905783,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905783,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905783,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905784,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905784,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254905784,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254905784,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "exception": ["IllegalArgumentException"],
+    "stacktrace": [[
+      "scala.Predef$.require(Predef.scala:219)",
+      "eu.ace_design.island.game.MoveTo.buildResult(Actions.scala:129)",
+      "eu.ace_design.island.game.Action$class.build(Actions.scala:38)",
+      "eu.ace_design.island.game.Action$class.apply(Actions.scala:25)",
+      "eu.ace_design.island.game.MoveTo.apply(Actions.scala:114)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:57)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:69)",
+      "eu.ace_design.island.game.Engine.run(Engine.scala:34)",
+      "fr.unice.polytech.ogl.championships.library.Championship$class.silent(Championship.scala:66)",
+      "fr.unice.polytech.ogl.championships.Week14$.silent(Week14.scala:11)",
+      "fr.unice.polytech.ogl.championships.library.Championship$class.handlePlayer(Championship.scala:47)",
+      "fr.unice.polytech.ogl.championships.Week14$.handlePlayer(Week14.scala:11)",
+      "fr.unice.polytech.ogl.championships.library.Championship$$anonfun$run$1.apply(Championship.scala:37)",
+      "fr.unice.polytech.ogl.championships.library.Championship$$anonfun$run$1.apply(Championship.scala:35)",
+      "scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:245)",
+      "scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:245)",
+      "scala.collection.immutable.HashMap$HashMap1.foreach(HashMap.scala:221)",
+      "scala.collection.immutable.HashMap$HashTrieMap.foreach(HashMap.scala:428)",
+      "scala.collection.TraversableLike$class.map(TraversableLike.scala:245)",
+      "scala.collection.AbstractTraversable.map(Traversable.scala:104)",
+      "fr.unice.polytech.ogl.championships.library.Championship$class.run(Championship.scala:35)",
+      "fr.unice.polytech.ogl.championships.Week14$.run(Week14.scala:11)",
+      "fr.unice.polytech.ogl.championships.Week14$.delayedEndpoint$fr$unice$polytech$ogl$championships$Week14$1(Week14.scala:35)",
+      "fr.unice.polytech.ogl.championships.Week14$delayedInit$body.apply(Week14.scala:11)",
+      "scala.Function0$class.apply$mcV$sp(Function0.scala:40)",
+      "scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)",
+      "scala.App$$anonfun$main$1.apply(App.scala:76)",
+      "scala.App$$anonfun$main$1.apply(App.scala:76)",
+      "scala.collection.immutable.List.foreach(List.scala:381)",
+      "scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:35)",
+      "scala.App$class.main(App.scala:76)",
+      "fr.unice.polytech.ogl.championships.Week14$.main(Week14.scala:11)",
+      "fr.unice.polytech.ogl.championships.Week14.main(Week14.scala)",
+      "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+      "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+      "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+      "java.lang.reflect.Method.invoke(Method.java:483)",
+      "com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)"
+    ]],
+    "message": ["requirement failed: Congrats, you just fall out of the world limit"]
+  },
+  "part": "Engine",
+  "time": 1428254905785,
+  "meth": "takeDecision"
+}]

@@ -1,0 +1,529 @@
+[{
+  "data": {
+    "creek": "3f0a1e73-70ae-4180-9da4-d19227836923",
+    "men": 40,
+    "budget": 10000,
+    "objective": [
+      {
+        "amount": 500,
+        "resource": "QUARTZ"
+      },
+      {
+        "amount": 9000,
+        "resource": "WOOD"
+      }
+    ]
+  },
+  "part": "Engine",
+  "time": 1428254988853,
+  "meth": "initialize"
+},{
+  "data": {
+    "action": "land",
+    "parameters": {
+      "creek": "3f0a1e73-70ae-4180-9da4-d19227836923",
+      "people": 20
+    }
+  },
+  "part": "Explorer",
+  "time": 1428254988935,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254988935,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254988936,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 1,
+      "resources": ["FUR"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254988936,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254988936,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "FISH",
+        "FUR"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254988936,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428254988937,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "FISH",
+        "FUR"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254988937,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254988937,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 1,
+      "resources": ["FUR"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254988937,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428254988937,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "SHRUBLAND",
+            59.52
+          ],
+          [
+            "OCEAN",
+            36.82
+          ],
+          [
+            "SHRUBLAND",
+            3.66
+          ]
+        ],
+        [
+          [
+            "SHRUBLAND",
+            52.03
+          ],
+          [
+            "SHRUBLAND",
+            47.97
+          ]
+        ],
+        ["SHRUBLAND"],
+        ["SHRUBLAND"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254988937,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "E"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428254988937,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "SHRUBLAND",
+            59.52
+          ],
+          [
+            "OCEAN",
+            36.82
+          ],
+          [
+            "SHRUBLAND",
+            3.66
+          ]
+        ],
+        [
+          [
+            "OCEAN",
+            91.73
+          ],
+          [
+            "SHRUBLAND",
+            8.27
+          ]
+        ],
+        [
+          "OCEAN",
+          "SHRUBLAND"
+        ],
+        ["OCEAN"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254988937,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428254988937,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "SHRUBLAND",
+            59.52
+          ],
+          [
+            "OCEAN",
+            36.82
+          ],
+          [
+            "SHRUBLAND",
+            3.66
+          ]
+        ],
+        [
+          [
+            "OCEAN",
+            94.15
+          ],
+          [
+            "SHRUBLAND",
+            5.85
+          ]
+        ],
+        ["OCEAN"],
+        ["OCEAN"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254988937,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "W"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428254988937,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "SHRUBLAND",
+            59.52
+          ],
+          [
+            "OCEAN",
+            36.82
+          ],
+          [
+            "SHRUBLAND",
+            3.66
+          ]
+        ],
+        [[
+          "SHRUBLAND",
+          100
+        ]],
+        ["SHRUBLAND"],
+        ["SHRUBLAND"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254988938,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254988938,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254988938,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428254988938,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 0,
+      "resources": ["FUR"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254988938,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428254988938,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "altitude": 0,
+      "resources": ["FUR"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254988938,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428254988938,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "FISH",
+        "FUR"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254988938,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428254988938,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 1,
+      "resources": ["FUR"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254988938,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "E"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428254988939,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "SHRUBLAND",
+            52.03
+          ],
+          [
+            "SHRUBLAND",
+            47.97
+          ]
+        ],
+        [[
+          "SHRUBLAND",
+          100
+        ]],
+        [
+          "SHRUBLAND",
+          "OCEAN"
+        ],
+        ["OCEAN"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254988939,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "W"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428254988939,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "SHRUBLAND",
+            52.03
+          ],
+          [
+            "SHRUBLAND",
+            47.97
+          ]
+        ],
+        [[
+          "SHRUBLAND",
+          100
+        ]],
+        ["SHRUBLAND"],
+        ["BEACH"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428254988939,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "exception": ["NullPointerException"],
+    "stacktrace": [[
+      "fr.unice.polytech.ogl.islba.ia.FirstIA.moveAfterGlimpse(FirstIA.java:134)",
+      "fr.unice.polytech.ogl.islba.ia.FirstIA.takeDecision(FirstIA.java:55)",
+      "fr.unice.polytech.ogl.islba.model.EtatDeJeu.nextDecision(EtatDeJeu.java:96)",
+      "fr.unice.polytech.ogl.islba.Explorer.takeDecision(Explorer.java:45)",
+      "eu.ace_design.island.game.Engine$$anonfun$2.apply(Engine.scala:47)",
+      "eu.ace_design.island.game.Engine$$anonfun$2.apply(Engine.scala:47)",
+      "scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24)",
+      "scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24)",
+      "scala.concurrent.impl.ExecutionContextImpl$AdaptedForkJoinTask.exec(ExecutionContextImpl.scala:121)",
+      "scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)",
+      "scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)",
+      "scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)",
+      "scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)"
+    ]],
+    "message": [null]
+  },
+  "part": "Explorer",
+  "time": 1428254988939,
+  "meth": "takeDecision"
+}]
