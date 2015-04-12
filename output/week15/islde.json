@@ -1,0 +1,81 @@
+[{
+  "data": {
+    "creek": "60487cbb-d4bf-42a6-bd95-de445a32cf7b",
+    "men": 25,
+    "budget": 5000,
+    "objective": [
+      {
+        "amount": 2,
+        "resource": "FLOWER"
+      },
+      {
+        "amount": 600,
+        "resource": "FUR"
+      },
+      {
+        "amount": 3000,
+        "resource": "SUGAR_CANE"
+      }
+    ]
+  },
+  "part": "Engine",
+  "time": 1428863709716,
+  "meth": "initialize"
+},{
+  "data": {
+    "action": "land",
+    "parameters": {
+      "creek": "60487cbb-d4bf-42a6-bd95-de445a32cf7b",
+      "people": 5
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863709722,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 15,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863709722,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863709724,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": -2,
+      "resources": [
+        "WOOD",
+        "FISH"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863709725,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "stop"},
+  "part": "Explorer",
+  "time": 1428863709725,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863709725,
+  "meth": "takeDecision"
+}]

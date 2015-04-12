@@ -1,0 +1,3997 @@
+[{
+  "data": {
+    "creek": "60487cbb-d4bf-42a6-bd95-de445a32cf7b",
+    "men": 25,
+    "budget": 5000,
+    "objective": [
+      {
+        "amount": 2,
+        "resource": "FLOWER"
+      },
+      {
+        "amount": 600,
+        "resource": "FUR"
+      },
+      {
+        "amount": 3000,
+        "resource": "SUGAR_CANE"
+      }
+    ]
+  },
+  "part": "Engine",
+  "time": 1428863731424,
+  "meth": "initialize"
+},{
+  "data": {
+    "action": "land",
+    "parameters": {
+      "creek": "60487cbb-d4bf-42a6-bd95-de445a32cf7b",
+      "people": 8
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731438,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731438,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731439,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            80.82
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            10.44
+          ],
+          [
+            "OCEAN",
+            8.74
+          ]
+        ],
+        [[
+          "TROPICAL_SEASONAL_FOREST",
+          100
+        ]]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731439,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731440,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731440,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731441,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "resources": [{
+        "amount": "HIGH",
+        "resource": "SUGAR_CANE",
+        "cond": "FAIR"
+      }],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731441,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863731442,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731442,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731442,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [[
+          "TROPICAL_SEASONAL_FOREST",
+          100
+        ]],
+        [[
+          "TROPICAL_SEASONAL_FOREST",
+          100
+        ]]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731442,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731442,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731442,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731442,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "resources": [{
+        "amount": "HIGH",
+        "resource": "SUGAR_CANE",
+        "cond": "FAIR"
+      }],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731443,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863731443,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731443,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731443,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [[
+          "TROPICAL_SEASONAL_FOREST",
+          100
+        ]],
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            89.2
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            10.8
+          ]
+        ]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731443,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731443,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731443,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731443,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "resources": [{
+        "amount": "HIGH",
+        "resource": "SUGAR_CANE",
+        "cond": "FAIR"
+      }],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731443,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863731443,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {"amount": 22},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731443,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731444,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            89.2
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            10.8
+          ]
+        ],
+        [[
+          "TROPICAL_SEASONAL_FOREST",
+          100
+        ]]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731444,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731444,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731444,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731444,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "resources": [{
+        "amount": "HIGH",
+        "resource": "SUGAR_CANE",
+        "cond": "FAIR"
+      }],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731444,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863731444,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731444,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731444,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [[
+          "TROPICAL_SEASONAL_FOREST",
+          100
+        ]],
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            98.1
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            1.9
+          ]
+        ]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731445,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731445,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731445,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731445,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "resources": [
+        {
+          "amount": "LOW",
+          "resource": "FRUITS",
+          "cond": "FAIR"
+        },
+        {
+          "amount": "HIGH",
+          "resource": "SUGAR_CANE",
+          "cond": "FAIR"
+        }
+      ],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731445,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863731445,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731446,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731446,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            98.1
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            1.9
+          ]
+        ],
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            53.57
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            32.15
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            14.29
+          ]
+        ]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731446,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731446,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731446,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731446,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "resources": [
+        {
+          "amount": "MEDIUM",
+          "resource": "FRUITS",
+          "cond": "FAIR"
+        },
+        {
+          "amount": "HIGH",
+          "resource": "SUGAR_CANE",
+          "cond": "FAIR"
+        }
+      ],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731446,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863731446,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {"amount": 14},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731446,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731446,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            53.57
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            32.15
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            14.29
+          ]
+        ],
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            97.04
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            2.96
+          ]
+        ]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731446,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731447,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731447,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731447,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "resources": [
+        {
+          "amount": "LOW",
+          "resource": "FRUITS",
+          "cond": "FAIR"
+        },
+        {
+          "amount": "HIGH",
+          "resource": "SUGAR_CANE",
+          "cond": "FAIR"
+        }
+      ],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731447,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863731447,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {"amount": 20},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731447,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731447,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            97.04
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            2.96
+          ]
+        ],
+        [[
+          "TROPICAL_SEASONAL_FOREST",
+          100
+        ]]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731447,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731448,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731448,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731448,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "resources": [{
+        "amount": "HIGH",
+        "resource": "SUGAR_CANE",
+        "cond": "FAIR"
+      }],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731448,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863731448,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731448,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731448,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [[
+          "TROPICAL_SEASONAL_FOREST",
+          100
+        ]],
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            59.37
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            40.63
+          ]
+        ]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731448,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731448,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731448,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731448,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "resources": [
+        {
+          "amount": "MEDIUM",
+          "resource": "FRUITS",
+          "cond": "FAIR"
+        },
+        {
+          "amount": "MEDIUM",
+          "resource": "SUGAR_CANE",
+          "cond": "FAIR"
+        }
+      ],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731449,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863731449,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 13},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731449,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731449,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            59.37
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            40.63
+          ]
+        ],
+        [[
+          "TROPICAL_SEASONAL_FOREST",
+          100
+        ]]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731449,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731449,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731449,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731450,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "resources": [{
+        "amount": "HIGH",
+        "resource": "FRUITS",
+        "cond": "FAIR"
+      }],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731450,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731450,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [[
+          "TROPICAL_SEASONAL_FOREST",
+          100
+        ]],
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            99.97
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            0.03
+          ]
+        ]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731450,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731450,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731450,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731450,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {
+      "resources": [
+        {
+          "amount": "LOW",
+          "resource": "WOOD",
+          "cond": "FAIR"
+        },
+        {
+          "amount": "HIGH",
+          "resource": "FRUITS",
+          "cond": "FAIR"
+        }
+      ],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731450,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731450,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            99.97
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            0.03
+          ]
+        ],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            79.88
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            20.12
+          ]
+        ]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731450,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731451,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731451,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731451,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "resources": [
+        {
+          "amount": "HIGH",
+          "resource": "WOOD",
+          "cond": "FAIR"
+        },
+        {
+          "amount": "LOW",
+          "resource": "FRUITS",
+          "cond": "FAIR"
+        }
+      ],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731451,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731451,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            79.88
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            20.12
+          ]
+        ],
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731451,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731451,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731451,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731452,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "resources": [{
+        "amount": "HIGH",
+        "resource": "WOOD",
+        "cond": "FAIR"
+      }],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731452,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731452,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731452,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731452,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731452,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731452,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "resources": [{
+        "amount": "HIGH",
+        "resource": "WOOD",
+        "cond": "FAIR"
+      }],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731452,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731452,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            75.29
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            22.37
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            2.34
+          ]
+        ]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731452,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731453,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731453,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731453,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "resources": [
+        {
+          "amount": "HIGH",
+          "resource": "WOOD",
+          "cond": "FAIR"
+        },
+        {
+          "amount": "LOW",
+          "resource": "SUGAR_CANE",
+          "cond": "FAIR"
+        }
+      ],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731453,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863731453,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {"amount": 5},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731453,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731453,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            75.29
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            22.37
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            2.34
+          ]
+        ],
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            99.33
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            0.67
+          ]
+        ]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731453,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731454,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731454,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731454,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "resources": [
+        {
+          "amount": "LOW",
+          "resource": "WOOD",
+          "cond": "FAIR"
+        },
+        {
+          "amount": "HIGH",
+          "resource": "SUGAR_CANE",
+          "cond": "FAIR"
+        }
+      ],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731454,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863731454,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {"amount": 22},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731454,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731455,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            99.33
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            0.67
+          ]
+        ],
+        [[
+          "TROPICAL_SEASONAL_FOREST",
+          100
+        ]]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731455,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731455,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731455,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731455,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "resources": [{
+        "amount": "HIGH",
+        "resource": "SUGAR_CANE",
+        "cond": "FAIR"
+      }],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731455,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863731455,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {"amount": 22},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731455,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731456,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [[
+          "TROPICAL_SEASONAL_FOREST",
+          100
+        ]],
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            87.09
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            12.91
+          ]
+        ]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731456,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731456,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731456,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731456,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {
+      "resources": [
+        {
+          "amount": "LOW",
+          "resource": "WOOD",
+          "cond": "FAIR"
+        },
+        {
+          "amount": "HIGH",
+          "resource": "SUGAR_CANE",
+          "cond": "FAIR"
+        }
+      ],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731456,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863731456,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {"amount": 19},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731456,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731457,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            87.09
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            12.91
+          ]
+        ],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            97.96
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            2.04
+          ]
+        ]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731457,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731457,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731457,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731457,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "resources": [
+        {
+          "amount": "HIGH",
+          "resource": "WOOD",
+          "cond": "FAIR"
+        },
+        {
+          "amount": "LOW",
+          "resource": "SUGAR_CANE",
+          "cond": "FAIR"
+        }
+      ],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731457,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863731457,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {"amount": 1},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731457,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731457,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            97.96
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            2.04
+          ]
+        ],
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731457,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731458,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731458,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731458,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "resources": [{
+        "amount": "HIGH",
+        "resource": "WOOD",
+        "cond": "FAIR"
+      }],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731458,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731458,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731458,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731459,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731459,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731459,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "resources": [{
+        "amount": "HIGH",
+        "resource": "WOOD",
+        "cond": "FAIR"
+      }],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731459,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731459,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            61.18
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            34.25
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            4.57
+          ]
+        ]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731459,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731459,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731459,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731459,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "resources": [
+        {
+          "amount": "LOW",
+          "resource": "WOOD",
+          "cond": "FAIR"
+        },
+        {
+          "amount": "HIGH",
+          "resource": "FRUITS",
+          "cond": "FAIR"
+        },
+        {
+          "amount": "LOW",
+          "resource": "SUGAR_CANE",
+          "cond": "FAIR"
+        }
+      ],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731460,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863731460,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {"amount": 1},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731460,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731460,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            61.18
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            34.25
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            4.57
+          ]
+        ],
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731460,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731460,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731460,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731460,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "resources": [{
+        "amount": "HIGH",
+        "resource": "FRUITS",
+        "cond": "FAIR"
+      }],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731460,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731461,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731461,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731461,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731461,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731461,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "resources": [{
+        "amount": "HIGH",
+        "resource": "FRUITS",
+        "cond": "FAIR"
+      }],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731461,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731461,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            70.73
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            29.27
+          ]
+        ]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731461,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731461,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731462,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731462,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {
+      "resources": [
+        {
+          "amount": "HIGH",
+          "resource": "FRUITS",
+          "cond": "FAIR"
+        },
+        {
+          "amount": "LOW",
+          "resource": "SUGAR_CANE",
+          "cond": "FAIR"
+        }
+      ],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731462,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863731462,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {"amount": 6},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731462,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731462,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            70.73
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            29.27
+          ]
+        ],
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731462,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731462,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731462,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731462,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "resources": [{
+        "amount": "HIGH",
+        "resource": "SUGAR_CANE",
+        "cond": "FAIR"
+      }],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731462,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863731463,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {"amount": 20},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731463,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731463,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731463,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731463,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731463,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731463,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "resources": [{
+        "amount": "HIGH",
+        "resource": "SUGAR_CANE",
+        "cond": "FAIR"
+      }],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731463,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863731463,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 20},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731463,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731463,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            57.41
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            42.59
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            0
+          ]
+        ]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731463,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731464,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731464,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731464,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "resources": [{
+        "amount": "HIGH",
+        "resource": "SUGAR_CANE",
+        "cond": "FAIR"
+      }],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731464,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863731464,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731464,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731464,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            57.41
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            42.59
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            0
+          ]
+        ],
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731465,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731465,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731465,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731465,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "resources": [{
+        "amount": "HIGH",
+        "resource": "SUGAR_CANE",
+        "cond": "FAIR"
+      }],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731465,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863731465,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {"amount": 19},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731465,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731466,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            67.84
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            32.16
+          ]
+        ]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731466,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731466,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731466,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731467,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "resources": [{
+        "amount": "HIGH",
+        "resource": "SUGAR_CANE",
+        "cond": "FAIR"
+      }],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731467,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863731467,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 20},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731467,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731467,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            67.84
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            32.16
+          ]
+        ],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            92.16
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            5.6
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            2.23
+          ]
+        ]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731467,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731467,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731467,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731467,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "resources": [
+        {
+          "amount": "LOW",
+          "resource": "WOOD",
+          "cond": "FAIR"
+        },
+        {
+          "amount": "HIGH",
+          "resource": "SUGAR_CANE",
+          "cond": "FAIR"
+        }
+      ],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731467,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863731468,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 15,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731468,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731468,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            92.16
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            5.6
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            2.23
+          ]
+        ],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            80.73
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            18.48
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            0.79
+          ]
+        ]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731468,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731468,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731468,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731468,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "resources": [
+        {
+          "amount": "LOW",
+          "resource": "WOOD",
+          "cond": "FAIR"
+        },
+        {
+          "amount": "HIGH",
+          "resource": "SUGAR_CANE",
+          "cond": "FAIR"
+        }
+      ],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731468,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863731469,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 18},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731469,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731469,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            80.73
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            18.48
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            0.79
+          ]
+        ],
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            47.29
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            43.93
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            8.78
+          ]
+        ]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731469,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731469,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731469,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731469,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "resources": [
+        {
+          "amount": "HIGH",
+          "resource": "WOOD",
+          "cond": "FAIR"
+        },
+        {
+          "amount": "LOW",
+          "resource": "SUGAR_CANE",
+          "cond": "FAIR"
+        }
+      ],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731469,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863731470,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 2},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731470,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731470,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            47.29
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            43.93
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            8.78
+          ]
+        ],
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            52.62
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            38.75
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            8.63
+          ]
+        ]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731470,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731470,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731470,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731470,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "resources": [
+        {
+          "amount": "HIGH",
+          "resource": "WOOD",
+          "cond": "FAIR"
+        },
+        {
+          "amount": "LOW",
+          "resource": "SUGAR_CANE",
+          "cond": "FAIR"
+        }
+      ],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731470,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863731470,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {"amount": 2},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731471,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731471,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            52.62
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            38.75
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            8.63
+          ]
+        ],
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            96.48
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            3.52
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            0
+          ]
+        ]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731471,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731471,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731471,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731471,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {
+      "resources": [
+        {
+          "amount": "LOW",
+          "resource": "WOOD",
+          "cond": "FAIR"
+        },
+        {
+          "amount": "HIGH",
+          "resource": "SUGAR_CANE",
+          "cond": "FAIR"
+        }
+      ],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731471,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863731472,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731472,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731472,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            96.48
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            3.52
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            0
+          ]
+        ],
+        [[
+          "TROPICAL_SEASONAL_FOREST",
+          100
+        ]]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731472,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731473,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731473,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731473,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {
+      "resources": [{
+        "amount": "HIGH",
+        "resource": "SUGAR_CANE",
+        "cond": "FAIR"
+      }],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731473,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863731473,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731473,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731473,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [[
+          "TROPICAL_SEASONAL_FOREST",
+          100
+        ]],
+        [[
+          "TROPICAL_SEASONAL_FOREST",
+          100
+        ]]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731473,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731475,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731475,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731475,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "resources": [{
+        "amount": "HIGH",
+        "resource": "SUGAR_CANE",
+        "cond": "FAIR"
+      }],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731475,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863731475,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731475,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731475,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [[
+          "TROPICAL_SEASONAL_FOREST",
+          100
+        ]],
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            43.25
+          ],
+          [
+            "SHRUBLAND",
+            36.4
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            20.35
+          ]
+        ]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731475,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731476,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731476,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731476,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "resources": [
+        {
+          "amount": "LOW",
+          "resource": "WOOD",
+          "cond": "FAIR"
+        },
+        {
+          "amount": "MEDIUM",
+          "resource": "SUGAR_CANE",
+          "cond": "FAIR"
+        },
+        {
+          "amount": "MEDIUM",
+          "resource": "FUR",
+          "cond": "FAIR"
+        }
+      ],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731476,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "FUR"}
+  },
+  "part": "Explorer",
+  "time": 1428863731476,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 2},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731476,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863731477,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {"amount": 10},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731477,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 2,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863731477,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "asked_range": 2,
+      "report": [
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            43.25
+          ],
+          [
+            "SHRUBLAND",
+            36.4
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            20.35
+          ]
+        ],
+        [
+          [
+            "SHRUBLAND",
+            61.17
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            38.83
+          ]
+        ]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731477,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863731478,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731478,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1428863731478,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "resources": [
+        {
+          "amount": "MEDIUM",
+          "resource": "WOOD",
+          "cond": "FAIR"
+        },
+        {
+          "amount": "HIGH",
+          "resource": "FUR",
+          "cond": "FAIR"
+        }
+      ],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731479,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "FUR"}
+  },
+  "part": "Explorer",
+  "time": 1428863731479,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 4},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863731479,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863731479,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "exception": ["IllegalArgumentException"],
+    "stacktrace": [[
+      "scala.Predef$.require(Predef.scala:219)",
+      "eu.ace_design.island.game.Exploit.buildResult(Actions.scala:238)",
+      "eu.ace_design.island.game.Action$class.build(Actions.scala:38)",
+      "eu.ace_design.island.game.Action$class.apply(Actions.scala:25)",
+      "eu.ace_design.island.game.Exploit.apply(Actions.scala:227)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:58)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:70)",
+      "eu.ace_design.island.game.Engine.run(Engine.scala:35)",
+      "fr.unice.polytech.ogl.championships.library.Championship$class.silent(Championship.scala:69)",
+      "fr.unice.polytech.ogl.championships.Week15$.silent(Week15.scala:11)",
+      "fr.unice.polytech.ogl.championships.library.Championship$class.handlePlayer(Championship.scala:50)",
+      "fr.unice.polytech.ogl.championships.Week15$.handlePlayer(Week15.scala:11)",
+      "fr.unice.polytech.ogl.championships.library.Championship$$anonfun$run$1.apply(Championship.scala:40)",
+      "fr.unice.polytech.ogl.championships.library.Championship$$anonfun$run$1.apply(Championship.scala:38)",
+      "scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:245)",
+      "scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:245)",
+      "scala.collection.immutable.HashMap$HashMap1.foreach(HashMap.scala:221)",
+      "scala.collection.immutable.HashMap$HashTrieMap.foreach(HashMap.scala:428)",
+      "scala.collection.immutable.HashMap$HashTrieMap.foreach(HashMap.scala:428)",
+      "scala.collection.TraversableLike$class.map(TraversableLike.scala:245)",
+      "scala.collection.AbstractTraversable.map(Traversable.scala:104)",
+      "fr.unice.polytech.ogl.championships.library.Championship$class.run(Championship.scala:38)",
+      "fr.unice.polytech.ogl.championships.Week15$.run(Week15.scala:11)",
+      "fr.unice.polytech.ogl.championships.Week15$.delayedEndpoint$fr$unice$polytech$ogl$championships$Week15$1(Week15.scala:35)",
+      "fr.unice.polytech.ogl.championships.Week15$delayedInit$body.apply(Week15.scala:11)",
+      "scala.Function0$class.apply$mcV$sp(Function0.scala:40)",
+      "scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)",
+      "scala.App$$anonfun$main$1.apply(App.scala:76)",
+      "scala.App$$anonfun$main$1.apply(App.scala:76)",
+      "scala.collection.immutable.List.foreach(List.scala:381)",
+      "scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:35)",
+      "scala.App$class.main(App.scala:76)",
+      "fr.unice.polytech.ogl.championships.Week15$.main(Week15.scala:11)",
+      "fr.unice.polytech.ogl.championships.Week15.main(Week15.scala)",
+      "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+      "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+      "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+      "java.lang.reflect.Method.invoke(Method.java:483)",
+      "com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)"
+    ]],
+    "message": ["requirement failed: No resource [$resource] available on the current tile"]
+  },
+  "part": "Engine",
+  "time": 1428863731480,
+  "meth": "takeDecision"
+}]

@@ -1,0 +1,9546 @@
+[{
+  "data": {
+    "creek": "60487cbb-d4bf-42a6-bd95-de445a32cf7b",
+    "men": 25,
+    "budget": 5000,
+    "objective": [
+      {
+        "amount": 2,
+        "resource": "FLOWER"
+      },
+      {
+        "amount": 600,
+        "resource": "FUR"
+      },
+      {
+        "amount": 3000,
+        "resource": "SUGAR_CANE"
+      }
+    ]
+  },
+  "part": "Engine",
+  "time": 1428863744519,
+  "meth": "initialize"
+},{
+  "data": {
+    "action": "land",
+    "parameters": {
+      "creek": "60487cbb-d4bf-42a6-bd95-de445a32cf7b",
+      "people": 12
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744525,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744525,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744527,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 1,
+      "resources": ["SUGAR_CANE"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744527,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744528,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744528,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744528,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744528,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744529,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 0,
+      "resources": ["SUGAR_CANE"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744529,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744529,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744529,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744529,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744529,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744529,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 2,
+      "resources": ["SUGAR_CANE"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744529,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744529,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744530,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744530,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 22},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744530,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744530,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 1,
+      "resources": ["SUGAR_CANE"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744530,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744530,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744530,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744530,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744530,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744530,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "FRUITS",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744530,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744530,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744530,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744531,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 15,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744531,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744531,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "FRUITS",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744531,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744531,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744531,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744531,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 14},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744531,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744531,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "FRUITS",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744531,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744531,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744531,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744531,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 20},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744532,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744532,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 1,
+      "resources": ["SUGAR_CANE"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744532,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744532,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744532,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744532,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744532,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744532,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "FRUITS",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744532,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744532,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744532,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744532,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 15,
+    "extras": {"amount": 13},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744532,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744533,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 1,
+      "resources": ["FRUITS"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744533,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744533,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "FRUITS",
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744533,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744533,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744533,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744533,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 20},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744533,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744533,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {
+      "altitude": 2,
+      "resources": [
+        "FRUITS",
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744533,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744533,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744533,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744533,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 15,
+    "extras": {"amount": 2},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744533,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744534,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "WOOD",
+        "FRUITS"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744534,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744534,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 2,
+      "resources": [
+        "FRUITS",
+        "WOOD"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744534,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744534,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            63.82
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            26.46
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            9.08
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            0.64
+          ]
+        ],
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            48.46
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            43.38
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            8.15
+          ]
+        ],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744534,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "E"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744535,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            63.82
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            26.46
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            9.08
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            0.64
+          ]
+        ],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            89.3
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            10.7
+          ]
+        ],
+        [
+          "TROPICAL_RAIN_FOREST",
+          "TROPICAL_SEASONAL_FOREST"
+        ],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744535,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744535,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            63.82
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            26.46
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            9.08
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            0.64
+          ]
+        ],
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            97.54
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            2
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            0.46
+          ]
+        ],
+        ["TROPICAL_SEASONAL_FOREST"],
+        ["TROPICAL_SEASONAL_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744535,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "W"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744535,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            63.82
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            26.46
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            9.08
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            0.64
+          ]
+        ],
+        [[
+          "TROPICAL_SEASONAL_FOREST",
+          100
+        ]],
+        ["TROPICAL_SEASONAL_FOREST"],
+        ["TROPICAL_SEASONAL_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744535,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744536,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744536,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744536,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 2,
+      "resources": [
+        "WOOD",
+        "FRUITS"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744536,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744536,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 2,
+      "resources": ["FRUITS"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744536,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428863744536,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": -1,
+      "resources": [
+        "WOOD",
+        "FRUITS"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744536,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "E"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744537,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            48.46
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            43.38
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            8.15
+          ]
+        ],
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744537,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "W"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744537,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            48.46
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            43.38
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            8.15
+          ]
+        ],
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            99.97
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            0.03
+          ]
+        ],
+        ["TROPICAL_SEASONAL_FOREST"],
+        ["TROPICAL_SEASONAL_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744537,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744537,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744537,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744537,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 1,
+      "resources": ["WOOD"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744537,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744537,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "WOOD",
+        "FRUITS"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744537,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428863744537,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "WOOD",
+        "FRUITS"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744537,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "E"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744538,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            92.66
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            7.34
+          ]
+        ],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            88.68
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            11.32
+          ]
+        ],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744538,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "W"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744538,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            92.66
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            7.34
+          ]
+        ],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            79.88
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            20.12
+          ]
+        ],
+        [
+          "TROPICAL_RAIN_FOREST",
+          "TROPICAL_SEASONAL_FOREST"
+        ],
+        ["TROPICAL_SEASONAL_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744538,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744538,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744538,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744538,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 1,
+      "resources": ["WOOD"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744538,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744538,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "FRUITS",
+        "WOOD"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744538,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428863744538,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 0,
+      "resources": ["WOOD"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744538,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744539,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            94.16
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            5.84
+          ]
+        ],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744539,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "E"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744539,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            68.45
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            23.09
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            8.45
+          ]
+        ],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744539,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "W"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744539,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_SEASONAL_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744539,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744539,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744539,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744539,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 2,
+      "resources": ["WOOD"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744539,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744539,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 2,
+      "resources": ["WOOD"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744539,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428863744539,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": ["WOOD"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744539,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "E"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744540,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            94.16
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            5.84
+          ]
+        ],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            80.97
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            19.03
+          ]
+        ],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744540,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "W"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744540,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            94.16
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            5.84
+          ]
+        ],
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [
+          "TROPICAL_RAIN_FOREST",
+          "TROPICAL_SEASONAL_FOREST"
+        ],
+        ["TROPICAL_SEASONAL_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744540,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744540,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744540,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744540,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744540,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744540,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744540,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744540,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 4},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744540,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744540,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "FRUITS",
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744540,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744541,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744541,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744541,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {"amount": 14},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744541,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744541,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "FRUITS",
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744541,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744541,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744541,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744541,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {"amount": 7},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744541,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744541,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 1,
+      "resources": ["WOOD"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744541,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744541,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "FRUITS",
+        "WOOD"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744541,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428863744541,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744541,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428863744541,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744541,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744541,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {"amount": 19},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744541,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744542,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 2,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744542,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744542,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744542,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744542,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {"amount": 1},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744542,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744542,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 1,
+      "resources": ["WOOD"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744542,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428863744542,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744542,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428863744542,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744542,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744542,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {"amount": 10},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744542,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744542,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744542,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744542,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744542,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744543,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 6},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744543,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744543,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744543,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744543,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744543,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744543,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 16},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744543,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744543,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "WOOD",
+        "FRUITS",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744543,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744543,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744543,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744543,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 19},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744543,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744543,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "FRUITS",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744543,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744543,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744543,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744544,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 4},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744544,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744544,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "FRUITS",
+        "WOOD"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744544,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744544,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 1,
+      "resources": ["FRUITS"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744544,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428863744544,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "FRUITS",
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744544,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428863744544,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744544,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744544,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 17},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744544,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744544,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "FRUITS",
+        "WOOD"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744544,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744544,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 0,
+      "resources": ["SUGAR_CANE"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744544,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744544,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744545,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744545,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744545,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744545,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {
+      "altitude": 0,
+      "resources": ["SUGAR_CANE"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744545,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744546,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744546,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744546,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744546,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744546,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 0,
+      "resources": ["SUGAR_CANE"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744546,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744546,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744546,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744546,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 24,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744546,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744546,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "FRUITS",
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744546,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744547,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744547,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744547,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744547,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744547,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "FRUITS",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744547,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744547,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744547,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744547,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744547,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744547,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 1,
+      "resources": ["SUGAR_CANE"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744547,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744548,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744548,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744548,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 22},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744548,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744549,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 0,
+      "resources": ["SUGAR_CANE"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744549,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744549,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744549,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744549,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 22},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744549,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744549,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": ["SUGAR_CANE"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744549,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744550,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744550,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744550,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {"amount": 22},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744550,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744550,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744550,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744550,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744550,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744550,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 22},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744551,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744551,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": -1,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744551,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744551,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744551,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744551,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 5},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744551,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428863744551,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744551,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428863744551,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744551,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744551,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 14},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744551,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744551,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 2,
+      "resources": ["SUGAR_CANE"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744551,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744551,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744551,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744552,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 22},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744552,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428863744552,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 0,
+      "resources": ["SUGAR_CANE"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744552,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428863744552,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744552,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744552,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 22},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744552,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744552,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 1,
+      "resources": ["SUGAR_CANE"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744552,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744552,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744552,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744552,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 15,
+    "extras": {"amount": 22},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744552,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428863744552,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "FRUITS",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744552,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428863744553,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744553,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744553,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 4},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744553,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744553,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "FRUITS",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744553,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744553,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744553,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744553,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 1},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744553,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744553,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "FRUITS",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744553,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744553,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744553,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744553,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 5},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744553,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744553,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 2,
+      "resources": [
+        "FRUITS",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744553,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744554,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744554,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744554,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744554,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744554,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 1,
+      "resources": ["SUGAR_CANE"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744554,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744554,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744554,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744554,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744554,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744554,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 0,
+      "resources": ["SUGAR_CANE"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744554,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744554,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744554,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744554,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744554,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744554,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744555,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744555,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744555,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744555,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 15,
+    "extras": {"amount": 18},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744555,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744555,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744555,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744555,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744555,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744555,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 1},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744555,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744555,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 1,
+      "resources": ["WOOD"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744555,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428863744555,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744555,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428863744556,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744556,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744556,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 14},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744556,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744556,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744556,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744556,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744556,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744556,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 5},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744556,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744556,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744556,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744556,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744556,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744557,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 15,
+    "extras": {"amount": 6},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744557,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744557,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744557,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744557,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744557,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744557,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 7},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744557,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744557,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744557,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744557,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744557,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744557,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 9},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744557,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744557,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744557,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744557,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744557,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744557,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 9},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744557,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744558,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744558,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744558,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744558,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744558,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744558,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744558,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 0,
+      "resources": ["SUGAR_CANE"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744558,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744558,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744558,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744558,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 22},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744558,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744558,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": ["SUGAR_CANE"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744558,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744558,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744558,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744558,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 22},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744558,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744558,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744559,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744559,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744559,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744559,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 17},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744559,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744559,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": -1,
+      "resources": ["WOOD"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744559,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744559,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744559,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744559,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744559,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744559,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 6},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744559,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744559,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": ["WOOD"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744559,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744559,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": ["WOOD"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744559,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744560,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744560,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744560,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744560,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744560,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744560,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744560,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744560,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744560,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744560,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744560,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 17},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744560,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744560,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744560,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744560,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744560,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744560,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 25,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744560,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744561,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744561,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744562,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744562,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744562,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 1},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744562,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744562,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 0,
+      "resources": ["WOOD"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744562,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744562,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744562,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744562,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744562,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744563,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 24,
+    "extras": {"amount": 2},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744563,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744563,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744563,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744563,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744563,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744563,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 2},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744563,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744563,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": -1,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744563,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744563,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744563,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744563,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744563,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744563,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 0,
+      "resources": ["SUGAR_CANE"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744563,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744564,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744564,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744564,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 15,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744564,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744564,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 0,
+      "resources": ["SUGAR_CANE"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744564,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744564,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744564,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744564,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744564,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744564,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": -1,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE",
+        "FUR"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744564,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744564,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744564,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "FUR"}
+  },
+  "part": "Explorer",
+  "time": 1428863744564,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 2},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744564,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744564,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 10},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744564,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744565,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": -1,
+      "resources": [
+        "WOOD",
+        "FUR"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744565,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744565,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744565,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "FUR"}
+  },
+  "part": "Explorer",
+  "time": 1428863744565,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 4},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744565,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744565,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "WOOD",
+        "FUR"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744565,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744565,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744565,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "FUR"}
+  },
+  "part": "Explorer",
+  "time": 1428863744565,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 25,
+    "extras": {"amount": 5},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744565,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744565,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": -1,
+      "resources": ["FUR"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744565,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744565,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744565,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "FUR"}
+  },
+  "part": "Explorer",
+  "time": 1428863744565,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 24,
+    "extras": {"amount": 5},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744566,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744566,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 0,
+      "resources": ["FUR"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744566,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744566,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744566,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "FUR"}
+  },
+  "part": "Explorer",
+  "time": 1428863744566,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 5},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744566,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744566,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 0,
+      "resources": ["FUR"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744566,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744566,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744566,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "FUR"}
+  },
+  "part": "Explorer",
+  "time": 1428863744567,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 5},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744567,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744567,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": ["FUR"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744567,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744567,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744567,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "FUR"}
+  },
+  "part": "Explorer",
+  "time": 1428863744567,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 7},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744567,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744567,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 0,
+      "resources": ["FUR"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744567,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744567,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744567,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "FUR"}
+  },
+  "part": "Explorer",
+  "time": 1428863744567,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 6},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744567,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744567,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 0,
+      "resources": ["FUR"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744568,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744568,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744568,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "FUR"}
+  },
+  "part": "Explorer",
+  "time": 1428863744568,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 6},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744568,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744568,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "SUGAR_CANE",
+        "FUR"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744568,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744568,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744568,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "FUR"}
+  },
+  "part": "Explorer",
+  "time": 1428863744568,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 6},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744568,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744568,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 26,
+    "extras": {"amount": 1},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744568,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744568,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": -1,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE",
+        "FUR"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744568,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744568,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744568,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "FUR"}
+  },
+  "part": "Explorer",
+  "time": 1428863744568,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 25,
+    "extras": {"amount": 1},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744568,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744569,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 18},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744569,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744569,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744569,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744569,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744569,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744569,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 18},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744569,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744569,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744569,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744569,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744569,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744569,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 14},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744569,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744569,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": -1,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE",
+        "FISH"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744570,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744570,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744570,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744570,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 25,
+    "extras": {"amount": 6},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744570,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744570,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": -2,
+      "resources": ["FISH"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744570,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744570,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "SUGAR_CANE",
+        "FISH"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744570,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744570,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744570,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744570,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 12},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744570,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744571,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": -2,
+      "resources": ["FISH"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744571,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744571,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": -1,
+      "resources": [
+        "SUGAR_CANE",
+        "FISH"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744571,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744571,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744571,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744571,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 3},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744571,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744571,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 0,
+      "resources": ["FISH"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744571,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744571,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "altitude": 0,
+      "resources": ["FISH"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744571,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744571,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "altitude": 4,
+      "resources": [
+        "SUGAR_CANE",
+        "FISH"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744571,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744572,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744572,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744572,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 20},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744572,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744572,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": -1,
+      "resources": [
+        "FRUITS",
+        "SUGAR_CANE",
+        "FISH"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744572,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744572,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744572,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744572,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 24,
+    "extras": {"amount": 9},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744572,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744572,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "FRUITS",
+        "FISH"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744572,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744572,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 2,
+      "resources": [
+        "FRUITS",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744572,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744572,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744573,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744573,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 9},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744573,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744573,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 0,
+      "resources": ["FRUITS"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744573,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744573,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "FRUITS",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744573,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744573,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744573,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744573,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 3},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744573,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744573,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": ["FRUITS"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744573,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744574,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 2,
+      "resources": [
+        "FRUITS",
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744574,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744574,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744574,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744574,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 1},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744574,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744575,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": -1,
+      "resources": [
+        "FRUITS",
+        "WOOD"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744575,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744576,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 1,
+      "resources": ["WOOD"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744577,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428863744577,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "FRUITS",
+        "WOOD",
+        "SUGAR_CANE",
+        "FUR"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744577,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428863744577,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744577,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "FUR"}
+  },
+  "part": "Explorer",
+  "time": 1428863744577,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 1},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744577,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744577,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 7},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744577,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744578,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": -1,
+      "resources": ["SUGAR_CANE"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744578,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744578,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744578,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744578,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744578,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744578,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "altitude": 0,
+      "resources": ["SUGAR_CANE"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744578,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744578,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744578,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744578,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744578,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428863744578,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 0,
+      "resources": ["SUGAR_CANE"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744578,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428863744579,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744579,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744579,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744579,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744579,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": ["SUGAR_CANE"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744579,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744579,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744579,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744580,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744580,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744580,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            53.9
+          ],
+          [
+            "OCEAN",
+            41.37
+          ],
+          [
+            "OCEAN",
+            4.73
+          ]
+        ],
+        ["OCEAN"],
+        ["OCEAN"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744580,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "E"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744580,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            96.89
+          ],
+          [
+            "OCEAN",
+            3.11
+          ]
+        ],
+        [
+          "OCEAN",
+          "TROPICAL_RAIN_FOREST"
+        ],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744580,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744580,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        ["TROPICAL_RAIN_FOREST"],
+        ["SHRUBLAND"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744580,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "W"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744580,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            63.64
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            36.36
+          ]
+        ],
+        ["TROPICAL_SEASONAL_FOREST"],
+        ["TROPICAL_SEASONAL_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744580,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744581,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744581,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744581,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            96.89
+          ],
+          [
+            "OCEAN",
+            3.11
+          ]
+        ],
+        [
+          [
+            "OCEAN",
+            90.19
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            9.81
+          ]
+        ],
+        ["OCEAN"],
+        ["OCEAN"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744581,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744581,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            96.89
+          ],
+          [
+            "OCEAN",
+            3.11
+          ]
+        ],
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_SEASONAL_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744581,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744581,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744581,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744581,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            40.68
+          ],
+          [
+            "OCEAN",
+            35.29
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            24.03
+          ]
+        ],
+        [[
+          "OCEAN",
+          100
+        ]],
+        ["OCEAN"],
+        ["OCEAN"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744581,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744581,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            40.68
+          ],
+          [
+            "OCEAN",
+            35.29
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            24.03
+          ]
+        ],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            60.05
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            39.95
+          ]
+        ],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_SEASONAL_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744581,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744581,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744582,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744582,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": -3,
+      "resources": [
+        "FRUITS",
+        "FISH"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744582,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744582,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "FRUITS",
+        "FISH"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744582,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744582,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            90.81
+          ],
+          [
+            "OCEAN",
+            8.94
+          ],
+          [
+            "OCEAN",
+            0.24
+          ]
+        ],
+        [
+          [
+            "OCEAN",
+            61.25
+          ],
+          [
+            "OCEAN",
+            38.22
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            0.54
+          ]
+        ],
+        ["OCEAN"],
+        ["OCEAN"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744582,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "E"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744582,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            90.81
+          ],
+          [
+            "OCEAN",
+            8.94
+          ],
+          [
+            "OCEAN",
+            0.24
+          ]
+        ],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            86.01
+          ],
+          [
+            "OCEAN",
+            13.96
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            0.02
+          ]
+        ],
+        [
+          "OCEAN",
+          "TROPICAL_RAIN_FOREST"
+        ],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744582,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744582,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            90.81
+          ],
+          [
+            "OCEAN",
+            8.94
+          ],
+          [
+            "OCEAN",
+            0.24
+          ]
+        ],
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744582,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744582,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744582,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744582,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": -3,
+      "resources": ["FISH"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744582,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744583,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "FRUITS",
+        "FISH"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744583,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744583,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 1,
+      "resources": ["FRUITS"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744583,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744583,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            86.01
+          ],
+          [
+            "OCEAN",
+            13.96
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            0.02
+          ]
+        ],
+        [[
+          "OCEAN",
+          100
+        ]],
+        ["OCEAN"],
+        ["OCEAN"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744583,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744583,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            86.01
+          ],
+          [
+            "OCEAN",
+            13.96
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            0.02
+          ]
+        ],
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744583,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744583,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744583,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744583,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": -1,
+      "resources": [
+        "FRUITS",
+        "FISH"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744583,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744583,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": ["FRUITS"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744583,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744583,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 1,
+      "resources": ["FRUITS"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744583,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744584,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            78.55
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            19.11
+          ],
+          [
+            "OCEAN",
+            2.34
+          ]
+        ],
+        [
+          [
+            "OCEAN",
+            64.16
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            35.84
+          ]
+        ],
+        ["OCEAN"],
+        ["OCEAN"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744584,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744584,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            78.55
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            19.11
+          ],
+          [
+            "OCEAN",
+            2.34
+          ]
+        ],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            83.5
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            16.5
+          ]
+        ],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744584,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744584,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744584,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744584,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "FRUITS",
+        "FISH"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744584,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744584,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "altitude": 0,
+      "resources": ["FRUITS"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744584,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744584,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 1,
+      "resources": ["FRUITS"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744584,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744584,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            99.56
+          ],
+          [
+            "OCEAN",
+            0.44
+          ]
+        ],
+        [
+          "OCEAN",
+          "TROPICAL_RAIN_FOREST"
+        ],
+        ["OCEAN"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744584,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "E"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744584,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744584,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744585,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            92.79
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            3.72
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            3.49
+          ]
+        ],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744585,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744585,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744585,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744585,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": ["FRUITS"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744585,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744585,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "WOOD",
+        "FRUITS"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744585,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744585,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 2,
+      "resources": ["FRUITS"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744585,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744585,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [
+          "OCEAN",
+          "TROPICAL_RAIN_FOREST"
+        ],
+        ["OCEAN"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744585,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744585,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            61.43
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            38.57
+          ]
+        ],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744585,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744585,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744586,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744586,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "WOOD",
+        "FRUITS"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744586,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744586,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {
+      "altitude": 1,
+      "resources": ["WOOD"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744586,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744586,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 3,
+      "resources": [
+        "WOOD",
+        "FRUITS"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744586,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744586,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            86.59
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            13.41
+          ]
+        ],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            75.94
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            24.06
+          ]
+        ],
+        [
+          "OCEAN",
+          "TROPICAL_RAIN_FOREST"
+        ],
+        ["OCEAN"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744586,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744586,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            86.59
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            13.41
+          ]
+        ],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            80.08
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            19.57
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            0.35
+          ]
+        ],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744586,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744586,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744586,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744586,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 0,
+      "resources": ["WOOD"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744586,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744586,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 0,
+      "resources": ["WOOD"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744586,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744587,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 2,
+      "resources": [
+        "WOOD",
+        "FRUITS"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744587,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744587,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [
+          "OCEAN",
+          "TROPICAL_RAIN_FOREST"
+        ],
+        ["OCEAN"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744587,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "E"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744587,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744587,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863744587,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            61.87
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            38.13
+          ]
+        ],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744587,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744587,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744587,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744587,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 0,
+      "resources": ["WOOD"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744587,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744587,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744587,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744587,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744587,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744587,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 10},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744588,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744588,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744588,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744588,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744588,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744588,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 24,
+    "extras": {"amount": 1},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744588,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744588,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "WOOD",
+        "FISH"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744588,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744588,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE",
+        "FISH"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744588,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744588,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744588,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744588,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 25,
+    "extras": {"amount": 12},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744589,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744589,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": -3,
+      "resources": [
+        "WOOD",
+        "FISH"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744589,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744589,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE",
+        "FISH"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744589,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744589,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744589,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744589,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 15},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744589,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744589,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {
+      "altitude": -3,
+      "resources": [
+        "WOOD",
+        "FISH"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744589,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744589,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744589,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744589,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744589,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744589,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 25,
+    "extras": {"amount": 2},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744589,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744590,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "WOOD",
+        "FISH"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744590,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744590,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 0,
+      "resources": ["WOOD"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744590,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744590,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 2,
+      "resources": [
+        "WOOD",
+        "FRUITS",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744590,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744590,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744590,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744590,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 10},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744590,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744590,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "WOOD",
+        "FRUITS"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744590,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744590,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "FRUITS",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744590,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744590,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744590,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744591,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 7},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744591,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744591,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 1,
+      "resources": ["FRUITS"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744591,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744591,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "WOOD",
+        "FRUITS",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744591,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744591,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744591,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744591,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 26,
+    "extras": {"amount": 2},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744591,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744591,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {
+      "altitude": 0,
+      "resources": ["FRUITS"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744591,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744591,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "WOOD",
+        "FRUITS"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744591,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428863744591,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744591,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428863744591,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744591,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744591,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 15},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744592,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744592,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": ["SUGAR_CANE"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744592,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744592,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744592,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744592,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 26,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744592,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744592,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 0,
+      "resources": ["SUGAR_CANE"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744592,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744592,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744592,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744592,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744592,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428863744592,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": ["SUGAR_CANE"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744592,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428863744592,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744592,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744592,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744592,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744592,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 0,
+      "resources": ["SUGAR_CANE"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744592,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744592,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744593,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744593,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 24,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744593,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744593,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744593,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744593,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744593,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744593,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 24,
+    "extras": {"amount": 20},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744593,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744593,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 2,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744593,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744593,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744593,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744593,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 1},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744593,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1428863744593,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 1,
+      "resources": ["WOOD"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744593,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1428863744593,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 1,
+      "resources": ["WOOD"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744593,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428863744593,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744593,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1428863744594,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744594,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744594,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 7},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744594,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744594,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": -1,
+      "resources": ["SUGAR_CANE"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744594,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744594,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744594,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "SUGAR_CANE"}
+  },
+  "part": "Explorer",
+  "time": 1428863744594,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 21},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744594,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1428863744594,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744594,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "stop"},
+  "part": "Explorer",
+  "time": 1428863744595,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 124,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863744595,
+  "meth": "takeDecision"
+}]

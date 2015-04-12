@@ -1,0 +1,58 @@
+[{
+  "data": {
+    "creek": "60487cbb-d4bf-42a6-bd95-de445a32cf7b",
+    "men": 25,
+    "budget": 5000,
+    "objective": [
+      {
+        "amount": 2,
+        "resource": "FLOWER"
+      },
+      {
+        "amount": 600,
+        "resource": "FUR"
+      },
+      {
+        "amount": 3000,
+        "resource": "SUGAR_CANE"
+      }
+    ]
+  },
+  "part": "Engine",
+  "time": 1428863739317,
+  "meth": "initialize"
+},{
+  "data": {
+    "action": "land",
+    "parameters": {
+      "creek": "60487cbb-d4bf-42a6-bd95-de445a32cf7b",
+      "people": 1
+    }
+  },
+  "part": "Explorer",
+  "time": 1428863739327,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863739328,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "stop"},
+  "part": "Explorer",
+  "time": 1428863739328,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1428863739328,
+  "meth": "takeDecision"
+}]
