@@ -1,0 +1,42 @@
+[{
+  "data": {
+    "creek": "04fa9c4f-ba30-435e-822b-4ab0bd18b666",
+    "men": 25,
+    "budget": 9000,
+    "objective": [
+      {
+        "amount": 50,
+        "resource": "QUARTZ"
+      },
+      {
+        "amount": 500,
+        "resource": "FUR"
+      }
+    ]
+  },
+  "part": "Engine",
+  "time": 1429465517202,
+  "meth": "initialize"
+},{
+  "data": {
+    "exception": ["NullPointerException"],
+    "stacktrace": [[
+      "fr.unice.polytech.ogl.isldc.AI.AI.strategyDefault(AI.java:175)",
+      "fr.unice.polytech.ogl.isldc.AI.AI.act(AI.java:114)",
+      "fr.unice.polytech.ogl.isldc.Explorer.takeDecision(Explorer.java:22)",
+      "eu.ace_design.island.game.Engine$$anonfun$3.apply(Engine.scala:48)",
+      "eu.ace_design.island.game.Engine$$anonfun$3.apply(Engine.scala:48)",
+      "scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24)",
+      "scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24)",
+      "scala.concurrent.impl.ExecutionContextImpl$AdaptedForkJoinTask.exec(ExecutionContextImpl.scala:121)",
+      "scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)",
+      "scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)",
+      "scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)",
+      "scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)"
+    ]],
+    "message": [null]
+  },
+  "part": "Explorer",
+  "time": 1429465517212,
+  "meth": "takeDecision"
+}]

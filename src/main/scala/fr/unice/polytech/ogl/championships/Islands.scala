@@ -62,5 +62,15 @@ object Islands extends DiSLand {
   }
 
 
+  /**
+   * Week #16: irregular shape, no lakes, dry.
+   */
+  val seed16 = 0x8426E0E9FFF5839AL
+  lazy val week16: IslandMap = {
+    createIsland shapedAs radial(factor=0.1) builtWith Seq(
+      plateau(40), flowing(rivers = 50, distance = 0.4), withMoisture(soils.dry, distance = 400),
+      AssignPitch, usingBiomes(WhittakerDiagrams.caribbean)
+    ) withSize 1600 having 3000.faces  usingSeed seed16
+  }
 
 }

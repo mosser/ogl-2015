@@ -1,0 +1,69 @@
+[{
+  "data": {
+    "creek": "04fa9c4f-ba30-435e-822b-4ab0bd18b666",
+    "men": 25,
+    "budget": 9000,
+    "objective": [
+      {
+        "amount": 50,
+        "resource": "QUARTZ"
+      },
+      {
+        "amount": 500,
+        "resource": "FUR"
+      }
+    ]
+  },
+  "part": "Engine",
+  "time": 1429465452126,
+  "meth": "initialize"
+},{
+  "data": {
+    "exception": ["TimeoutException"],
+    "stacktrace": [[
+      "scala.concurrent.impl.Promise$DefaultPromise.ready(Promise.scala:219)",
+      "scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:223)",
+      "scala.concurrent.Await$$anonfun$result$1.apply(package.scala:116)",
+      "scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:53)",
+      "scala.concurrent.Await$.result(package.scala:116)",
+      "eu.ace_design.island.util.Timeout$class.timeout(Timeout.scala:16)",
+      "eu.ace_design.island.game.Engine.timeout(Engine.scala:14)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:48)",
+      "eu.ace_design.island.game.Engine.run(Engine.scala:35)",
+      "fr.unice.polytech.ogl.championships.library.Championship$class.silent(Championship.scala:69)",
+      "fr.unice.polytech.ogl.championships.Week16$.silent(Week16.scala:11)",
+      "fr.unice.polytech.ogl.championships.library.Championship$class.handlePlayer(Championship.scala:50)",
+      "fr.unice.polytech.ogl.championships.Week16$.handlePlayer(Week16.scala:11)",
+      "fr.unice.polytech.ogl.championships.library.Championship$$anonfun$run$1.apply(Championship.scala:40)",
+      "fr.unice.polytech.ogl.championships.library.Championship$$anonfun$run$1.apply(Championship.scala:38)",
+      "scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:245)",
+      "scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:245)",
+      "scala.collection.immutable.HashMap$HashMap1.foreach(HashMap.scala:221)",
+      "scala.collection.immutable.HashMap$HashTrieMap.foreach(HashMap.scala:428)",
+      "scala.collection.TraversableLike$class.map(TraversableLike.scala:245)",
+      "scala.collection.AbstractTraversable.map(Traversable.scala:104)",
+      "fr.unice.polytech.ogl.championships.library.Championship$class.run(Championship.scala:38)",
+      "fr.unice.polytech.ogl.championships.Week16$.run(Week16.scala:11)",
+      "fr.unice.polytech.ogl.championships.Week16$.delayedEndpoint$fr$unice$polytech$ogl$championships$Week16$1(Week16.scala:35)",
+      "fr.unice.polytech.ogl.championships.Week16$delayedInit$body.apply(Week16.scala:11)",
+      "scala.Function0$class.apply$mcV$sp(Function0.scala:40)",
+      "scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)",
+      "scala.App$$anonfun$main$1.apply(App.scala:76)",
+      "scala.App$$anonfun$main$1.apply(App.scala:76)",
+      "scala.collection.immutable.List.foreach(List.scala:381)",
+      "scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:35)",
+      "scala.App$class.main(App.scala:76)",
+      "fr.unice.polytech.ogl.championships.Week16$.main(Week16.scala:11)",
+      "fr.unice.polytech.ogl.championships.Week16.main(Week16.scala)",
+      "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+      "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+      "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+      "java.lang.reflect.Method.invoke(Method.java:483)",
+      "com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)"
+    ]],
+    "message": ["Futures timed out after [1000 milliseconds]"]
+  },
+  "part": "Explorer",
+  "time": 1429465453143,
+  "meth": "takeDecision"
+}]
