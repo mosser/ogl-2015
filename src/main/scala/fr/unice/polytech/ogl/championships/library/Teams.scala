@@ -34,7 +34,7 @@ trait SI3 extends Teams {
     "islcb" -> new fr.unice.polytech.ogl.islcb.Explorer(),
     "islcc" -> new fr.unice.polytech.ogl.islcc.Explorer(),
     "islcd" -> new fr.unice.polytech.ogl.islcd.Explorer(),
-    //"islce" -> new fr.unice.polytech.ogl.islce.Explorer(),
+    "islce" -> new fr.unice.polytech.ogl.islce.Explorer(),
     "islcf" -> new fr.unice.polytech.ogl.islcf.Explorer()
   )
 
@@ -46,7 +46,5 @@ trait SI3 extends Teams {
     "islde" -> new fr.unice.polytech.ogl.islde.Explorer(),
     "isldf" -> new fr.unice.polytech.ogl.isldf.Explorer()
   )
-
-
 
 }

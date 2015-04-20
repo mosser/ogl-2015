@@ -1,6 +1,6 @@
 [{
   "data": {
-    "creek": "04fa9c4f-ba30-435e-822b-4ab0bd18b666",
+    "creek": "b92004d5-505d-450a-a167-c57c7d4b02ff",
     "men": 25,
     "budget": 9000,
     "objective": [
@@ -15,36 +15,36 @@
     ]
   },
   "part": "Engine",
-  "time": 1429465442067,
+  "time": 1429528519475,
   "meth": "initialize"
 },{
   "data": {
     "action": "land",
     "parameters": {
-      "creek": "04fa9c4f-ba30-435e-822b-4ab0bd18b666",
+      "creek": "b92004d5-505d-450a-a167-c57c7d4b02ff",
       "people": 5
     }
   },
   "part": "Explorer",
-  "time": 1429465442072,
-  "meth": "takeDecision"
-},{
-  "data": {
-    "cost": 12,
-    "extras": {},
-    "status": "OK"
-  },
-  "part": "Engine",
-  "time": 1429465442073,
-  "meth": "takeDecision"
-},{
-  "data": {"action": "explore"},
-  "part": "Explorer",
-  "time": 1429465442073,
+  "time": 1429528519479,
   "meth": "takeDecision"
 },{
   "data": {
     "cost": 9,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1429528519480,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1429528519480,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
     "extras": {
       "resources": [{
         "amount": "MEDIUM",
@@ -53,13 +53,13 @@
       }],
       "pois": [{
         "kind": "Creek",
-        "id": "04fa9c4f-ba30-435e-822b-4ab0bd18b666"
+        "id": "b92004d5-505d-450a-a167-c57c7d4b02ff"
       }]
     },
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442083,
+  "time": 1429528519486,
   "meth": "takeDecision"
 },{
   "data": {
@@ -67,11 +67,11 @@
     "parameters": {"direction": "N"}
   },
   "part": "Explorer",
-  "time": 1429465442087,
+  "time": 1429528519490,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 4,
+    "cost": 6,
     "extras": {
       "altitude": 0,
       "resources": ["FISH"]
@@ -79,7 +79,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442088,
+  "time": 1429528519490,
   "meth": "takeDecision"
 },{
   "data": {
@@ -87,11 +87,11 @@
     "parameters": {"direction": "E"}
   },
   "part": "Explorer",
-  "time": 1429465442089,
+  "time": 1429528519490,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 4,
+    "cost": 9,
     "extras": {
       "altitude": 0,
       "resources": ["FISH"]
@@ -99,7 +99,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442089,
+  "time": 1429528519490,
   "meth": "takeDecision"
 },{
   "data": {
@@ -107,11 +107,11 @@
     "parameters": {"direction": "S"}
   },
   "part": "Explorer",
-  "time": 1429465442089,
+  "time": 1429528519491,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 6,
+    "cost": 5,
     "extras": {
       "altitude": 1,
       "resources": ["FISH"]
@@ -119,7 +119,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442089,
+  "time": 1429528519491,
   "meth": "takeDecision"
 },{
   "data": {
@@ -127,11 +127,11 @@
     "parameters": {"direction": "W"}
   },
   "part": "Explorer",
-  "time": 1429465442089,
+  "time": 1429528519491,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 5,
+    "cost": 7,
     "extras": {
       "altitude": 0,
       "resources": ["FISH"]
@@ -139,7 +139,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442089,
+  "time": 1429528519491,
   "meth": "takeDecision"
 },{
   "data": {
@@ -147,16 +147,16 @@
     "parameters": {"direction": "N"}
   },
   "part": "Explorer",
-  "time": 1429465442090,
+  "time": 1429528519491,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 5,
+    "cost": 4,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442090,
+  "time": 1429528519491,
   "meth": "takeDecision"
 },{
   "data": {
@@ -167,11 +167,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442090,
+  "time": 1429528519492,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 7,
+    "cost": 5,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -210,7 +210,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442100,
+  "time": 1429528519497,
   "meth": "takeDecision"
 },{
   "data": {
@@ -221,11 +221,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442103,
+  "time": 1429528519498,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 4,
+    "cost": 8,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -254,7 +254,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442104,
+  "time": 1429528519498,
   "meth": "takeDecision"
 },{
   "data": {
@@ -265,11 +265,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442104,
+  "time": 1429528519499,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 8,
+    "cost": 7,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -311,7 +311,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442105,
+  "time": 1429528519499,
   "meth": "takeDecision"
 },{
   "data": {
@@ -322,11 +322,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442105,
+  "time": 1429528519499,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 8,
+    "cost": 6,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -355,7 +355,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442105,
+  "time": 1429528519500,
   "meth": "takeDecision"
 },{
   "data": {
@@ -363,16 +363,16 @@
     "parameters": {"direction": "W"}
   },
   "part": "Explorer",
-  "time": 1429465442107,
+  "time": 1429528519500,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 9,
+    "cost": 7,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442107,
+  "time": 1429528519500,
   "meth": "takeDecision"
 },{
   "data": {
@@ -383,11 +383,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442107,
+  "time": 1429528519501,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 4,
+    "cost": 5,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -412,7 +412,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442108,
+  "time": 1429528519501,
   "meth": "takeDecision"
 },{
   "data": {
@@ -420,16 +420,16 @@
     "parameters": {"direction": "N"}
   },
   "part": "Explorer",
-  "time": 1429465442108,
+  "time": 1429528519501,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 9,
+    "cost": 6,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442108,
+  "time": 1429528519501,
   "meth": "takeDecision"
 },{
   "data": {
@@ -440,11 +440,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442109,
+  "time": 1429528519502,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 5,
+    "cost": 7,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -479,7 +479,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442109,
+  "time": 1429528519502,
   "meth": "takeDecision"
 },{
   "data": {
@@ -490,11 +490,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442112,
+  "time": 1429528519502,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 7,
+    "cost": 5,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -519,7 +519,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442112,
+  "time": 1429528519503,
   "meth": "takeDecision"
 },{
   "data": {
@@ -530,11 +530,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442112,
+  "time": 1429528519503,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 8,
+    "cost": 5,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -565,7 +565,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442113,
+  "time": 1429528519503,
   "meth": "takeDecision"
 },{
   "data": {
@@ -573,16 +573,16 @@
     "parameters": {"direction": "W"}
   },
   "part": "Explorer",
-  "time": 1429465442113,
+  "time": 1429528519504,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 7,
+    "cost": 6,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442113,
+  "time": 1429528519504,
   "meth": "takeDecision"
 },{
   "data": {
@@ -593,11 +593,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442114,
+  "time": 1429528519504,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 6,
+    "cost": 9,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -636,7 +636,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442115,
+  "time": 1429528519505,
   "meth": "takeDecision"
 },{
   "data": {
@@ -644,16 +644,16 @@
     "parameters": {"direction": "N"}
   },
   "part": "Explorer",
-  "time": 1429465442122,
+  "time": 1429528519505,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 5,
+    "cost": 8,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442122,
+  "time": 1429528519505,
   "meth": "takeDecision"
 },{
   "data": {
@@ -664,7 +664,7 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442123,
+  "time": 1429528519506,
   "meth": "takeDecision"
 },{
   "data": {
@@ -701,7 +701,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442123,
+  "time": 1429528519506,
   "meth": "takeDecision"
 },{
   "data": {
@@ -712,11 +712,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442124,
+  "time": 1429528519507,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 6,
+    "cost": 7,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -755,7 +755,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442124,
+  "time": 1429528519507,
   "meth": "takeDecision"
 },{
   "data": {
@@ -766,11 +766,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442124,
+  "time": 1429528519507,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 6,
+    "cost": 5,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -813,7 +813,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442125,
+  "time": 1429528519508,
   "meth": "takeDecision"
 },{
   "data": {
@@ -821,16 +821,16 @@
     "parameters": {"direction": "W"}
   },
   "part": "Explorer",
-  "time": 1429465442126,
+  "time": 1429528519508,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 7,
+    "cost": 5,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442126,
+  "time": 1429528519509,
   "meth": "takeDecision"
 },{
   "data": {
@@ -841,7 +841,7 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442126,
+  "time": 1429528519509,
   "meth": "takeDecision"
 },{
   "data": {
@@ -880,7 +880,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442127,
+  "time": 1429528519509,
   "meth": "takeDecision"
 },{
   "data": {
@@ -888,7 +888,7 @@
     "parameters": {"direction": "N"}
   },
   "part": "Explorer",
-  "time": 1429465442130,
+  "time": 1429528519510,
   "meth": "takeDecision"
 },{
   "data": {
@@ -897,7 +897,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442130,
+  "time": 1429528519510,
   "meth": "takeDecision"
 },{
   "data": {
@@ -908,11 +908,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442131,
+  "time": 1429528519510,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 5,
+    "cost": 7,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -943,7 +943,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442131,
+  "time": 1429528519510,
   "meth": "takeDecision"
 },{
   "data": {
@@ -954,11 +954,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442131,
+  "time": 1429528519511,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 4,
+    "cost": 8,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -993,7 +993,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442132,
+  "time": 1429528519511,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1004,11 +1004,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442139,
+  "time": 1429528519512,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 4,
+    "cost": 6,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -1039,7 +1039,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442139,
+  "time": 1429528519512,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1047,16 +1047,16 @@
     "parameters": {"direction": "W"}
   },
   "part": "Explorer",
-  "time": 1429465442141,
+  "time": 1429528519513,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 7,
+    "cost": 4,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442141,
+  "time": 1429528519513,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1067,7 +1067,7 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442142,
+  "time": 1429528519513,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1102,7 +1102,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442142,
+  "time": 1429528519513,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1110,16 +1110,16 @@
     "parameters": {"direction": "N"}
   },
   "part": "Explorer",
-  "time": 1429465442144,
+  "time": 1429528519514,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 5,
+    "cost": 6,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442145,
+  "time": 1429528519514,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1130,7 +1130,7 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442145,
+  "time": 1429528519514,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1159,7 +1159,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442146,
+  "time": 1429528519515,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1170,7 +1170,7 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442146,
+  "time": 1429528519515,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1205,7 +1205,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442146,
+  "time": 1429528519515,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1216,11 +1216,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442147,
+  "time": 1429528519516,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 8,
+    "cost": 6,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -1255,7 +1255,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442147,
+  "time": 1429528519516,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1263,16 +1263,16 @@
     "parameters": {"direction": "W"}
   },
   "part": "Explorer",
-  "time": 1429465442150,
+  "time": 1429528519517,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 5,
+    "cost": 7,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442150,
+  "time": 1429528519517,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1283,11 +1283,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442151,
+  "time": 1429528519517,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 6,
+    "cost": 7,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -1322,7 +1322,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442151,
+  "time": 1429528519517,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1330,16 +1330,16 @@
     "parameters": {"direction": "N"}
   },
   "part": "Explorer",
-  "time": 1429465442152,
+  "time": 1429528519518,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 7,
+    "cost": 6,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442152,
+  "time": 1429528519518,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1350,11 +1350,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442153,
+  "time": 1429528519518,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 6,
+    "cost": 7,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -1379,7 +1379,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442153,
+  "time": 1429528519519,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1390,11 +1390,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442154,
+  "time": 1429528519519,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 6,
+    "cost": 7,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -1429,7 +1429,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442154,
+  "time": 1429528519520,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1440,11 +1440,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442155,
+  "time": 1429528519520,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 5,
+    "cost": 4,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -1469,7 +1469,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442155,
+  "time": 1429528519521,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1477,7 +1477,7 @@
     "parameters": {"direction": "W"}
   },
   "part": "Explorer",
-  "time": 1429465442160,
+  "time": 1429528519521,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1486,7 +1486,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442160,
+  "time": 1429528519521,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1497,7 +1497,7 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442160,
+  "time": 1429528519522,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1526,7 +1526,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442161,
+  "time": 1429528519522,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1534,16 +1534,16 @@
     "parameters": {"direction": "N"}
   },
   "part": "Explorer",
-  "time": 1429465442161,
+  "time": 1429528519522,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 5,
+    "cost": 6,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442162,
+  "time": 1429528519522,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1554,11 +1554,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442162,
+  "time": 1429528519523,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 9,
+    "cost": 6,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -1593,7 +1593,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442162,
+  "time": 1429528519523,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1604,11 +1604,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442163,
+  "time": 1429528519523,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 7,
+    "cost": 6,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -1633,7 +1633,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442163,
+  "time": 1429528519524,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1644,7 +1644,7 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442165,
+  "time": 1429528519524,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1679,7 +1679,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442166,
+  "time": 1429528519524,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1687,16 +1687,16 @@
     "parameters": {"direction": "W"}
   },
   "part": "Explorer",
-  "time": 1429465442167,
+  "time": 1429528519525,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 8,
+    "cost": 5,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442167,
+  "time": 1429528519525,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1707,11 +1707,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442167,
+  "time": 1429528519525,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 5,
+    "cost": 4,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -1742,7 +1742,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442167,
+  "time": 1429528519526,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1750,7 +1750,7 @@
     "parameters": {"direction": "N"}
   },
   "part": "Explorer",
-  "time": 1429465442167,
+  "time": 1429528519526,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1759,7 +1759,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442168,
+  "time": 1429528519526,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1770,11 +1770,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442168,
+  "time": 1429528519526,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 5,
+    "cost": 6,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -1799,7 +1799,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442168,
+  "time": 1429528519527,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1810,11 +1810,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442168,
+  "time": 1429528519527,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 7,
+    "cost": 6,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -1845,7 +1845,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442168,
+  "time": 1429528519527,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1856,7 +1856,7 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442169,
+  "time": 1429528519528,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1899,7 +1899,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442169,
+  "time": 1429528519528,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1907,16 +1907,16 @@
     "parameters": {"direction": "W"}
   },
   "part": "Explorer",
-  "time": 1429465442170,
+  "time": 1429528519528,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 4,
+    "cost": 5,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442170,
+  "time": 1429528519528,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1927,11 +1927,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442170,
+  "time": 1429528519529,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 5,
+    "cost": 4,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -1974,7 +1974,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442170,
+  "time": 1429528519529,
   "meth": "takeDecision"
 },{
   "data": {
@@ -1982,16 +1982,16 @@
     "parameters": {"direction": "N"}
   },
   "part": "Explorer",
-  "time": 1429465442171,
+  "time": 1429528519530,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 5,
+    "cost": 6,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442171,
+  "time": 1429528519530,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2002,11 +2002,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442171,
+  "time": 1429528519530,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 6,
+    "cost": 5,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -2041,7 +2041,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442171,
+  "time": 1429528519530,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2052,7 +2052,7 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442172,
+  "time": 1429528519531,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2099,7 +2099,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442172,
+  "time": 1429528519531,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2110,11 +2110,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442172,
+  "time": 1429528519531,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 9,
+    "cost": 4,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -2153,7 +2153,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442173,
+  "time": 1429528519532,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2161,7 +2161,7 @@
     "parameters": {"direction": "W"}
   },
   "part": "Explorer",
-  "time": 1429465442173,
+  "time": 1429528519532,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2170,7 +2170,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442173,
+  "time": 1429528519532,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2181,7 +2181,7 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442174,
+  "time": 1429528519533,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2220,7 +2220,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442174,
+  "time": 1429528519533,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2228,16 +2228,16 @@
     "parameters": {"direction": "N"}
   },
   "part": "Explorer",
-  "time": 1429465442174,
+  "time": 1429528519534,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 6,
+    "cost": 4,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442174,
+  "time": 1429528519534,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2248,11 +2248,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442175,
+  "time": 1429528519534,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 8,
+    "cost": 6,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -2277,7 +2277,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442175,
+  "time": 1429528519534,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2288,7 +2288,7 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442175,
+  "time": 1429528519535,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2327,7 +2327,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442176,
+  "time": 1429528519535,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2338,11 +2338,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442176,
+  "time": 1429528519536,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 7,
+    "cost": 6,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -2373,7 +2373,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442176,
+  "time": 1429528519536,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2381,16 +2381,16 @@
     "parameters": {"direction": "W"}
   },
   "part": "Explorer",
-  "time": 1429465442177,
+  "time": 1429528519536,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 5,
+    "cost": 4,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442177,
+  "time": 1429528519536,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2401,11 +2401,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442177,
+  "time": 1429528519537,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 8,
+    "cost": 5,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -2436,7 +2436,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442177,
+  "time": 1429528519537,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2444,16 +2444,16 @@
     "parameters": {"direction": "N"}
   },
   "part": "Explorer",
-  "time": 1429465442178,
+  "time": 1429528519537,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 5,
+    "cost": 4,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442178,
+  "time": 1429528519537,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2464,7 +2464,7 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442178,
+  "time": 1429528519537,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2493,7 +2493,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442178,
+  "time": 1429528519538,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2504,7 +2504,7 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442179,
+  "time": 1429528519538,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2539,7 +2539,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442179,
+  "time": 1429528519538,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2550,7 +2550,7 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442179,
+  "time": 1429528519539,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2579,7 +2579,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442179,
+  "time": 1429528519539,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2587,16 +2587,16 @@
     "parameters": {"direction": "W"}
   },
   "part": "Explorer",
-  "time": 1429465442180,
+  "time": 1429528519540,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 5,
+    "cost": 6,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442180,
+  "time": 1429528519540,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2607,11 +2607,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442181,
+  "time": 1429528519540,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 6,
+    "cost": 7,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -2636,7 +2636,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442181,
+  "time": 1429528519540,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2644,16 +2644,16 @@
     "parameters": {"direction": "N"}
   },
   "part": "Explorer",
-  "time": 1429465442181,
+  "time": 1429528519541,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 6,
+    "cost": 7,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442182,
+  "time": 1429528519541,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2664,11 +2664,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442182,
+  "time": 1429528519542,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 7,
+    "cost": 6,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -2703,7 +2703,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442182,
+  "time": 1429528519542,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2714,11 +2714,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442183,
+  "time": 1429528519543,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 8,
+    "cost": 6,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -2743,7 +2743,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442183,
+  "time": 1429528519543,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2754,7 +2754,7 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442183,
+  "time": 1429528519543,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2789,7 +2789,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442183,
+  "time": 1429528519543,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2797,64 +2797,7 @@
     "parameters": {"direction": "W"}
   },
   "part": "Explorer",
-  "time": 1429465442184,
-  "meth": "takeDecision"
-},{
-  "data": {
-    "cost": 5,
-    "extras": {},
-    "status": "OK"
-  },
-  "part": "Engine",
-  "time": 1429465442184,
-  "meth": "takeDecision"
-},{
-  "data": {
-    "action": "glimpse",
-    "parameters": {
-      "range": 4,
-      "direction": "N"
-    }
-  },
-  "part": "Explorer",
-  "time": 1429465442184,
-  "meth": "takeDecision"
-},{
-  "data": {
-    "cost": 4,
-    "extras": {
-      "asked_range": 4,
-      "report": [
-        [
-          [
-            "OCEAN",
-            92.05
-          ],
-          [
-            "OCEAN",
-            7.95
-          ]
-        ],
-        [[
-          "OCEAN",
-          100
-        ]],
-        ["OCEAN"],
-        ["OCEAN"]
-      ]
-    },
-    "status": "OK"
-  },
-  "part": "Engine",
-  "time": 1429465442185,
-  "meth": "takeDecision"
-},{
-  "data": {
-    "action": "move_to",
-    "parameters": {"direction": "N"}
-  },
-  "part": "Explorer",
-  "time": 1429465442185,
+  "time": 1429528519544,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2863,7 +2806,64 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442185,
+  "time": 1429528519544,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1429528519544,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "OCEAN",
+            92.05
+          ],
+          [
+            "OCEAN",
+            7.95
+          ]
+        ],
+        [[
+          "OCEAN",
+          100
+        ]],
+        ["OCEAN"],
+        ["OCEAN"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1429528519544,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1429528519545,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1429528519545,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2874,11 +2874,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442186,
+  "time": 1429528519545,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 6,
+    "cost": 5,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -2897,7 +2897,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442186,
+  "time": 1429528519545,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2908,11 +2908,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442186,
+  "time": 1429528519546,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 5,
+    "cost": 7,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -2937,7 +2937,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442186,
+  "time": 1429528519546,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2948,11 +2948,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442187,
+  "time": 1429528519547,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 6,
+    "cost": 5,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -2977,7 +2977,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442187,
+  "time": 1429528519547,
   "meth": "takeDecision"
 },{
   "data": {
@@ -2985,16 +2985,16 @@
     "parameters": {"direction": "W"}
   },
   "part": "Explorer",
-  "time": 1429465442187,
+  "time": 1429528519547,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 5,
+    "cost": 6,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442187,
+  "time": 1429528519547,
   "meth": "takeDecision"
 },{
   "data": {
@@ -3005,11 +3005,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442188,
+  "time": 1429528519548,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 6,
+    "cost": 5,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -3040,7 +3040,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442188,
+  "time": 1429528519548,
   "meth": "takeDecision"
 },{
   "data": {
@@ -3048,16 +3048,16 @@
     "parameters": {"direction": "N"}
   },
   "part": "Explorer",
-  "time": 1429465442188,
+  "time": 1429528519549,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 4,
+    "cost": 5,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442189,
+  "time": 1429528519549,
   "meth": "takeDecision"
 },{
   "data": {
@@ -3068,11 +3068,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442189,
+  "time": 1429528519549,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 5,
+    "cost": 6,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -3097,7 +3097,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442189,
+  "time": 1429528519549,
   "meth": "takeDecision"
 },{
   "data": {
@@ -3108,7 +3108,53 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442190,
+  "time": 1429528519550,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "OCEAN",
+            72.46
+          ],
+          [
+            "OCEAN",
+            27.54
+          ]
+        ],
+        [
+          [
+            "OCEAN",
+            97.4
+          ],
+          [
+            "OCEAN",
+            2.6
+          ]
+        ],
+        ["OCEAN"],
+        ["OCEAN"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1429528519550,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "W"
+    }
+  },
+  "part": "Explorer",
+  "time": 1429528519551,
   "meth": "takeDecision"
 },{
   "data": {
@@ -3126,52 +3172,6 @@
             27.54
           ]
         ],
-        [
-          [
-            "OCEAN",
-            97.4
-          ],
-          [
-            "OCEAN",
-            2.6
-          ]
-        ],
-        ["OCEAN"],
-        ["OCEAN"]
-      ]
-    },
-    "status": "OK"
-  },
-  "part": "Engine",
-  "time": 1429465442190,
-  "meth": "takeDecision"
-},{
-  "data": {
-    "action": "glimpse",
-    "parameters": {
-      "range": 4,
-      "direction": "W"
-    }
-  },
-  "part": "Explorer",
-  "time": 1429465442190,
-  "meth": "takeDecision"
-},{
-  "data": {
-    "cost": 5,
-    "extras": {
-      "asked_range": 4,
-      "report": [
-        [
-          [
-            "OCEAN",
-            72.46
-          ],
-          [
-            "OCEAN",
-            27.54
-          ]
-        ],
         [[
           "OCEAN",
           100
@@ -3183,7 +3183,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442190,
+  "time": 1429528519551,
   "meth": "takeDecision"
 },{
   "data": {
@@ -3191,16 +3191,16 @@
     "parameters": {"direction": "W"}
   },
   "part": "Explorer",
-  "time": 1429465442191,
+  "time": 1429528519551,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 5,
+    "cost": 6,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442191,
+  "time": 1429528519551,
   "meth": "takeDecision"
 },{
   "data": {
@@ -3211,11 +3211,11 @@
     }
   },
   "part": "Explorer",
-  "time": 1429465442191,
+  "time": 1429528519552,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 5,
+    "cost": 7,
     "extras": {
       "asked_range": 4,
       "report": [
@@ -3233,7 +3233,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465442191,
+  "time": 1429528519552,
   "meth": "takeDecision"
 },{
   "data": {
@@ -3258,6 +3258,6 @@
     "message": ["JSONArray[3] not found."]
   },
   "part": "Explorer",
-  "time": 1429465442193,
+  "time": 1429528519554,
   "meth": "acknowledgeResults"
 }]

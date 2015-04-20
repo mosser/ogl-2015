@@ -1,6 +1,6 @@
 [{
   "data": {
-    "creek": "04fa9c4f-ba30-435e-822b-4ab0bd18b666",
+    "creek": "b92004d5-505d-450a-a167-c57c7d4b02ff",
     "men": 25,
     "budget": 9000,
     "objective": [
@@ -15,27 +15,27 @@
     ]
   },
   "part": "Engine",
-  "time": 1429465463235,
+  "time": 1429528545132,
   "meth": "initialize"
 },{
   "data": {
     "action": "land",
     "parameters": {
-      "creek": "04fa9c4f-ba30-435e-822b-4ab0bd18b666",
+      "creek": "b92004d5-505d-450a-a167-c57c7d4b02ff",
       "people": 6
     }
   },
   "part": "Explorer",
-  "time": 1429465463247,
+  "time": 1429528545137,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 8,
+    "cost": 11,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465463247,
+  "time": 1429528545137,
   "meth": "takeDecision"
 },{
   "data": {
@@ -43,11 +43,11 @@
     "parameters": {"direction": "N"}
   },
   "part": "Explorer",
-  "time": 1429465463247,
+  "time": 1429528545138,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 5,
+    "cost": 7,
     "extras": {
       "altitude": 0,
       "resources": ["FISH"]
@@ -55,7 +55,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465463247,
+  "time": 1429528545138,
   "meth": "takeDecision"
 },{
   "data": {
@@ -63,7 +63,7 @@
     "parameters": {"direction": "S"}
   },
   "part": "Explorer",
-  "time": 1429465463248,
+  "time": 1429528545138,
   "meth": "takeDecision"
 },{
   "data": {
@@ -75,7 +75,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465463248,
+  "time": 1429528545138,
   "meth": "takeDecision"
 },{
   "data": {
@@ -83,27 +83,7 @@
     "parameters": {"direction": "E"}
   },
   "part": "Explorer",
-  "time": 1429465463248,
-  "meth": "takeDecision"
-},{
-  "data": {
-    "cost": 6,
-    "extras": {
-      "altitude": 0,
-      "resources": ["FISH"]
-    },
-    "status": "OK"
-  },
-  "part": "Engine",
-  "time": 1429465463248,
-  "meth": "takeDecision"
-},{
-  "data": {
-    "action": "scout",
-    "parameters": {"direction": "W"}
-  },
-  "part": "Explorer",
-  "time": 1429465463251,
+  "time": 1429528545138,
   "meth": "takeDecision"
 },{
   "data": {
@@ -115,20 +95,40 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465463251,
+  "time": 1429528545138,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1429528545138,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": ["FISH"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1429528545138,
   "meth": "takeDecision"
 },{
   "data": {"action": "stop"},
   "part": "Explorer",
-  "time": 1429465463251,
+  "time": 1429528545138,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 8,
+    "cost": 13,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465463251,
+  "time": 1429528545138,
   "meth": "takeDecision"
 }]

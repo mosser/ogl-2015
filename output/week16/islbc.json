@@ -1,6 +1,6 @@
 [{
   "data": {
-    "creek": "04fa9c4f-ba30-435e-822b-4ab0bd18b666",
+    "creek": "b92004d5-505d-450a-a167-c57c7d4b02ff",
     "men": 25,
     "budget": 9000,
     "objective": [
@@ -15,27 +15,27 @@
     ]
   },
   "part": "Engine",
-  "time": 1429465489137,
+  "time": 1429528571341,
   "meth": "initialize"
 },{
   "data": {
     "action": "land",
     "parameters": {
-      "creek": "04fa9c4f-ba30-435e-822b-4ab0bd18b666",
+      "creek": "b92004d5-505d-450a-a167-c57c7d4b02ff",
       "people": 24
     }
   },
   "part": "Explorer",
-  "time": 1429465489146,
+  "time": 1429528571344,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 12,
+    "cost": 10,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465489146,
+  "time": 1429528571344,
   "meth": "takeDecision"
 },{
   "data": {
@@ -43,11 +43,11 @@
     "parameters": {"direction": "N"}
   },
   "part": "Explorer",
-  "time": 1429465489149,
+  "time": 1429528571346,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 7,
+    "cost": 8,
     "extras": {
       "altitude": 0,
       "resources": ["FISH"]
@@ -55,7 +55,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465489149,
+  "time": 1429528571346,
   "meth": "takeDecision"
 },{
   "data": {
@@ -63,11 +63,11 @@
     "parameters": {"direction": "E"}
   },
   "part": "Explorer",
-  "time": 1429465489150,
+  "time": 1429528571347,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 7,
+    "cost": 4,
     "extras": {
       "altitude": 0,
       "resources": ["FISH"]
@@ -75,7 +75,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465489150,
+  "time": 1429528571347,
   "meth": "takeDecision"
 },{
   "data": {
@@ -83,11 +83,11 @@
     "parameters": {"direction": "W"}
   },
   "part": "Explorer",
-  "time": 1429465489150,
+  "time": 1429528571347,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 7,
+    "cost": 8,
     "extras": {
       "altitude": 0,
       "resources": ["FISH"]
@@ -95,7 +95,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465489151,
+  "time": 1429528571347,
   "meth": "takeDecision"
 },{
   "data": {
@@ -103,7 +103,7 @@
     "parameters": {"direction": "S"}
   },
   "part": "Explorer",
-  "time": 1429465489151,
+  "time": 1429528571348,
   "meth": "takeDecision"
 },{
   "data": {
@@ -115,20 +115,20 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465489151,
+  "time": 1429528571348,
   "meth": "takeDecision"
 },{
   "data": {"action": "stop"},
   "part": "Explorer",
-  "time": 1429465489151,
+  "time": 1429528571348,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 7,
+    "cost": 14,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1429465489152,
+  "time": 1429528571348,
   "meth": "takeDecision"
 }]
