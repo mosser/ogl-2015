@@ -22,7 +22,7 @@ object Week17 extends Championship with SI3 with DiSLand {
 
   // building a gameBoard with 10 creeks and displaying statistics
   val builder = new GameBoardBuilder(rand = theIsland.random, poiGenerators = Seq(new WithCreeks(10)))
-  val theBoard = builder(theIsland).copy(startingTile = Some((59,64))
+  val theBoard = builder(theIsland).copy(startingTile = Some((59,64)))
   printInfo(theIsland, theBoard)
 
   // Building the game engine and the associated objectives
