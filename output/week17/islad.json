@@ -1,0 +1,86 @@
+[{
+  "data": {
+    "creek": "aba130cd-c8c4-479a-be9c-5f8eee24dd8d",
+    "men": 30,
+    "budget": 9000,
+    "objective": [
+      {
+        "amount": 500,
+        "resource": "WOOD"
+      },
+      {
+        "amount": 50,
+        "resource": "FUR"
+      }
+    ]
+  },
+  "part": "Engine",
+  "time": 1430153448541,
+  "meth": "initialize"
+},{
+  "data": {
+    "action": "land",
+    "parameters": {
+      "creek": "aba130cd-c8c4-479a-be9c-5f8eee24dd8d",
+      "people": 15
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153448647,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153448658,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1430153448661,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "resources": [{
+        "amount": "MEDIUM",
+        "resource": "WOOD",
+        "cond": "FAIR"
+      }],
+      "pois": [{
+        "kind": "Creek",
+        "id": "aba130cd-c8c4-479a-be9c-5f8eee24dd8d"
+      }]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153448670,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "exception": ["JSONException"],
+    "stacktrace": [[
+      "org.json.JSONArray.getString(JSONArray.java:333)",
+      "fr.unice.polytech.ogl.islad.Explorer.acknowledgeResults(Explorer.java:134)",
+      "eu.ace_design.island.game.Engine$$anonfun$1.apply$mcV$sp(Engine.scala:62)",
+      "eu.ace_design.island.game.Engine$$anonfun$1.apply(Engine.scala:62)",
+      "eu.ace_design.island.game.Engine$$anonfun$1.apply(Engine.scala:62)",
+      "scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24)",
+      "scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24)",
+      "scala.concurrent.impl.ExecutionContextImpl$AdaptedForkJoinTask.exec(ExecutionContextImpl.scala:121)",
+      "scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)",
+      "scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)",
+      "scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)",
+      "scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)"
+    ]],
+    "message": ["JSONArray[0] not a string."]
+  },
+  "part": "Explorer",
+  "time": 1430153448682,
+  "meth": "acknowledgeResults"
+}]

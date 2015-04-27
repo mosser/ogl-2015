@@ -18,7 +18,7 @@ trait SI3 extends Teams {
     "islab" -> new fr.unice.polytech.ogl.islab.Explorer(),
     "islac" -> new fr.unice.polytech.ogl.islac.Explorer(),
     "islad" -> new fr.unice.polytech.ogl.islad.Explorer()
-    // "islae" -> new fr.unice.polytech.ogl.islae.Explorer()
+    //"islae" -> new fr.unice.polytech.ogl.islae.Explorer()
   )
 
   private lazy val g2 = Map(

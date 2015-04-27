@@ -1,0 +1,137 @@
+[{
+  "data": {
+    "creek": "aba130cd-c8c4-479a-be9c-5f8eee24dd8d",
+    "men": 30,
+    "budget": 9000,
+    "objective": [
+      {
+        "amount": 500,
+        "resource": "WOOD"
+      },
+      {
+        "amount": 50,
+        "resource": "FUR"
+      }
+    ]
+  },
+  "part": "Engine",
+  "time": 1430153504009,
+  "meth": "initialize"
+},{
+  "data": {
+    "action": "land",
+    "parameters": {
+      "creek": "aba130cd-c8c4-479a-be9c-5f8eee24dd8d",
+      "people": 2
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153504014,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153504015,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1430153504016,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "WOOD",
+        "FISH"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153504016,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1430153504018,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 0,
+      "resources": ["WOOD"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153504018,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153504018,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 1,
+      "resources": ["WOOD"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153504018,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153504018,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": ["WOOD"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153504018,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "stop"},
+  "part": "Explorer",
+  "time": 1430153504019,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153504019,
+  "meth": "takeDecision"
+}]

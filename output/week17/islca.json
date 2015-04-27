@@ -1,0 +1,5496 @@
+[{
+  "data": {
+    "creek": "aba130cd-c8c4-479a-be9c-5f8eee24dd8d",
+    "men": 30,
+    "budget": 9000,
+    "objective": [
+      {
+        "amount": 500,
+        "resource": "WOOD"
+      },
+      {
+        "amount": 50,
+        "resource": "FUR"
+      }
+    ]
+  },
+  "part": "Engine",
+  "time": 1430153525875,
+  "meth": "initialize"
+},{
+  "data": {
+    "action": "land",
+    "parameters": {
+      "creek": "aba130cd-c8c4-479a-be9c-5f8eee24dd8d",
+      "people": 2
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153525888,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525888,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153525890,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "MANGROVE",
+            47.25
+          ],
+          [
+            "OCEAN",
+            38.45
+          ],
+          [
+            "MANGROVE",
+            14.3
+          ]
+        ],
+        [
+          [
+            "OCEAN",
+            55.57
+          ],
+          [
+            "MANGROVE",
+            26.19
+          ],
+          [
+            "OCEAN",
+            18.24
+          ]
+        ],
+        ["OCEAN"],
+        ["OCEAN"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525890,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "E"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153525900,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "MANGROVE",
+            47.25
+          ],
+          [
+            "OCEAN",
+            38.45
+          ],
+          [
+            "MANGROVE",
+            14.3
+          ]
+        ],
+        [
+          [
+            "OCEAN",
+            99.54
+          ],
+          [
+            "MANGROVE",
+            0.46
+          ]
+        ],
+        ["OCEAN"],
+        ["OCEAN"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525900,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153525902,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "MANGROVE",
+            47.25
+          ],
+          [
+            "OCEAN",
+            38.45
+          ],
+          [
+            "MANGROVE",
+            14.3
+          ]
+        ],
+        [[
+          "MANGROVE",
+          100
+        ]],
+        ["MANGROVE"],
+        ["MANGROVE"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525903,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153525904,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 1,
+      "resources": ["WOOD"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525904,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153525911,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525911,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153525914,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {"amount": 38},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525914,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153525919,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525919,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153525919,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 1,
+      "resources": ["WOOD"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525919,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153525923,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525923,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153525925,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {"amount": 39},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525925,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153525926,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525926,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153525927,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "MANGROVE",
+            99.97
+          ],
+          [
+            "MANGROVE",
+            0.03
+          ]
+        ],
+        [
+          [
+            "MANGROVE",
+            76.51
+          ],
+          [
+            "MANGROVE",
+            14.47
+          ],
+          [
+            "MANGROVE",
+            9.02
+          ]
+        ],
+        ["MANGROVE"],
+        ["MANGROVE"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525927,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "W"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153525928,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "MANGROVE",
+            99.97
+          ],
+          [
+            "MANGROVE",
+            0.03
+          ]
+        ],
+        [[
+          "MANGROVE",
+          100
+        ]],
+        ["MANGROVE"],
+        ["MANGROVE"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525929,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "E"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153525930,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "MANGROVE",
+            99.97
+          ],
+          [
+            "MANGROVE",
+            0.03
+          ]
+        ],
+        [
+          [
+            "MANGROVE",
+            87.45
+          ],
+          [
+            "MANGROVE",
+            12.44
+          ],
+          [
+            "MANGROVE",
+            0.11
+          ]
+        ],
+        ["MANGROVE"],
+        ["MANGROVE"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525930,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153525931,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": ["WOOD"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525931,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153525933,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525933,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153525933,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {"amount": 41},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525933,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153525934,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525934,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153525935,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 0,
+      "resources": ["WOOD"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525935,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153525936,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525936,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153525936,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {"amount": 40},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525936,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153525937,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525937,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "E"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153525938,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "MANGROVE",
+            96.73
+          ],
+          [
+            "MANGROVE",
+            3.27
+          ]
+        ],
+        [
+          [
+            "MANGROVE",
+            69.09
+          ],
+          [
+            "MANGROVE",
+            17.63
+          ],
+          [
+            "OCEAN",
+            13.29
+          ]
+        ],
+        [
+          "MANGROVE",
+          "OCEAN"
+        ],
+        ["OCEAN"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525938,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153525939,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "MANGROVE",
+            96.73
+          ],
+          [
+            "MANGROVE",
+            3.27
+          ]
+        ],
+        [
+          [
+            "MANGROVE",
+            51.33
+          ],
+          [
+            "MANGROVE",
+            32.05
+          ],
+          [
+            "MANGROVE",
+            16.62
+          ]
+        ],
+        ["MANGROVE"],
+        ["MANGROVE"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525939,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153525941,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "MANGROVE",
+            96.73
+          ],
+          [
+            "MANGROVE",
+            3.27
+          ]
+        ],
+        [
+          [
+            "MANGROVE",
+            92.97
+          ],
+          [
+            "OCEAN",
+            7.03
+          ]
+        ],
+        [
+          "OCEAN",
+          "MANGROVE"
+        ],
+        ["OCEAN"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525941,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153525942,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 1,
+      "resources": ["WOOD"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525942,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153525943,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525943,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153525943,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {"amount": 40},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525943,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153525944,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525944,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153525944,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "WOOD",
+        "FLOWER"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525944,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153525945,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525945,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153525945,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {"amount": 27},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525945,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153525946,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525946,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153525946,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "MANGROVE",
+            97.97
+          ],
+          [
+            "MANGROVE",
+            2.03
+          ]
+        ],
+        [[
+          "MANGROVE",
+          100
+        ]],
+        ["MANGROVE"],
+        ["MANGROVE"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525946,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "W"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153525948,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "MANGROVE",
+            97.97
+          ],
+          [
+            "MANGROVE",
+            2.03
+          ]
+        ],
+        [
+          [
+            "MANGROVE",
+            98.52
+          ],
+          [
+            "MANGROVE",
+            1.48
+          ]
+        ],
+        ["MANGROVE"],
+        ["MANGROVE"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525948,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "E"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153525949,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "MANGROVE",
+            97.97
+          ],
+          [
+            "MANGROVE",
+            2.03
+          ]
+        ],
+        [
+          [
+            "MANGROVE",
+            100
+          ],
+          [
+            "MANGROVE",
+            0
+          ]
+        ],
+        ["MANGROVE"],
+        ["MANGROVE"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525949,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153525952,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "WOOD",
+        "FLOWER"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525952,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153525954,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525954,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153525954,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {"amount": 1},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525954,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153525955,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525955,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153525955,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": ["FLOWER"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525955,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153525956,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525956,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "E"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153525957,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "MANGROVE",
+          100
+        ]],
+        [
+          [
+            "MANGROVE",
+            79.57
+          ],
+          [
+            "MANGROVE",
+            15
+          ],
+          [
+            "MANGROVE",
+            5.44
+          ]
+        ],
+        ["MANGROVE"],
+        ["MANGROVE"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525957,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153525958,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "MANGROVE",
+          100
+        ]],
+        [
+          [
+            "MANGROVE",
+            96.22
+          ],
+          [
+            "MANGROVE",
+            3.78
+          ]
+        ],
+        ["MANGROVE"],
+        ["MANGROVE"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525958,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153525959,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "MANGROVE",
+          100
+        ]],
+        [
+          [
+            "MANGROVE",
+            71.44
+          ],
+          [
+            "MANGROVE",
+            28.56
+          ]
+        ],
+        ["MANGROVE"],
+        ["MANGROVE"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525959,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153525961,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "WOOD",
+        "FLOWER"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525961,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153525962,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525962,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153525962,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {"amount": 9},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525962,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153525963,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525963,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153525963,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": ["WOOD"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525963,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153525965,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525965,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153525965,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {"amount": 38},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525965,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153525966,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525966,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "E"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153525967,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "MANGROVE",
+          100
+        ]],
+        [
+          [
+            "MANGROVE",
+            88.15
+          ],
+          [
+            "MANGROVE",
+            11.85
+          ]
+        ],
+        ["MANGROVE"],
+        ["MANGROVE"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525968,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153525970,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "MANGROVE",
+          100
+        ]],
+        [[
+          "MANGROVE",
+          100
+        ]],
+        ["MANGROVE"],
+        ["MANGROVE"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525970,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153525971,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "MANGROVE",
+          100
+        ]],
+        [
+          [
+            "MANGROVE",
+            98.66
+          ],
+          [
+            "MANGROVE",
+            1.34
+          ]
+        ],
+        ["MANGROVE"],
+        ["MANGROVE"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525971,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153525972,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "WOOD",
+        "FLOWER"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525972,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153525973,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525973,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153525973,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {"amount": 34},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525973,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153525974,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525974,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153525974,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": ["FLOWER"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525974,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153525976,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525976,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "E"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153525976,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "MANGROVE",
+          100
+        ]],
+        [
+          [
+            "MANGROVE",
+            90.14
+          ],
+          [
+            "MANGROVE",
+            9.86
+          ]
+        ],
+        ["MANGROVE"],
+        ["MANGROVE"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525976,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153525978,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "MANGROVE",
+          100
+        ]],
+        [
+          [
+            "MANGROVE",
+            64.95
+          ],
+          [
+            "MANGROVE",
+            29.6
+          ],
+          [
+            "MANGROVE",
+            5.45
+          ]
+        ],
+        ["MANGROVE"],
+        ["MANGROVE"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525978,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153525979,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "MANGROVE",
+          100
+        ]],
+        [[
+          "MANGROVE",
+          100
+        ]],
+        ["MANGROVE"],
+        ["MANGROVE"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525979,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153525980,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "WOOD",
+        "FLOWER"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525980,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153525981,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525981,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153525981,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {"amount": 5},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525981,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153525982,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525982,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153525982,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "WOOD",
+        "FLOWER"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525982,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153525983,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525983,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153525984,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {"amount": 2},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525984,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153525984,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525984,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "E"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153525985,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "MANGROVE",
+          100
+        ]],
+        [
+          [
+            "MANGROVE",
+            78.92
+          ],
+          [
+            "MANGROVE",
+            21.08
+          ]
+        ],
+        ["MANGROVE"],
+        ["MANGROVE"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525985,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153525986,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "MANGROVE",
+          100
+        ]],
+        [
+          [
+            "MANGROVE",
+            99.61
+          ],
+          [
+            "MANGROVE",
+            0.39
+          ]
+        ],
+        [
+          "TROPICAL_RAIN_FOREST",
+          "MANGROVE"
+        ],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525986,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153525987,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "MANGROVE",
+          100
+        ]],
+        [
+          [
+            "MANGROVE",
+            97.18
+          ],
+          [
+            "MANGROVE",
+            2.82
+          ]
+        ],
+        ["MANGROVE"],
+        ["MANGROVE"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525987,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153525988,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "WOOD",
+        "FLOWER"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525988,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153525989,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525989,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153525990,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {"amount": 1},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525990,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153525990,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525990,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153525991,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 1,
+      "resources": ["WOOD"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525991,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153525993,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525993,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153525993,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {"amount": 43},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525993,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153525994,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525994,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153525994,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            64.74
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            35.26
+          ]
+        ],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            73.47
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            26.53
+          ]
+        ],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525994,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "W"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153525995,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            64.74
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            35.26
+          ]
+        ],
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525995,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "E"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153525995,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            64.74
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            35.26
+          ]
+        ],
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525996,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153525996,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 1,
+      "resources": ["WOOD"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525996,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153525997,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525997,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153525997,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 11,
+    "extras": {"amount": 42},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525997,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153525998,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525998,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153525998,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525998,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153525998,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525998,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153525999,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {"amount": 1},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153525999,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153526000,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526000,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526000,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            54.03
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            45.97
+          ]
+        ],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            99.14
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            0.86
+          ]
+        ],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526000,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "W"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526001,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            54.03
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            45.97
+          ]
+        ],
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526001,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "E"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526003,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            54.03
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            45.97
+          ]
+        ],
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526003,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153526003,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526004,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153526004,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526004,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153526005,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {"amount": 40},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526005,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153526005,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526005,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153526005,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526005,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153526006,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526006,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153526007,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {"amount": 38},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526007,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153526007,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526007,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526008,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            97.55
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            1.66
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            0.79
+          ]
+        ],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            97.26
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            2.74
+          ]
+        ],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526008,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "W"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526009,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            97.55
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            1.66
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            0.79
+          ]
+        ],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            79.9
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            20.1
+          ]
+        ],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526009,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "E"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526010,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            97.55
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            1.66
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            0.79
+          ]
+        ],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            82.96
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            15.69
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            1.35
+          ]
+        ],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526010,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526011,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": [
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526011,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526011,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526011,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153526012,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {"amount": 34},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526012,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526013,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526013,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526013,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 1,
+      "resources": ["WOOD"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526013,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526013,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526013,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "E"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526014,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            98.84
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            1.16
+          ]
+        ],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            67.72
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            23.26
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            9.02
+          ]
+        ],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526014,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526014,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            98.84
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            1.16
+          ]
+        ],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            58.29
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            26.27
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            15.44
+          ]
+        ],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526014,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526015,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            98.84
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            1.16
+          ]
+        ],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            83.82
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            16.18
+          ]
+        ],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526015,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526016,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526016,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526016,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526016,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526017,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526017,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "E"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526017,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526017,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526018,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526018,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526020,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            74.12
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            25.88
+          ]
+        ],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526020,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526021,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526021,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526021,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526021,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526022,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526022,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "E"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526022,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526022,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526023,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526023,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526024,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            99.5
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            0.5
+          ]
+        ],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526024,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526025,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526025,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526025,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526025,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526026,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526026,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "E"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526026,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            45.56
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            29.17
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            15.32
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            9.95
+          ]
+        ],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            88.23
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            11.77
+          ]
+        ],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526026,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526027,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            45.56
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            29.17
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            15.32
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            9.95
+          ]
+        ],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            96.89
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            3.11
+          ]
+        ],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526027,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526028,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            45.56
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            29.17
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            15.32
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            9.95
+          ]
+        ],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            100
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            0
+          ]
+        ],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526028,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526029,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526029,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526029,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526029,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526030,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526030,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "E"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526030,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            53.05
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            46.95
+          ]
+        ],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526030,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526031,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            63.66
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            20.38
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            15.95
+          ]
+        ],
+        [
+          "TROPICAL_SEASONAL_FOREST",
+          "TROPICAL_RAIN_FOREST"
+        ],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526031,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526031,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_RAIN_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526031,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526032,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526032,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526032,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526032,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526033,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526033,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "E"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526033,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            89.5
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            10.5
+          ]
+        ],
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            71.03
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            21.77
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            7.2
+          ]
+        ],
+        ["TROPICAL_SEASONAL_FOREST"],
+        ["TROPICAL_SEASONAL_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526033,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526034,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            89.5
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            10.5
+          ]
+        ],
+        [[
+          "TROPICAL_RAIN_FOREST",
+          100
+        ]],
+        ["TROPICAL_RAIN_FOREST"],
+        ["TROPICAL_SEASONAL_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526034,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526034,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_RAIN_FOREST",
+            89.5
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            10.5
+          ]
+        ],
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            99.39
+          ],
+          [
+            "TROPICAL_RAIN_FOREST",
+            0.61
+          ]
+        ],
+        ["TROPICAL_SEASONAL_FOREST"],
+        ["TROPICAL_SEASONAL_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526034,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526035,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526035,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526036,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526036,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526036,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526036,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "E"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526037,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "TROPICAL_SEASONAL_FOREST",
+          100
+        ]],
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            50.38
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            48.66
+          ],
+          [
+            "SHRUBLAND",
+            0.96
+          ]
+        ],
+        [
+          "SHRUBLAND",
+          "TROPICAL_SEASONAL_FOREST"
+        ],
+        ["SHRUBLAND"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526037,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526038,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "FUR",
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526038,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526038,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526038,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "FUR"}
+  },
+  "part": "Explorer",
+  "time": 1430153526039,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {"amount": 1},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526039,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526039,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526039,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526039,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 2,
+      "resources": [
+        "FUR",
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526039,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526040,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526040,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "FUR"}
+  },
+  "part": "Explorer",
+  "time": 1430153526040,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 15,
+    "extras": {"amount": 3},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526040,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526041,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526041,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "E"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526041,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            99.36
+          ],
+          [
+            "SHRUBLAND",
+            0.64
+          ]
+        ],
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            99.5
+          ],
+          [
+            "SHRUBLAND",
+            0.5
+          ]
+        ],
+        [
+          "TROPICAL_SEASONAL_FOREST",
+          "SHRUBLAND"
+        ],
+        ["SHRUBLAND"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526041,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526041,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "FUR",
+        "WOOD"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526042,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526042,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526042,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "FUR"}
+  },
+  "part": "Explorer",
+  "time": 1430153526042,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {"amount": 1},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526042,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526043,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526043,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526043,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "FUR",
+        "WOOD",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526043,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526043,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526043,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "FUR"}
+  },
+  "part": "Explorer",
+  "time": 1430153526044,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 15,
+    "extras": {"amount": 5},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526044,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430153526044,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526044,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "E"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526045,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            93.26
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            4.4
+          ],
+          [
+            "SHRUBLAND",
+            2.35
+          ]
+        ],
+        [[
+          "TROPICAL_SEASONAL_FOREST",
+          100
+        ]],
+        ["TROPICAL_SEASONAL_FOREST"],
+        ["TROPICAL_SEASONAL_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526045,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526045,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            93.26
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            4.4
+          ],
+          [
+            "SHRUBLAND",
+            2.35
+          ]
+        ],
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            63.34
+          ],
+          [
+            "SHRUBLAND",
+            36.66
+          ]
+        ],
+        [
+          "SHRUBLAND",
+          "TROPICAL_SEASONAL_FOREST"
+        ],
+        ["TROPICAL_SEASONAL_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526046,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526046,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            93.26
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            4.4
+          ],
+          [
+            "SHRUBLAND",
+            2.35
+          ]
+        ],
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            88.34
+          ],
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            11.66
+          ]
+        ],
+        ["TROPICAL_SEASONAL_FOREST"],
+        ["TROPICAL_SEASONAL_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526046,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153526047,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "FUR",
+        "WOOD"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526047,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153526048,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526048,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "FUR"}
+  },
+  "part": "Explorer",
+  "time": 1430153526048,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 15,
+    "extras": {"amount": 2},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526048,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153526049,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526049,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153526049,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": ["SUGAR_CANE"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526049,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153526050,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526050,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526051,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "TROPICAL_SEASONAL_FOREST",
+          100
+        ]],
+        [[
+          "TROPICAL_SEASONAL_FOREST",
+          100
+        ]],
+        [
+          "SHRUBLAND",
+          "TROPICAL_SEASONAL_FOREST"
+        ],
+        ["SHRUBLAND"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526051,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "W"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526052,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "TROPICAL_SEASONAL_FOREST",
+          100
+        ]],
+        [
+          [
+            "TROPICAL_SEASONAL_FOREST",
+            90.16
+          ],
+          [
+            "SHRUBLAND",
+            9.84
+          ]
+        ],
+        [
+          "SHRUBLAND",
+          "TROPICAL_SEASONAL_FOREST"
+        ],
+        ["SHRUBLAND"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526052,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1430153526052,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "FUR",
+        "SUGAR_CANE"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526052,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1430153526053,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526053,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "FUR"}
+  },
+  "part": "Explorer",
+  "time": 1430153526053,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {"amount": 1},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526053,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1430153526054,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526054,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1430153526054,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 1,
+      "resources": ["FUR"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526054,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1430153526055,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526055,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "FUR"}
+  },
+  "part": "Explorer",
+  "time": 1430153526055,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {"amount": 7},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526055,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1430153526056,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526056,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "W"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526056,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "SHRUBLAND",
+            58.21
+          ],
+          [
+            "SHRUBLAND",
+            41.79
+          ]
+        ],
+        [
+          [
+            "SHRUBLAND",
+            58.48
+          ],
+          [
+            "SHRUBLAND",
+            41.52
+          ]
+        ],
+        ["SHRUBLAND"],
+        ["SHRUBLAND"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526056,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1430153526057,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 0,
+      "resources": ["FUR"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526057,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1430153526058,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526058,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "FUR"}
+  },
+  "part": "Explorer",
+  "time": 1430153526058,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {"amount": 7},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526058,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1430153526058,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526059,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1430153526059,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 0,
+      "resources": ["FUR"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526059,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1430153526060,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526060,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "FUR"}
+  },
+  "part": "Explorer",
+  "time": 1430153526060,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 14,
+    "extras": {"amount": 6},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526060,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1430153526060,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526060,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "W"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526061,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "SHRUBLAND",
+          100
+        ]],
+        [[
+          "SHRUBLAND",
+          100
+        ]],
+        [
+          "TROPICAL_SEASONAL_FOREST",
+          "TROPICAL_RAIN_FOREST",
+          "SHRUBLAND"
+        ],
+        ["TROPICAL_SEASONAL_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526061,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526062,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "SHRUBLAND",
+          100
+        ]],
+        [[
+          "SHRUBLAND",
+          100
+        ]],
+        [
+          "TROPICAL_SEASONAL_FOREST",
+          "SHRUBLAND"
+        ],
+        ["TROPICAL_SEASONAL_FOREST"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526062,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526063,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "SHRUBLAND",
+          100
+        ]],
+        [[
+          "SHRUBLAND",
+          100
+        ]],
+        ["SHRUBLAND"],
+        ["SHRUBLAND"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526063,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153526063,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": ["FUR"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526063,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153526064,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526064,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "FUR"}
+  },
+  "part": "Explorer",
+  "time": 1430153526064,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {"amount": 5},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526064,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153526064,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526065,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153526065,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {
+      "altitude": 1,
+      "resources": ["FUR"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526065,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153526065,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526065,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "FUR"}
+  },
+  "part": "Explorer",
+  "time": 1430153526066,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {"amount": 6},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526066,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153526066,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526066,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "S"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153526067,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [[
+          "SHRUBLAND",
+          100
+        ]],
+        [[
+          "SHRUBLAND",
+          100
+        ]],
+        ["SHRUBLAND"],
+        ["SHRUBLAND"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526067,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153526068,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 0,
+      "resources": ["FUR"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526068,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430153526069,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526069,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "FUR"}
+  },
+  "part": "Explorer",
+  "time": 1430153526069,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {"amount": 6},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526069,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "stop"},
+  "part": "Explorer",
+  "time": 1430153526070,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 39,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153526070,
+  "meth": "takeDecision"
+}]

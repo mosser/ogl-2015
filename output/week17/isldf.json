@@ -1,0 +1,6794 @@
+[{
+  "data": {
+    "creek": "aba130cd-c8c4-479a-be9c-5f8eee24dd8d",
+    "men": 30,
+    "budget": 9000,
+    "objective": [
+      {
+        "amount": 500,
+        "resource": "WOOD"
+      },
+      {
+        "amount": 50,
+        "resource": "FUR"
+      }
+    ]
+  },
+  "part": "Engine",
+  "time": 1430153470146,
+  "meth": "initialize"
+},{
+  "data": {
+    "action": "land",
+    "parameters": {
+      "creek": "aba130cd-c8c4-479a-be9c-5f8eee24dd8d",
+      "people": 15
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153470151,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 13,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470152,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "glimpse",
+    "parameters": {
+      "range": 4,
+      "direction": "N"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153470154,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "asked_range": 4,
+      "report": [
+        [
+          [
+            "MANGROVE",
+            47.25
+          ],
+          [
+            "OCEAN",
+            38.45
+          ],
+          [
+            "MANGROVE",
+            14.3
+          ]
+        ],
+        [
+          [
+            "OCEAN",
+            55.57
+          ],
+          [
+            "MANGROVE",
+            26.19
+          ],
+          [
+            "OCEAN",
+            18.24
+          ]
+        ],
+        ["OCEAN"],
+        ["OCEAN"]
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470154,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1430153470155,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470155,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1430153470156,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "resources": [
+        {
+          "amount": "LOW",
+          "resource": "WOOD",
+          "cond": "FAIR"
+        },
+        {
+          "amount": "LOW",
+          "resource": "FISH",
+          "cond": "FAIR"
+        }
+      ],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470156,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1430153470158,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "resources": [
+        {
+          "amount": "LOW",
+          "resource": "WOOD",
+          "cond": "FAIR"
+        },
+        {
+          "amount": "LOW",
+          "resource": "FISH",
+          "cond": "FAIR"
+        }
+      ],
+      "pois": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470158,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470159,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 11},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470159,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470159,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470159,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470159,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470159,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470159,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 26,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470159,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470159,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470159,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470160,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 15,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470160,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470160,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470160,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470160,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470160,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470160,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 24,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470160,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470160,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470160,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470160,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 25,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470160,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470160,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470160,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470160,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470160,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470160,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470160,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470160,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470160,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470161,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470161,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470161,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470161,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470161,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 26,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470161,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470161,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470161,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470161,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 27,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470161,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470161,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470161,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470161,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470161,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470161,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 24,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470161,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470161,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 24,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470162,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470162,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470162,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470162,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470162,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470162,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470162,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470162,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470162,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470162,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470162,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470162,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470162,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470162,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470162,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470163,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470163,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470163,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470163,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470163,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 25,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470163,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470163,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 25,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470163,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470163,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470163,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470163,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470163,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470163,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470163,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470164,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470164,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470164,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 24,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470164,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470164,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470164,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470164,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470164,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470164,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470164,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470164,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470164,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470164,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470164,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470165,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470165,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470165,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470165,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470165,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470165,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470165,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470165,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470165,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470165,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470165,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470166,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470166,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470166,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470166,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470166,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470166,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 24,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470166,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470166,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470166,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470166,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470166,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470166,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 27,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470166,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470167,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470167,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470167,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470167,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470167,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470167,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470170,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470171,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470171,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470171,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470171,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470171,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470171,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470171,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470172,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470172,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470172,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470172,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470172,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 25,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470172,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470172,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470172,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470172,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470172,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470172,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470172,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470173,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470173,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470173,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470173,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470173,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470173,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470173,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470173,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470173,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470173,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470173,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 25,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470173,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470173,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470173,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470174,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 26,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470174,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470174,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470174,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470174,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470174,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470174,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470174,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470174,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470174,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470174,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470174,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470174,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470174,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470175,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470175,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470175,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470175,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470175,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470175,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470175,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470175,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470175,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470175,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470175,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470175,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470175,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470175,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470175,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470175,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470176,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470176,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470176,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470176,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470176,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470176,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470176,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470176,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470176,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470176,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470176,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 27,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470176,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470176,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470176,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470177,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470177,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470177,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470177,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470177,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470177,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470177,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470177,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470177,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470177,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470177,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470177,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470177,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470177,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470177,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470178,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470178,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470178,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470178,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470178,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470178,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470178,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470178,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470178,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470178,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470178,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470178,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470178,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470178,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470178,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470179,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470179,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470179,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470179,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470179,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470179,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470179,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 24,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470179,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470179,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 25,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470179,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470179,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470179,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470180,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470180,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470180,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470180,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470180,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470180,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470180,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 24,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470180,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470180,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470180,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470180,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470180,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470181,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470181,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470181,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470181,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470181,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470181,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470181,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470181,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470181,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470181,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470182,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470182,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470182,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470183,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470183,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470183,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470183,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470183,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470183,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470183,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470183,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470183,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470183,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470183,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470183,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470183,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470184,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470184,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470184,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470184,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470184,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470184,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470184,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470184,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470184,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470184,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470184,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470184,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470184,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 25,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470184,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470184,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470184,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470185,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470185,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470185,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470185,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470185,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470185,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470185,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470185,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470185,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470185,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470185,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470185,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470185,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 24,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470185,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470186,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470186,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470186,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470186,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470186,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470186,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470186,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470186,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470186,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470186,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470186,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470186,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470186,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470186,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470187,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 25,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470187,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470187,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470187,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470187,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470187,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470187,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470187,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470187,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470187,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470188,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470188,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470188,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 26,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470188,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470188,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470188,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470188,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470188,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470188,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470188,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470188,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470188,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470188,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 24,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470188,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470189,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 24,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470189,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470189,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470189,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470189,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470189,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470189,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470189,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470189,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470189,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470189,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 25,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470189,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470189,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470189,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470189,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470190,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470190,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 15,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470190,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470190,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 24,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470190,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470190,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 24,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470190,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470190,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470190,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470190,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470190,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470190,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 25,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470190,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470190,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470190,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470191,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470191,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470191,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470191,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470191,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 25,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470191,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470191,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 24,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470191,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470191,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470191,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470191,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 25,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470192,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470192,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470192,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470192,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470192,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470192,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 25,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470192,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470192,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470192,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470192,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470192,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470192,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470192,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470193,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470193,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470193,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470193,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470193,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470193,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470193,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 26,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470193,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470193,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470193,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470193,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470193,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470194,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470194,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470194,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470194,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470194,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470194,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470194,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470194,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470194,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470194,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470194,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470194,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470194,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470194,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470195,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470195,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470195,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470195,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470195,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 26,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470195,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470195,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470195,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470195,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 25,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470195,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470195,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470195,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470195,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470195,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470195,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 27,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470195,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470196,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470196,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470196,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470196,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470196,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470196,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470196,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470196,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470196,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470196,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470196,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470196,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470196,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470196,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470197,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470197,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470197,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470197,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470197,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470197,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470197,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470197,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470197,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470197,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470197,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 24,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470197,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470197,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470197,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470198,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 26,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470198,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470198,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470198,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470198,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470198,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470198,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470198,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470198,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470198,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470198,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470198,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470198,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470198,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470199,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470199,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470199,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470199,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470199,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470199,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470199,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 25,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470199,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470199,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470199,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470199,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470199,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470200,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470200,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470200,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470200,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470200,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470200,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470200,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470200,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470200,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470200,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470200,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470200,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470201,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470201,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470201,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470201,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470201,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470201,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470201,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 24,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470201,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470201,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470201,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470201,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470201,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470201,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 24,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470201,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470201,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470202,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470202,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470202,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470202,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470202,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470202,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 24,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470202,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470202,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 24,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470202,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470202,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470202,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470202,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 15,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470202,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470202,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470202,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470203,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470203,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470203,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 27,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470203,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470203,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470203,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470203,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470203,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470204,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470204,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470204,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470204,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470204,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 24,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470204,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470204,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 15,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470204,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470204,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 24,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470204,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470204,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470204,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470205,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470205,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470205,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470205,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470205,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 26,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470205,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470205,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470205,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470205,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470205,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470205,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470205,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470206,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470206,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470206,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470206,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470206,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470206,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470206,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470206,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470206,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 26,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470206,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470206,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 15,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470206,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470207,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 25,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470207,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470207,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470207,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470207,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 25,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470207,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470207,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470207,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470207,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470207,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470207,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470207,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470208,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470208,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470208,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 25,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470208,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470208,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470208,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470208,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470208,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470208,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 24,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470208,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470208,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470208,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470209,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470209,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470209,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470209,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470209,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470209,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470209,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470209,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470209,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 26,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470209,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470209,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470209,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470210,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 24,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470210,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470210,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 24,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470210,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470210,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 24,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470210,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470210,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470210,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470210,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470210,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470210,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470210,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470210,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 27,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470211,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470211,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470211,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470211,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 27,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470211,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470211,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 26,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470211,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470211,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470211,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470211,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470211,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470211,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470211,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470211,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 25,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470212,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470212,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 26,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470212,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470212,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470212,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470212,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470212,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470212,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470212,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470212,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470213,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470213,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470213,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470213,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 26,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470213,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470213,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470213,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470213,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470213,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470213,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470213,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470213,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470213,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470214,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470214,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470214,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470214,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470214,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470214,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470214,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470214,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470214,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470214,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470214,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470214,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470214,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470215,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470215,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470215,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470215,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470215,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470215,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 26,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470215,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470215,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470215,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470215,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 24,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470216,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470216,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470216,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470216,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470216,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470217,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470217,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470217,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470217,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470217,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470217,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470217,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470217,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470217,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 26,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470217,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470217,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470217,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470217,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 24,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470217,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470218,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 27,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470218,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470218,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470218,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470218,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470218,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470218,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470218,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470218,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 24,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470218,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470218,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470218,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470218,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470218,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470219,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470219,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470219,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470219,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470219,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 25,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470219,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470219,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 21,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470219,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470219,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470219,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470219,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470219,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470219,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470219,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470220,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470220,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470220,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470220,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470220,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470220,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470220,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470220,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470220,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470220,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470220,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470220,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470220,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470220,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470221,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 27,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470221,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470221,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470221,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470221,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470221,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470221,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470221,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470221,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470221,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470221,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470221,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470221,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470222,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470222,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 25,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470222,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470222,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 27,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470222,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470222,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 26,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470222,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470222,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470222,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470222,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 23,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470222,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "WOOD"}
+  },
+  "part": "Explorer",
+  "time": 1430153470222,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 27,
+    "extras": {"amount": 0},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470222,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "stop"},
+  "part": "Explorer",
+  "time": 1430153470223,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 19,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153470223,
+  "meth": "takeDecision"
+}]

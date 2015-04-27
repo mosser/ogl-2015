@@ -78,11 +78,11 @@
             <artifactId>islad</artifactId>
             <version>0.1-SNAPSHOT</version>
         </dependency>
-        <!-- <dependency>
+        <dependency>
             <groupId>fr.unice.polytech.ogl</groupId>
             <artifactId>islae</artifactId>
             <version>0.1-SNAPSHOT</version>
-        </dependency> -->
+        </dependency>
         <dependency>
             <groupId>fr.unice.polytech.ogl</groupId>
             <artifactId>islba</artifactId>

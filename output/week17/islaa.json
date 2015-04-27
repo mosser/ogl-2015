@@ -1,0 +1,63 @@
+[{
+  "data": {
+    "creek": "aba130cd-c8c4-479a-be9c-5f8eee24dd8d",
+    "men": 30,
+    "budget": 9000,
+    "objective": [
+      {
+        "amount": 500,
+        "resource": "WOOD"
+      },
+      {
+        "amount": 50,
+        "resource": "FUR"
+      }
+    ]
+  },
+  "part": "Engine",
+  "time": 1430153513023,
+  "meth": "initialize"
+},{
+  "data": {
+    "action": "land",
+    "parameters": {
+      "creek": "aba130cd-c8c4-479a-be9c-5f8eee24dd8d",
+      "people": 10
+    }
+  },
+  "part": "Explorer",
+  "time": 1430153513027,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 17,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430153513027,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "exception": ["NullPointerException"],
+    "stacktrace": [[
+      "fr.unice.polytech.ogl.islaa.data.Data.getLastActionDecision(Data.java:164)",
+      "fr.unice.polytech.ogl.islaa.data.Data.result(Data.java:93)",
+      "fr.unice.polytech.ogl.islaa.Explorer.acknowledgeResults(Explorer.java:32)",
+      "eu.ace_design.island.game.Engine$$anonfun$1.apply$mcV$sp(Engine.scala:62)",
+      "eu.ace_design.island.game.Engine$$anonfun$1.apply(Engine.scala:62)",
+      "eu.ace_design.island.game.Engine$$anonfun$1.apply(Engine.scala:62)",
+      "scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24)",
+      "scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24)",
+      "scala.concurrent.impl.ExecutionContextImpl$AdaptedForkJoinTask.exec(ExecutionContextImpl.scala:121)",
+      "scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)",
+      "scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)",
+      "scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)",
+      "scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)"
+    ]],
+    "message": [null]
+  },
+  "part": "Explorer",
+  "time": 1430153513028,
+  "meth": "acknowledgeResults"
+}]
