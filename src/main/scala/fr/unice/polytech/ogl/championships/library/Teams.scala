@@ -17,8 +17,8 @@ trait SI3 extends Teams {
     "islaa" -> new fr.unice.polytech.ogl.islaa.Explorer(),
     "islab" -> new fr.unice.polytech.ogl.islab.Explorer(),
     "islac" -> new fr.unice.polytech.ogl.islac.Explorer(),
-    "islad" -> new fr.unice.polytech.ogl.islad.Explorer()
-    //"islae" -> new fr.unice.polytech.ogl.islae.Explorer()
+    "islad" -> new fr.unice.polytech.ogl.islad.Explorer(),
+    "islae" -> new fr.unice.polytech.ogl.islae.Explorer()
   )
 
   private lazy val g2 = Map(
@@ -32,7 +32,7 @@ trait SI3 extends Teams {
   private lazy val g3 = Map(
     "islca" -> new fr.unice.polytech.ogl.islca.Explorer(),
     "islcb" -> new fr.unice.polytech.ogl.islcb.Explorer(),
-    "islcc" -> new fr.unice.polytech.ogl.islcc.Explorer(),
+    //"islcc" -> new fr.unice.polytech.ogl.islcc.Explorer(),
     "islcd" -> new fr.unice.polytech.ogl.islcd.Explorer(),
     "islce" -> new fr.unice.polytech.ogl.islce.Explorer(),
     "islcf" -> new fr.unice.polytech.ogl.islcf.Explorer()
@@ -42,7 +42,7 @@ trait SI3 extends Teams {
     "islda" -> new fr.unice.polytech.ogl.islda.Explorer(),
     "isldb" -> new fr.unice.polytech.ogl.isldb.Explorer(),
     "isldc" -> new fr.unice.polytech.ogl.isldc.Explorer(),
-    "isldd" -> new fr.unice.polytech.ogl.isldd.Explorer(),
+    //"isldd" -> new fr.unice.polytech.ogl.isldd.Explorer(),
     "islde" -> new fr.unice.polytech.ogl.islde.Explorer(),
     "isldf" -> new fr.unice.polytech.ogl.isldf.Explorer()
   )

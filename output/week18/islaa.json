@@ -1,0 +1,34 @@
+[{
+  "data": {
+    "creek": "33c6d12f-bf32-44d9-86c2-a94aeb7d245b",
+    "men": 15,
+    "budget": 10000,
+    "objective": [
+      {
+        "amount": 1000,
+        "resource": "WOOD"
+      },
+      {
+        "amount": 50,
+        "resource": "FUR"
+      }
+    ]
+  },
+  "part": "Engine",
+  "time": 1430682802862,
+  "meth": "initialize"
+},{
+  "data": {"action": "stop"},
+  "part": "Explorer",
+  "time": 1430682802863,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430682802863,
+  "meth": "takeDecision"
+}]

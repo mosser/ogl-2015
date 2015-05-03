@@ -1,0 +1,194 @@
+[{
+  "data": {
+    "creek": "33c6d12f-bf32-44d9-86c2-a94aeb7d245b",
+    "men": 15,
+    "budget": 10000,
+    "objective": [
+      {
+        "amount": 1000,
+        "resource": "WOOD"
+      },
+      {
+        "amount": 50,
+        "resource": "FUR"
+      }
+    ]
+  },
+  "part": "Engine",
+  "time": 1430682792357,
+  "meth": "initialize"
+},{
+  "data": {
+    "action": "land",
+    "parameters": {
+      "creek": "33c6d12f-bf32-44d9-86c2-a94aeb7d245b",
+      "people": 2
+    }
+  },
+  "part": "Explorer",
+  "time": 1430682792363,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430682792363,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1430682792366,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 0,
+      "resources": ["FISH"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430682792366,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1430682792367,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "altitude": 1,
+      "resources": ["FISH"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430682792367,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1430682792368,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 1,
+      "resources": []
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430682792368,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1430682792368,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 1,
+      "resources": ["FISH"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430682792368,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "stop",
+    "parameters": {
+      "ISLDE-curHist": [
+        {
+          "source": "Explorer#initialize",
+          "message": "Initialize context: {\"creek\":\"33c6d12f-bf32-44d9-86c2-a94aeb7d245b\",\"men\":15,\"budget\":10000,\"objective\":[{\"amount\":1000,\"resource\":\"WOOD\"},{\"amount\":50,\"resource\":\"FUR\"}]}"
+        },
+        {
+          "source": "Explorer#takeDecision",
+          "message": "send: {\"action\":\"land\",\"parameters\":{\"creek\":\"33c6d12f-bf32-44d9-86c2-a94aeb7d245b\",\"people\":2}}"
+        },
+        {
+          "source": "class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults",
+          "message": "results: {\"cost\":12,\"extras\":{},\"status\":\"OK\"}"
+        },
+        {
+          "source": "Explorer#takeDecision",
+          "message": "send: {\"action\":\"scout\",\"parameters\":{\"direction\":\"W\"}}"
+        },
+        {
+          "source": "class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults",
+          "message": "results: {\"cost\":6,\"extras\":{\"altitude\":0,\"resources\":[\"FISH\"]},\"status\":\"OK\"}"
+        },
+        {
+          "source": "Explorer#takeDecision",
+          "message": "send: {\"action\":\"scout\",\"parameters\":{\"direction\":\"N\"}}"
+        },
+        {
+          "source": "class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults",
+          "message": "results: {\"cost\":8,\"extras\":{\"altitude\":1,\"resources\":[\"FISH\"]},\"status\":\"OK\"}"
+        },
+        {
+          "source": "Explorer#takeDecision",
+          "message": "send: {\"action\":\"scout\",\"parameters\":{\"direction\":\"E\"}}"
+        },
+        {
+          "source": "class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults",
+          "message": "results: {\"cost\":6,\"extras\":{\"altitude\":1,\"resources\":[]},\"status\":\"OK\"}"
+        },
+        {
+          "source": "Explorer#takeDecision",
+          "message": "send: {\"action\":\"scout\",\"parameters\":{\"direction\":\"S\"}}"
+        },
+        {
+          "source": "class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults",
+          "message": "results: {\"cost\":5,\"extras\":{\"altitude\":1,\"resources\":[\"FISH\"]},\"status\":\"OK\"}"
+        },
+        {
+          "exception": "java.lang.ArrayIndexOutOfBoundsException: 0",
+          "source": "class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults",
+          "message": "0"
+        },
+        {
+          "source": "Explorer#takeDecision",
+          "message": "send: {\"action\":\"stop\",\"parameters\":{\"ISLDE-curHist\":[{\"source\":\"Explorer#initialize\",\"message\":\"Initialize context: {\\\"creek\\\":\\\"33c6d12f-bf32-44d9-86c2-a94aeb7d245b\\\",\\\"men\\\":15,\\\"budget\\\":10000,\\\"objective\\\":[{\\\"amount\\\":1000,\\\"resource\\\":\\\"WOOD\\\"},{\\\"amount\\\":50,\\\"resource\\\":\\\"FUR\\\"}]}\"},{\"source\":\"Explorer#takeDecision\",\"message\":\"send: {\\\"action\\\":\\\"land\\\",\\\"parameters\\\":{\\\"creek\\\":\\\"33c6d12f-bf32-44d9-86c2-a94aeb7d245b\\\",\\\"people\\\":2}}\"},{\"source\":\"class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults\",\"message\":\"results: {\\\"cost\\\":12,\\\"extras\\\":{},\\\"status\\\":\\\"OK\\\"}\"},{\"source\":\"Explorer#takeDecision\",\"message\":\"send: {\\\"action\\\":\\\"scout\\\",\\\"parameters\\\":{\\\"direction\\\":\\\"W\\\"}}\"},{\"source\":\"class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults\",\"message\":\"results: {\\\"cost\\\":6,\\\"extras\\\":{\\\"altitude\\\":0,\\\"resources\\\":[\\\"FISH\\\"]},\\\"status\\\":\\\"OK\\\"}\"},{\"source\":\"Explorer#takeDecision\",\"message\":\"send: {\\\"action\\\":\\\"scout\\\",\\\"parameters\\\":{\\\"direction\\\":\\\"N\\\"}}\"},{\"source\":\"class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults\",\"message\":\"results: {\\\"cost\\\":8,\\\"extras\\\":{\\\"altitude\\\":1,\\\"resources\\\":[\\\"FISH\\\"]},\\\"status\\\":\\\"OK\\\"}\"},{\"source\":\"Explorer#takeDecision\",\"message\":\"send: {\\\"action\\\":\\\"scout\\\",\\\"parameters\\\":{\\\"direction\\\":\\\"E\\\"}}\"},{\"source\":\"class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults\",\"message\":\"results: {\\\"cost\\\":6,\\\"extras\\\":{\\\"altitude\\\":1,\\\"resources\\\":[]},\\\"status\\\":\\\"OK\\\"}\"},{\"source\":\"Explorer#takeDecision\",\"message\":\"send: {\\\"action\\\":\\\"scout\\\",\\\"parameters\\\":{\\\"direction\\\":\\\"S\\\"}}\"},{\"source\":\"class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults\",\"message\":\"results: {\\\"cost\\\":5,\\\"extras\\\":{\\\"altitude\\\":1,\\\"resources\\\":[\\\"FISH\\\"]},\\\"status\\\":\\\"OK\\\"}\"},{\"exception\":\"java.lang.ArrayIndexOutOfBoundsException: 0\",\"source\":\"class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults\",\"message\":\"0\"}],\"ISLDE-reason\":\"java.lang.ArrayIndexOutOfBoundsException: 0\"}}"
+        }
+      ],
+      "ISLDE-reason": "java.lang.ArrayIndexOutOfBoundsException: 0"
+    }
+  },
+  "part": "Explorer",
+  "time": 1430682792370,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1430682792370,
+  "meth": "takeDecision"
+}]
