@@ -12,6 +12,7 @@ object Week14 extends Championship with SI3 with DiSLand {
 
   override val seed = Islands.seed14
   override val outputDir =  "./output/week14"
+  override val objectives = Set((WOOD, 9000), (QUARTZ, 500)).asInstanceOf[Set[(Resource, Int)]]
 
   // Retrieving the island used for this week and storing it as a PDF file
   val theIsland: IslandMap = Islands.week14
@@ -26,7 +27,6 @@ object Week14 extends Championship with SI3 with DiSLand {
   printInfo(theIsland, theBoard)
 
   // Building the game engine and the associated objectives
-  val objectives = Set((WOOD, 9000), (QUARTZ, 500)).asInstanceOf[Set[(Resource, Int)]]
   val initialization = Game(Budget(10000), Crew(40), objectives)
 
   // running the championship based on the teams defined in SI3

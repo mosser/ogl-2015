@@ -4,6 +4,7 @@ import eu.ace_design.island.dsl.DiSLand
 import eu.ace_design.island.game._
 import eu.ace_design.island.map.IslandMap
 import eu.ace_design.island.stdlib.POIGenerators.WithCreeks
+import eu.ace_design.island.map.resources.Resource
 import eu.ace_design.island.stdlib.Resources.WOOD
 import fr.unice.polytech.ogl.championships.library.{Championship, SI3}
 
@@ -25,8 +26,8 @@ object Week11 extends Championship with SI3 with DiSLand {
   printInfo(theIsland, theBoard)
 
   // Building the game engine and the associated objectives
-  val objective = (WOOD, 600)
-  val initialization = Game(budget = Budget(600), crew = Crew(50), objectives = Set(objective) )
+  override val objectives = Set((WOOD.asInstanceOf[Resource], 600))
+  val initialization = Game(budget = Budget(600), crew = Crew(50), objectives = objectives )
 
   // running the championship based on the teams defined in SI3
   println("\n## Running championship with the following players")

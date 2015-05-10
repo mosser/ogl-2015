@@ -16,6 +16,7 @@ trait Championship extends App with Teams {
   val outputDir: String
   val seed: Long
   val FROZEN: Boolean = false
+  val objectives: Set[(Resource, Int)]
 
   def printInfo(isl: IslandMap, board: GameBoard) {
     println("\n# Island global statistics")
@@ -23,13 +24,18 @@ trait Championship extends App with Teams {
       case None =>
       case Some(d) => d.toSeq sortBy { _._1.toString  } foreach { case (stat, value) => println(s"  - $stat => $value") }
     }
+
     println("\n## Resources amounts")
     board.contents.toSeq.sortBy(_._2).reverse foreach { case (res, amount) => println(f"  - ${res}%-10s => $amount") }
+
     println("\n## Point of Interests available")
     board.pois foreach { case (loc, pois) => println(s"  - $loc: $pois") }
 
     if(board.startingTile.isDefined)
       println("\n  - Starting tile: " + board.startingTile.get)
+
+    println("\n## Objectives")
+    objectives foreach { case (res, amount) => println(f"  - ${res.name}%-10s: $amount") }
   }
 
   type ChampResult = Iterable[Either[Result, (String, String)] with Product with Serializable]
