@@ -1,6 +1,6 @@
 [{
   "data": {
-    "creek": "67b7937e-f691-456f-a8a0-51a27834835f",
+    "creek": "b5ceb36e-d9d8-41d7-a491-0f4ef9ea6aff",
     "men": 15,
     "budget": 10000,
     "objective": [
@@ -23,36 +23,36 @@
     ]
   },
   "part": "Engine",
-  "time": 1431279525787,
+  "time": 1431281460064,
   "meth": "initialize"
 },{
   "data": {
     "action": "land",
     "parameters": {
-      "creek": "67b7937e-f691-456f-a8a0-51a27834835f",
-      "people": 7
+      "creek": "b5ceb36e-d9d8-41d7-a491-0f4ef9ea6aff",
+      "people": 2
     }
   },
   "part": "Explorer",
-  "time": 1431279525837,
+  "time": 1431281460133,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 10,
+    "cost": 14,
     "extras": {},
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1431279525849,
+  "time": 1431281460149,
   "meth": "takeDecision"
 },{
   "data": {"action": "explore"},
   "part": "Explorer",
-  "time": 1431279525852,
+  "time": 1431281460154,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 6,
+    "cost": 8,
     "extras": {
       "resources": [{
         "amount": "HIGH",
@@ -61,13 +61,13 @@
       }],
       "pois": [{
         "kind": "Creek",
-        "id": "67b7937e-f691-456f-a8a0-51a27834835f"
+        "id": "b5ceb36e-d9d8-41d7-a491-0f4ef9ea6aff"
       }]
     },
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1431279525860,
+  "time": 1431281460166,
   "meth": "takeDecision"
 },{
   "data": {
@@ -75,11 +75,11 @@
     "parameters": {"direction": "N"}
   },
   "part": "Explorer",
-  "time": 1431279525871,
+  "time": 1431281460180,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 5,
+    "cost": 8,
     "extras": {
       "altitude": 0,
       "resources": ["FISH"]
@@ -87,7 +87,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1431279525876,
+  "time": 1431281460191,
   "meth": "takeDecision"
 },{
   "data": {
@@ -95,11 +95,11 @@
     "parameters": {"direction": "W"}
   },
   "part": "Explorer",
-  "time": 1431279525877,
+  "time": 1431281460192,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 5,
+    "cost": 6,
     "extras": {
       "altitude": 1,
       "resources": ["FISH"]
@@ -107,7 +107,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1431279525877,
+  "time": 1431281460192,
   "meth": "takeDecision"
 },{
   "data": {
@@ -115,11 +115,11 @@
     "parameters": {"direction": "E"}
   },
   "part": "Explorer",
-  "time": 1431279525877,
+  "time": 1431281460193,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 7,
+    "cost": 6,
     "extras": {
       "altitude": 0,
       "resources": ["FISH"]
@@ -127,7 +127,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1431279525878,
+  "time": 1431281460193,
   "meth": "takeDecision"
 },{
   "data": {
@@ -135,11 +135,11 @@
     "parameters": {"direction": "S"}
   },
   "part": "Explorer",
-  "time": 1431279525878,
+  "time": 1431281460194,
   "meth": "takeDecision"
 },{
   "data": {
-    "cost": 9,
+    "cost": 6,
     "extras": {
       "altitude": 1,
       "resources": ["FISH"]
@@ -147,7 +147,7 @@
     "status": "OK"
   },
   "part": "Engine",
-  "time": 1431279525878,
+  "time": 1431281460194,
   "meth": "takeDecision"
 },{
   "data": {
@@ -155,8 +155,8 @@
     "stacktrace": [[
       "java.util.ArrayList.rangeCheck(ArrayList.java:638)",
       "java.util.ArrayList.get(ArrayList.java:414)",
-      "fr.unice.polytech.ogl.islad.Decision.moveTo(Decision.java:191)",
-      "fr.unice.polytech.ogl.islad.Explorer.takeDecision(Explorer.java:103)",
+      "fr.unice.polytech.ogl.islad.Decision.moveTo(Decision.java:224)",
+      "fr.unice.polytech.ogl.islad.Explorer.takeDecision(Explorer.java:108)",
       "eu.ace_design.island.game.Engine$$anonfun$3.apply(Engine.scala:48)",
       "eu.ace_design.island.game.Engine$$anonfun$3.apply(Engine.scala:48)",
       "scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24)",
@@ -170,6 +170,6 @@
     "message": ["Index: 0, Size: 0"]
   },
   "part": "Explorer",
-  "time": 1431279525881,
+  "time": 1431281460196,
   "meth": "takeDecision"
 }]
