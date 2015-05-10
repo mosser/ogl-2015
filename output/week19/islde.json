@@ -1,0 +1,202 @@
+[{
+  "data": {
+    "creek": "67b7937e-f691-456f-a8a0-51a27834835f",
+    "men": 15,
+    "budget": 10000,
+    "objective": [
+      {
+        "amount": 15,
+        "resource": "GLASS"
+      },
+      {
+        "amount": 400,
+        "resource": "QUARTZ"
+      },
+      {
+        "amount": 100,
+        "resource": "FUR"
+      },
+      {
+        "amount": 500,
+        "resource": "PLANK"
+      }
+    ]
+  },
+  "part": "Engine",
+  "time": 1431279575235,
+  "meth": "initialize"
+},{
+  "data": {
+    "action": "land",
+    "parameters": {
+      "creek": "67b7937e-f691-456f-a8a0-51a27834835f",
+      "people": 2
+    }
+  },
+  "part": "Explorer",
+  "time": 1431279575247,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 18,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1431279575247,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1431279575250,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": ["FISH"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1431279575250,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1431279575252,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 8,
+    "extras": {
+      "altitude": 1,
+      "resources": ["FISH"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1431279575252,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1431279575252,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 1,
+      "resources": ["FISH"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1431279575252,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1431279575253,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "altitude": 0,
+      "resources": ["FISH"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1431279575253,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "stop",
+    "parameters": {
+      "ISLDE-curHist": [
+        {
+          "source": "Explorer#initialize",
+          "message": "Initialize context: {\"creek\":\"67b7937e-f691-456f-a8a0-51a27834835f\",\"men\":15,\"budget\":10000,\"objective\":[{\"amount\":15,\"resource\":\"GLASS\"},{\"amount\":400,\"resource\":\"QUARTZ\"},{\"amount\":100,\"resource\":\"FUR\"},{\"amount\":500,\"resource\":\"PLANK\"}]}"
+        },
+        {
+          "source": "Explorer#takeDecision",
+          "message": "send: {\"action\":\"land\",\"parameters\":{\"creek\":\"67b7937e-f691-456f-a8a0-51a27834835f\",\"people\":2}}"
+        },
+        {
+          "source": "class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults",
+          "message": "results: {\"cost\":18,\"extras\":{},\"status\":\"OK\"}"
+        },
+        {
+          "source": "Explorer#takeDecision",
+          "message": "send: {\"action\":\"scout\",\"parameters\":{\"direction\":\"N\"}}"
+        },
+        {
+          "source": "class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults",
+          "message": "results: {\"cost\":5,\"extras\":{\"altitude\":0,\"resources\":[\"FISH\"]},\"status\":\"OK\"}"
+        },
+        {
+          "source": "Explorer#takeDecision",
+          "message": "send: {\"action\":\"scout\",\"parameters\":{\"direction\":\"W\"}}"
+        },
+        {
+          "source": "class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults",
+          "message": "results: {\"cost\":8,\"extras\":{\"altitude\":1,\"resources\":[\"FISH\"]},\"status\":\"OK\"}"
+        },
+        {
+          "source": "Explorer#takeDecision",
+          "message": "send: {\"action\":\"scout\",\"parameters\":{\"direction\":\"S\"}}"
+        },
+        {
+          "source": "class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults",
+          "message": "results: {\"cost\":7,\"extras\":{\"altitude\":1,\"resources\":[\"FISH\"]},\"status\":\"OK\"}"
+        },
+        {
+          "source": "Explorer#takeDecision",
+          "message": "send: {\"action\":\"scout\",\"parameters\":{\"direction\":\"E\"}}"
+        },
+        {
+          "source": "class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults",
+          "message": "results: {\"cost\":6,\"extras\":{\"altitude\":0,\"resources\":[\"FISH\"]},\"status\":\"OK\"}"
+        },
+        {
+          "exception": "java.lang.ArrayIndexOutOfBoundsException: 0",
+          "source": "class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults",
+          "message": "0"
+        },
+        {
+          "source": "Explorer#takeDecision",
+          "message": "send: {\"action\":\"stop\",\"parameters\":{\"ISLDE-curHist\":[{\"source\":\"Explorer#initialize\",\"message\":\"Initialize context: {\\\"creek\\\":\\\"67b7937e-f691-456f-a8a0-51a27834835f\\\",\\\"men\\\":15,\\\"budget\\\":10000,\\\"objective\\\":[{\\\"amount\\\":15,\\\"resource\\\":\\\"GLASS\\\"},{\\\"amount\\\":400,\\\"resource\\\":\\\"QUARTZ\\\"},{\\\"amount\\\":100,\\\"resource\\\":\\\"FUR\\\"},{\\\"amount\\\":500,\\\"resource\\\":\\\"PLANK\\\"}]}\"},{\"source\":\"Explorer#takeDecision\",\"message\":\"send: {\\\"action\\\":\\\"land\\\",\\\"parameters\\\":{\\\"creek\\\":\\\"67b7937e-f691-456f-a8a0-51a27834835f\\\",\\\"people\\\":2}}\"},{\"source\":\"class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults\",\"message\":\"results: {\\\"cost\\\":18,\\\"extras\\\":{},\\\"status\\\":\\\"OK\\\"}\"},{\"source\":\"Explorer#takeDecision\",\"message\":\"send: {\\\"action\\\":\\\"scout\\\",\\\"parameters\\\":{\\\"direction\\\":\\\"N\\\"}}\"},{\"source\":\"class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults\",\"message\":\"results: {\\\"cost\\\":5,\\\"extras\\\":{\\\"altitude\\\":0,\\\"resources\\\":[\\\"FISH\\\"]},\\\"status\\\":\\\"OK\\\"}\"},{\"source\":\"Explorer#takeDecision\",\"message\":\"send: {\\\"action\\\":\\\"scout\\\",\\\"parameters\\\":{\\\"direction\\\":\\\"W\\\"}}\"},{\"source\":\"class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults\",\"message\":\"results: {\\\"cost\\\":8,\\\"extras\\\":{\\\"altitude\\\":1,\\\"resources\\\":[\\\"FISH\\\"]},\\\"status\\\":\\\"OK\\\"}\"},{\"source\":\"Explorer#takeDecision\",\"message\":\"send: {\\\"action\\\":\\\"scout\\\",\\\"parameters\\\":{\\\"direction\\\":\\\"S\\\"}}\"},{\"source\":\"class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults\",\"message\":\"results: {\\\"cost\\\":7,\\\"extras\\\":{\\\"altitude\\\":1,\\\"resources\\\":[\\\"FISH\\\"]},\\\"status\\\":\\\"OK\\\"}\"},{\"source\":\"Explorer#takeDecision\",\"message\":\"send: {\\\"action\\\":\\\"scout\\\",\\\"parameters\\\":{\\\"direction\\\":\\\"E\\\"}}\"},{\"source\":\"class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults\",\"message\":\"results: {\\\"cost\\\":6,\\\"extras\\\":{\\\"altitude\\\":0,\\\"resources\\\":[\\\"FISH\\\"]},\\\"status\\\":\\\"OK\\\"}\"},{\"exception\":\"java.lang.ArrayIndexOutOfBoundsException: 0\",\"source\":\"class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults\",\"message\":\"0\"}],\"ISLDE-reason\":\"java.lang.ArrayIndexOutOfBoundsException: 0\"}}"
+        }
+      ],
+      "ISLDE-reason": "java.lang.ArrayIndexOutOfBoundsException: 0"
+    }
+  },
+  "part": "Explorer",
+  "time": 1431279575256,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 15,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1431279575256,
+  "meth": "takeDecision"
+}]

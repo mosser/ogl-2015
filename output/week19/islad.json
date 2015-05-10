@@ -1,0 +1,175 @@
+[{
+  "data": {
+    "creek": "67b7937e-f691-456f-a8a0-51a27834835f",
+    "men": 15,
+    "budget": 10000,
+    "objective": [
+      {
+        "amount": 15,
+        "resource": "GLASS"
+      },
+      {
+        "amount": 400,
+        "resource": "QUARTZ"
+      },
+      {
+        "amount": 100,
+        "resource": "FUR"
+      },
+      {
+        "amount": 500,
+        "resource": "PLANK"
+      }
+    ]
+  },
+  "part": "Engine",
+  "time": 1431279525787,
+  "meth": "initialize"
+},{
+  "data": {
+    "action": "land",
+    "parameters": {
+      "creek": "67b7937e-f691-456f-a8a0-51a27834835f",
+      "people": 7
+    }
+  },
+  "part": "Explorer",
+  "time": 1431279525837,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 10,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1431279525849,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "explore"},
+  "part": "Explorer",
+  "time": 1431279525852,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 6,
+    "extras": {
+      "resources": [{
+        "amount": "HIGH",
+        "resource": "FISH",
+        "cond": "FAIR"
+      }],
+      "pois": [{
+        "kind": "Creek",
+        "id": "67b7937e-f691-456f-a8a0-51a27834835f"
+      }]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1431279525860,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1431279525871,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": ["FISH"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1431279525876,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1431279525877,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 1,
+      "resources": ["FISH"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1431279525877,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1431279525877,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 0,
+      "resources": ["FISH"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1431279525878,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1431279525878,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 9,
+    "extras": {
+      "altitude": 1,
+      "resources": ["FISH"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1431279525878,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "exception": ["IndexOutOfBoundsException"],
+    "stacktrace": [[
+      "java.util.ArrayList.rangeCheck(ArrayList.java:638)",
+      "java.util.ArrayList.get(ArrayList.java:414)",
+      "fr.unice.polytech.ogl.islad.Decision.moveTo(Decision.java:191)",
+      "fr.unice.polytech.ogl.islad.Explorer.takeDecision(Explorer.java:103)",
+      "eu.ace_design.island.game.Engine$$anonfun$3.apply(Engine.scala:48)",
+      "eu.ace_design.island.game.Engine$$anonfun$3.apply(Engine.scala:48)",
+      "scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24)",
+      "scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24)",
+      "scala.concurrent.impl.ExecutionContextImpl$AdaptedForkJoinTask.exec(ExecutionContextImpl.scala:121)",
+      "scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)",
+      "scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)",
+      "scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)",
+      "scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)"
+    ]],
+    "message": ["Index: 0, Size: 0"]
+  },
+  "part": "Explorer",
+  "time": 1431279525881,
+  "meth": "takeDecision"
+}]

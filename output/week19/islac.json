@@ -1,0 +1,87 @@
+[{
+  "data": {
+    "creek": "67b7937e-f691-456f-a8a0-51a27834835f",
+    "men": 15,
+    "budget": 10000,
+    "objective": [
+      {
+        "amount": 15,
+        "resource": "GLASS"
+      },
+      {
+        "amount": 400,
+        "resource": "QUARTZ"
+      },
+      {
+        "amount": 100,
+        "resource": "FUR"
+      },
+      {
+        "amount": 500,
+        "resource": "PLANK"
+      }
+    ]
+  },
+  "part": "Engine",
+  "time": 1431279555553,
+  "meth": "initialize"
+},{
+  "data": {
+    "action": "land",
+    "parameters": {
+      "creek": "67b7937e-f691-456f-a8a0-51a27834835f",
+      "people": 15
+    }
+  },
+  "part": "Explorer",
+  "time": 1431279555568,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "exception": ["IllegalArgumentException"],
+    "stacktrace": [[
+      "scala.Predef$.require(Predef.scala:219)",
+      "eu.ace_design.island.game.Land.buildResult(Actions.scala:101)",
+      "eu.ace_design.island.game.Action$class.build(Actions.scala:38)",
+      "eu.ace_design.island.game.Action$class.apply(Actions.scala:25)",
+      "eu.ace_design.island.game.Land.apply(Actions.scala:88)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:58)",
+      "eu.ace_design.island.game.Engine.run(Engine.scala:35)",
+      "fr.unice.polytech.ogl.championships.library.Championship$class.silent(Championship.scala:75)",
+      "fr.unice.polytech.ogl.championships.Week19$.silent(Week19.scala:11)",
+      "fr.unice.polytech.ogl.championships.library.Championship$class.handlePlayer(Championship.scala:56)",
+      "fr.unice.polytech.ogl.championships.Week19$.handlePlayer(Week19.scala:11)",
+      "fr.unice.polytech.ogl.championships.library.Championship$$anonfun$run$1.apply(Championship.scala:46)",
+      "fr.unice.polytech.ogl.championships.library.Championship$$anonfun$run$1.apply(Championship.scala:44)",
+      "scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:245)",
+      "scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:245)",
+      "scala.collection.immutable.HashMap$HashMap1.foreach(HashMap.scala:221)",
+      "scala.collection.immutable.HashMap$HashTrieMap.foreach(HashMap.scala:428)",
+      "scala.collection.immutable.HashMap$HashTrieMap.foreach(HashMap.scala:428)",
+      "scala.collection.TraversableLike$class.map(TraversableLike.scala:245)",
+      "scala.collection.AbstractTraversable.map(Traversable.scala:104)",
+      "fr.unice.polytech.ogl.championships.library.Championship$class.run(Championship.scala:44)",
+      "fr.unice.polytech.ogl.championships.Week19$.run(Week19.scala:11)",
+      "fr.unice.polytech.ogl.championships.Week19$.delayedEndpoint$fr$unice$polytech$ogl$championships$Week19$1(Week19.scala:35)",
+      "fr.unice.polytech.ogl.championships.Week19$delayedInit$body.apply(Week19.scala:11)",
+      "scala.Function0$class.apply$mcV$sp(Function0.scala:40)",
+      "scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)",
+      "scala.App$$anonfun$main$1.apply(App.scala:76)",
+      "scala.App$$anonfun$main$1.apply(App.scala:76)",
+      "scala.collection.immutable.List.foreach(List.scala:381)",
+      "scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:35)",
+      "scala.App$class.main(App.scala:76)",
+      "fr.unice.polytech.ogl.championships.Week19$.main(Week19.scala:11)",
+      "fr.unice.polytech.ogl.championships.Week19.main(Week19.scala)",
+      "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+      "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+      "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+      "java.lang.reflect.Method.invoke(Method.java:483)",
+      "com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)"
+    ]],
+    "message": ["requirement failed: At least one men must stay on board"]
+  },
+  "part": "Engine",
+  "time": 1431279555568,
+  "meth": "takeDecision"
+}]
