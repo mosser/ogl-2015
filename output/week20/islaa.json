@@ -1,0 +1,58 @@
+[{
+  "data": {
+    "creek": "2d8f1809-298f-4ab6-bb25-9fc63d9c7d12",
+    "men": 15,
+    "budget": 7000,
+    "objective": [
+      {
+        "amount": 15,
+        "resource": "GLASS"
+      },
+      {
+        "amount": 3000,
+        "resource": "FUR"
+      },
+      {
+        "amount": 500,
+        "resource": "PLANK"
+      }
+    ]
+  },
+  "part": "Engine",
+  "time": 1431884548780,
+  "meth": "initialize"
+},{
+  "data": {
+    "action": "land",
+    "parameters": {
+      "creek": "2d8f1809-298f-4ab6-bb25-9fc63d9c7d12",
+      "people": 5
+    }
+  },
+  "part": "Explorer",
+  "time": 1431884548780,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 12,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1431884548780,
+  "meth": "takeDecision"
+},{
+  "data": {"action": "stop"},
+  "part": "Explorer",
+  "time": 1431884548781,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 20,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1431884548781,
+  "meth": "takeDecision"
+}]

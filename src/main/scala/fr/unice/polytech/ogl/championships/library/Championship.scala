@@ -59,7 +59,7 @@ trait Championship extends App with Teams {
       case true => {
         val remaining = game.budget.remaining
         val men = game.crew.used
-        val resources = game.extracted map { case (resource, data) => resource -> data.values.sum }
+        val resources = game.collectedResources map { case (resource, data) => resource -> data }
         OK(name, remaining, men, resources.toSet)
       }
     }

@@ -1,0 +1,266 @@
+[{
+  "data": {
+    "creek": "2d8f1809-298f-4ab6-bb25-9fc63d9c7d12",
+    "men": 15,
+    "budget": 7000,
+    "objective": [
+      {
+        "amount": 15,
+        "resource": "GLASS"
+      },
+      {
+        "amount": 3000,
+        "resource": "FUR"
+      },
+      {
+        "amount": 500,
+        "resource": "PLANK"
+      }
+    ]
+  },
+  "part": "Engine",
+  "time": 1431884540985,
+  "meth": "initialize"
+},{
+  "data": {
+    "action": "land",
+    "parameters": {
+      "creek": "2d8f1809-298f-4ab6-bb25-9fc63d9c7d12",
+      "people": 2
+    }
+  },
+  "part": "Explorer",
+  "time": 1431884541000,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 22,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1431884541000,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "N"}
+  },
+  "part": "Explorer",
+  "time": 1431884541001,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 0,
+      "resources": ["FISH"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1431884541001,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1431884541002,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {
+      "altitude": 1,
+      "resources": ["FUR"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1431884541003,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "E"}
+  },
+  "part": "Explorer",
+  "time": 1431884541003,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 5,
+    "extras": {
+      "altitude": 0,
+      "resources": ["FISH"]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1431884541003,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "scout",
+    "parameters": {"direction": "W"}
+  },
+  "part": "Explorer",
+  "time": 1431884541003,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {
+      "altitude": 1,
+      "resources": [
+        "FISH",
+        "FUR"
+      ]
+    },
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1431884541003,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "move_to",
+    "parameters": {"direction": "S"}
+  },
+  "part": "Explorer",
+  "time": 1431884541004,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 4,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1431884541004,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "exploit",
+    "parameters": {"resource": "FUR"}
+  },
+  "part": "Explorer",
+  "time": 1431884541004,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 7,
+    "extras": {"amount": 7},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1431884541004,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "action": "stop",
+    "parameters": {
+      "ISLDE-curHist": [
+        {
+          "source": "Explorer#initialize",
+          "message": "Initialize context: {\"creek\":\"2d8f1809-298f-4ab6-bb25-9fc63d9c7d12\",\"men\":15,\"budget\":7000,\"objective\":[{\"amount\":15,\"resource\":\"GLASS\"},{\"amount\":3000,\"resource\":\"FUR\"},{\"amount\":500,\"resource\":\"PLANK\"}]}"
+        },
+        {
+          "source": "Explorer#takeDecision",
+          "message": "send: {\"action\":\"land\",\"parameters\":{\"creek\":\"2d8f1809-298f-4ab6-bb25-9fc63d9c7d12\",\"people\":2}}"
+        },
+        {
+          "source": "class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults",
+          "message": "results: {\"cost\":22,\"extras\":{},\"status\":\"OK\"}"
+        },
+        {
+          "source": "Explorer#takeDecision",
+          "message": "send: {\"action\":\"scout\",\"parameters\":{\"direction\":\"N\"}}"
+        },
+        {
+          "source": "class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults",
+          "message": "results: {\"cost\":7,\"extras\":{\"altitude\":0,\"resources\":[\"FISH\"]},\"status\":\"OK\"}"
+        },
+        {
+          "source": "Explorer#takeDecision",
+          "message": "send: {\"action\":\"scout\",\"parameters\":{\"direction\":\"S\"}}"
+        },
+        {
+          "source": "class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults",
+          "message": "results: {\"cost\":7,\"extras\":{\"altitude\":1,\"resources\":[\"FUR\"]},\"status\":\"OK\"}"
+        },
+        {
+          "source": "Explorer#takeDecision",
+          "message": "send: {\"action\":\"scout\",\"parameters\":{\"direction\":\"E\"}}"
+        },
+        {
+          "source": "class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults",
+          "message": "results: {\"cost\":5,\"extras\":{\"altitude\":0,\"resources\":[\"FISH\"]},\"status\":\"OK\"}"
+        },
+        {
+          "source": "Explorer#takeDecision",
+          "message": "send: {\"action\":\"scout\",\"parameters\":{\"direction\":\"W\"}}"
+        },
+        {
+          "source": "class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults",
+          "message": "results: {\"cost\":4,\"extras\":{\"altitude\":1,\"resources\":[\"FISH\",\"FUR\"]},\"status\":\"OK\"}"
+        },
+        {
+          "source": "Explorer#takeDecision",
+          "message": "send: {\"action\":\"move_to\",\"parameters\":{\"direction\":\"S\"}}"
+        },
+        {
+          "source": "class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults",
+          "message": "results: {\"cost\":4,\"extras\":{},\"status\":\"OK\"}"
+        },
+        {
+          "source": "Explorer#takeDecision",
+          "message": "send: {\"action\":\"exploit\",\"parameters\":{\"resource\":\"FUR\"}}"
+        },
+        {
+          "source": "class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults",
+          "message": "results: {\"cost\":7,\"extras\":{\"amount\":7},\"status\":\"OK\"}"
+        },
+        {
+          "exception": "java.lang.NullPointerException",
+          "source": "class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults",
+          "stackTrace": [
+            "fr.unice.polytech.ogl.islde.utils.Utils.nextIsExploitOrTransform(Utils.java:48)",
+            "fr.unice.polytech.ogl.islde.commands.CommandExploit.applyResults(CommandExploit.java:79)",
+            "fr.unice.polytech.ogl.islde.commands.Command.sendResult(Command.java:73)",
+            "fr.unice.polytech.ogl.islde.Explorer.acknowledgeResults(Explorer.java:150)",
+            "eu.ace_design.island.game.Engine$$anonfun$1.apply$mcV$sp(Engine.scala:62)",
+            "eu.ace_design.island.game.Engine$$anonfun$1.apply(Engine.scala:62)",
+            "eu.ace_design.island.game.Engine$$anonfun$1.apply(Engine.scala:62)",
+            "scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24)",
+            "scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24)",
+            "scala.concurrent.impl.ExecutionContextImpl$AdaptedForkJoinTask.exec(ExecutionContextImpl.scala:121)",
+            "scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)",
+            "scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)",
+            "scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)",
+            "scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)"
+          ]
+        },
+        {
+          "source": "Explorer#takeDecision",
+          "message": "send: {\"action\":\"stop\",\"parameters\":{\"ISLDE-curHist\":[{\"source\":\"Explorer#initialize\",\"message\":\"Initialize context: {\\\"creek\\\":\\\"2d8f1809-298f-4ab6-bb25-9fc63d9c7d12\\\",\\\"men\\\":15,\\\"budget\\\":7000,\\\"objective\\\":[{\\\"amount\\\":15,\\\"resource\\\":\\\"GLASS\\\"},{\\\"amount\\\":3000,\\\"resource\\\":\\\"FUR\\\"},{\\\"amount\\\":500,\\\"resource\\\":\\\"PLANK\\\"}]}\"},{\"source\":\"Explorer#takeDecision\",\"message\":\"send: {\\\"action\\\":\\\"land\\\",\\\"parameters\\\":{\\\"creek\\\":\\\"2d8f1809-298f-4ab6-bb25-9fc63d9c7d12\\\",\\\"people\\\":2}}\"},{\"source\":\"class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults\",\"message\":\"results: {\\\"cost\\\":22,\\\"extras\\\":{},\\\"status\\\":\\\"OK\\\"}\"},{\"source\":\"Explorer#takeDecision\",\"message\":\"send: {\\\"action\\\":\\\"scout\\\",\\\"parameters\\\":{\\\"direction\\\":\\\"N\\\"}}\"},{\"source\":\"class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults\",\"message\":\"results: {\\\"cost\\\":7,\\\"extras\\\":{\\\"altitude\\\":0,\\\"resources\\\":[\\\"FISH\\\"]},\\\"status\\\":\\\"OK\\\"}\"},{\"source\":\"Explorer#takeDecision\",\"message\":\"send: {\\\"action\\\":\\\"scout\\\",\\\"parameters\\\":{\\\"direction\\\":\\\"S\\\"}}\"},{\"source\":\"class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults\",\"message\":\"results: {\\\"cost\\\":7,\\\"extras\\\":{\\\"altitude\\\":1,\\\"resources\\\":[\\\"FUR\\\"]},\\\"status\\\":\\\"OK\\\"}\"},{\"source\":\"Explorer#takeDecision\",\"message\":\"send: {\\\"action\\\":\\\"scout\\\",\\\"parameters\\\":{\\\"direction\\\":\\\"E\\\"}}\"},{\"source\":\"class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults\",\"message\":\"results: {\\\"cost\\\":5,\\\"extras\\\":{\\\"altitude\\\":0,\\\"resources\\\":[\\\"FISH\\\"]},\\\"status\\\":\\\"OK\\\"}\"},{\"source\":\"Explorer#takeDecision\",\"message\":\"send: {\\\"action\\\":\\\"scout\\\",\\\"parameters\\\":{\\\"direction\\\":\\\"W\\\"}}\"},{\"source\":\"class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults\",\"message\":\"results: {\\\"cost\\\":4,\\\"extras\\\":{\\\"altitude\\\":1,\\\"resources\\\":[\\\"FISH\\\",\\\"FUR\\\"]},\\\"status\\\":\\\"OK\\\"}\"},{\"source\":\"Explorer#takeDecision\",\"message\":\"send: {\\\"action\\\":\\\"move_to\\\",\\\"parameters\\\":{\\\"direction\\\":\\\"S\\\"}}\"},{\"source\":\"class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults\",\"message\":\"results: {\\\"cost\\\":4,\\\"extras\\\":{},\\\"status\\\":\\\"OK\\\"}\"},{\"source\":\"Explorer#takeDecision\",\"message\":\"send: {\\\"action\\\":\\\"exploit\\\",\\\"parameters\\\":{\\\"resource\\\":\\\"FUR\\\"}}\"},{\"source\":\"class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults\",\"message\":\"results: {\\\"cost\\\":7,\\\"extras\\\":{\\\"amount\\\":7},\\\"status\\\":\\\"OK\\\"}\"},{\"exception\":\"java.lang.NullPointerException\",\"source\":\"class fr.unice.polytech.ogl.islde.Explorer#acknowledgeResults\",\"stackTrace\":[\"fr.unice.polytech.ogl.islde.utils.Utils.nextIsExploitOrTransform(Utils.java:48)\",\"fr.unice.polytech.ogl.islde.commands.CommandExploit.applyResults(CommandExploit.java:79)\",\"fr.unice.polytech.ogl.islde.commands.Command.sendResult(Command.java:73)\",\"fr.unice.polytech.ogl.islde.Explorer.acknowledgeResults(Explorer.java:150)\",\"eu.ace_design.island.game.Engine$$anonfun$1.apply$mcV$sp(Engine.scala:62)\",\"eu.ace_design.island.game.Engine$$anonfun$1.apply(Engine.scala:62)\",\"eu.ace_design.island.game.Engine$$anonfun$1.apply(Engine.scala:62)\",\"scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24)\",\"scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24)\",\"scala.concurrent.impl.ExecutionContextImpl$AdaptedForkJoinTask.exec(ExecutionContextImpl.scala:121)\",\"scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)\",\"scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)\",\"scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)\",\"scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)\"]}],\"ISLDE-reason\":\"java.lang.NullPointerException\"}}"
+        }
+      ],
+      "ISLDE-reason": "java.lang.NullPointerException"
+    }
+  },
+  "part": "Explorer",
+  "time": 1431884541006,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 16,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1431884541006,
+  "meth": "takeDecision"
+}]

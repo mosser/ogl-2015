@@ -1,0 +1,50 @@
+[{
+  "data": {
+    "creek": "2d8f1809-298f-4ab6-bb25-9fc63d9c7d12",
+    "men": 15,
+    "budget": 7000,
+    "objective": [
+      {
+        "amount": 15,
+        "resource": "GLASS"
+      },
+      {
+        "amount": 3000,
+        "resource": "FUR"
+      },
+      {
+        "amount": 500,
+        "resource": "PLANK"
+      }
+    ]
+  },
+  "part": "Engine",
+  "time": 1431884495058,
+  "meth": "initialize"
+},{
+  "data": {
+    "exception": ["NumberFormatException"],
+    "stacktrace": [[
+      "java.lang.Integer.parseInt(Integer.java:542)",
+      "java.lang.Integer.parseInt(Integer.java:615)",
+      "fr.unice.polytech.ogl.islad.Resource.getAmount(Resource.java:46)",
+      "fr.unice.polytech.ogl.islad.Context.addResourceAmountInArray(Context.java:408)",
+      "fr.unice.polytech.ogl.islad.Context.<init>(Context.java:74)",
+      "fr.unice.polytech.ogl.islad.Explorer.initialize(Explorer.java:43)",
+      "eu.ace_design.island.game.Engine$$anonfun$run$1.apply$mcV$sp(Engine.scala:30)",
+      "eu.ace_design.island.game.Engine$$anonfun$run$1.apply(Engine.scala:30)",
+      "eu.ace_design.island.game.Engine$$anonfun$run$1.apply(Engine.scala:30)",
+      "scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24)",
+      "scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24)",
+      "scala.concurrent.impl.ExecutionContextImpl$AdaptedForkJoinTask.exec(ExecutionContextImpl.scala:121)",
+      "scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)",
+      "scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)",
+      "scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)",
+      "scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)"
+    ]],
+    "message": ["null"]
+  },
+  "part": "Explorer",
+  "time": 1431884495099,
+  "meth": "initialize"
+}]
