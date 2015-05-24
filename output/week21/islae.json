@@ -1,0 +1,72 @@
+[{
+  "data": {
+    "creek": "4672ce1b-3732-4731-bbcc-781f8f140a13",
+    "men": 15,
+    "budget": 7000,
+    "objective": [
+      {
+        "amount": 15,
+        "resource": "GLASS"
+      },
+      {
+        "amount": 3000,
+        "resource": "FUR"
+      },
+      {
+        "amount": 500,
+        "resource": "PLANK"
+      }
+    ]
+  },
+  "part": "Engine",
+  "time": 1432487746076,
+  "meth": "initialize"
+},{
+  "data": {"action": "land"},
+  "part": "Explorer",
+  "time": 1432487746084,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "exception": ["IllegalArgumentException"],
+    "stacktrace": [[
+      "eu.ace_design.island.game.ActionParser$.apply(Actions.scala:303)",
+      "eu.ace_design.island.game.Engine.play(Engine.scala:50)",
+      "eu.ace_design.island.game.Engine.run(Engine.scala:35)",
+      "fr.unice.polytech.ogl.championships.library.Championship$class.silent(Championship.scala:75)",
+      "fr.unice.polytech.ogl.championships.Week21$.silent(Week21.scala:10)",
+      "fr.unice.polytech.ogl.championships.library.Championship$class.handlePlayer(Championship.scala:56)",
+      "fr.unice.polytech.ogl.championships.Week21$.handlePlayer(Week21.scala:10)",
+      "fr.unice.polytech.ogl.championships.library.Championship$$anonfun$run$1.apply(Championship.scala:46)",
+      "fr.unice.polytech.ogl.championships.library.Championship$$anonfun$run$1.apply(Championship.scala:44)",
+      "scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:245)",
+      "scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:245)",
+      "scala.collection.immutable.HashMap$HashMap1.foreach(HashMap.scala:221)",
+      "scala.collection.immutable.HashMap$HashTrieMap.foreach(HashMap.scala:428)",
+      "scala.collection.TraversableLike$class.map(TraversableLike.scala:245)",
+      "scala.collection.AbstractTraversable.map(Traversable.scala:104)",
+      "fr.unice.polytech.ogl.championships.library.Championship$class.run(Championship.scala:44)",
+      "fr.unice.polytech.ogl.championships.Week21$.run(Week21.scala:10)",
+      "fr.unice.polytech.ogl.championships.Week21$.delayedEndpoint$fr$unice$polytech$ogl$championships$Week21$1(Week21.scala:34)",
+      "fr.unice.polytech.ogl.championships.Week21$delayedInit$body.apply(Week21.scala:10)",
+      "scala.Function0$class.apply$mcV$sp(Function0.scala:40)",
+      "scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)",
+      "scala.App$$anonfun$main$1.apply(App.scala:76)",
+      "scala.App$$anonfun$main$1.apply(App.scala:76)",
+      "scala.collection.immutable.List.foreach(List.scala:381)",
+      "scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:35)",
+      "scala.App$class.main(App.scala:76)",
+      "fr.unice.polytech.ogl.championships.Week21$.main(Week21.scala:10)",
+      "fr.unice.polytech.ogl.championships.Week21.main(Week21.scala)",
+      "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+      "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+      "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+      "java.lang.reflect.Method.invoke(Method.java:483)",
+      "com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)"
+    ]],
+    "message": ["Invalid JSON input : org.json.JSONException: JSONObject[\"parameters\"] not found. \ndata: {\"action\":\"land\"}"]
+  },
+  "part": "Explorer",
+  "time": 1432487746086,
+  "meth": "takeDecision"
+}]

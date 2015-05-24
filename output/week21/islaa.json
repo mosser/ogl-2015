@@ -1,0 +1,38 @@
+[{
+  "data": {
+    "creek": "4672ce1b-3732-4731-bbcc-781f8f140a13",
+    "men": 15,
+    "budget": 7000,
+    "objective": [
+      {
+        "amount": 15,
+        "resource": "GLASS"
+      },
+      {
+        "amount": 3000,
+        "resource": "FUR"
+      },
+      {
+        "amount": 500,
+        "resource": "PLANK"
+      }
+    ]
+  },
+  "part": "Engine",
+  "time": 1432487727531,
+  "meth": "initialize"
+},{
+  "data": {"action": "stop"},
+  "part": "Explorer",
+  "time": 1432487727531,
+  "meth": "takeDecision"
+},{
+  "data": {
+    "cost": 3,
+    "extras": {},
+    "status": "OK"
+  },
+  "part": "Engine",
+  "time": 1432487727531,
+  "meth": "takeDecision"
+}]
