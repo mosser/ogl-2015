@@ -129,5 +129,15 @@ object Islands extends DiSLand {
     ) withSize 1600 having 3000.faces  usingSeed seed21
   }
 
+  /**
+   * Week #22: irregular shape, no lakes, dry, nordic biomes.
+   */
+  val seed22 = 0xB4CC0013F18BA9D7L
+  lazy val week22: IslandMap = {
+    createIsland shapedAs radial(factor=1.242) builtWith Seq(
+      plateau(20), flowing(rivers = 50, distance = 0.6), withMoisture(soils.dry, distance = 800),
+      AssignPitch, usingBiomes(WhittakerDiagrams.nordic)
+    ) withSize 1600 having 3000.faces  usingSeed seed22
+  }
 
 }
